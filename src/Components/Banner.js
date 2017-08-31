@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar'
 
-class App extends Component {
+class Banner extends Component {
   render() {
     return (
       <div className="hero-banner">
-
+        <Navbar />
       </div>
     );
   }
 }
 
-export default App;
+export default Banner;

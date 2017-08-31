@@ -1,0 +1,21 @@
+.hero-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../images/pineapple-darkblue-banner.jpg);
+  height: 100vh;
+  width: auto;
+  z-index: 0; }
+
+/*=== image for laptop screen size ===*/
+/*=== background immages for caruosel ===*/
+/*background-image: url(../img/new-code/orange-mockup.jpg);*/
+/*background-image: url(../img/new-code/green-code-smooth-constrast.jpg);*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
