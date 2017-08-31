@@ -1,0 +1,15 @@
+.menu-container {
+
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-self: flex-end;
+  margin: 20px 20px 0px 0px;
+  padding: 10px;
+  /*border: 3px solid #fff;*/
+}
