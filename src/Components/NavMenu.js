@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class NavMenu extends Component {
   render() {
     return (
-      <div className="menu-container">
-        <ul id="nav" className="menu-item logo nav navbar-nav nav-style">
+      <div className="">
+        <ul className="menu nav-style">
           <li className="nav-menu"><a href="#home">HOME</a></li>
           <li className="nav-menu"><a href="#bio">BIO</a></li>
           <li className="nav-menu"><a href="#projects-wrapper">PROJECTS</a></li>

@@ -415,9 +415,9 @@ template {
 
 .logo-img {
   height: 50px;
-  margin: 15px 0px 0px 30px; }
+  margin: 25px 0px 0px 0px; }
 
-.menu-item {
+.menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -428,6 +428,38 @@ template {
   padding: 10px;
   /*border: 3px solid #fff;*/ }
 
+.nav-style {
+  font-size: 1em;
+  font-family: 'futura';
+  color: #fff; }
+
+.nav-menu {
+  position: relative;
+  display: block;
+  font-size: 1.35em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1em;
+  padding: 20px 20px;
+  /*border: 3px solid #fff;*/ }
+
+.nav-menu:hover {
+  background-color: #fff;
+  color: #777777; }
+
+#hire-josh {
+  background-color: slategray; }
+
+#hire-josh:hover {
+  background-color: #fff; }
+
+a {
+  text-decoration: none;
+  color: unset; }
+
+ul {
+  list-style-type: none;
+  list-style: none; }
+
 .navbar-wrapper {
   display: flex;
   flex-direction: row;
@@ -437,7 +469,8 @@ template {
   width: 100vw;
   background-color: transparent;
   background: transparent;
-  border-width: 0px; }
+  border-width: 0px;
+  padding: 0px; }
 
 .bio-wrapper {
   background-color: #ffffff;
@@ -495,5 +528,9 @@ template {
   width: 100vw;
   background-color: #dddddd;
   padding: 5em 0em 5em 0em; }
+
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url(../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf); }
 
 /*# sourceMappingURL=main.css.map */
