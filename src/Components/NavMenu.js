@@ -9,6 +9,7 @@ class NavMenu extends Component {
           <li className="nav-menu"><a href="#bio">BIO</a></li>
           <li className="nav-menu"><a href="#projects-wrapper">PROJECTS</a></li>
           <li className="nav-menu"><a href="#design-wrapper">DESIGN</a></li>
+          <li className="nav-menu"><a href="https://joshholladay.wordpress.com/">BLOG</a></li>
           <li className="nav-menu"><a href="#contact">CONTACT</a></li>
           <li id="hire-josh" className="nav-menu"><a href="#contact">HIRE JOSH</a></li>
         </ul>
