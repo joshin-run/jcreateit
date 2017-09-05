@@ -59,7 +59,7 @@ class PortfolioLogos extends Component {
         <img className="logos" src={theEightBelow} alt="The $8 Tie Guy Words Below" />
         <img className="logos" src={theEightFinal} alt="The $8 Tie Guy Final" />
         <img className="logos" src={trebleJH} alt="J Style Treble Clef" />
-        <img className="logos" src={trebleClef} alt="Treble Clef" />
+        <img className="logos" src={ trebleClef} alt="Treble Clef" />
         <img className="logos" src={hApparelwhite} alt="Holladay Apparel White Logo" />
         <img className="logos" src={hApparelTag} alt="Holladay Apparel Necktie Tag" />
         <img className="logos" src={hApparelBizBlack} alt="Holladay Apparel Business Card Black" />
