@@ -92,7 +92,8 @@ body {
   background-color: #4D91A9; }
 
 .header-container {
-  width: 100vw; }
+  width: 100vw;
+  margin-bottom: 50px; }
 
 .title {
   font-family: 'Julius Sans One', sans-serif;
