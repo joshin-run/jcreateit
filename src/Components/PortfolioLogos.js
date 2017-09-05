@@ -15,7 +15,6 @@ import fslogo from '../images/portfolio-logos/fs.jpg';
 import ssrough from '../images/portfolio-logos/StoryStart-rough.svg';
 import eightReflect from '../images/portfolio-logos/The8DollarTieGuy-reflection.png';
 import theEightLogo from '../images/portfolio-logos/the8-logo.svg';
-import theEightBelow from '../images/portfolio-logos/The8-wordsBelow.svg';
 import theEightFinal from '../images/portfolio-logos/TheEightDollarTieGuyFinalLogo.svg';
 import trebleJH from '../images/portfolio-logos/treble-clef-jhStyle.png';
 import trebleClef from '../images/portfolio-logos/treble-clef.png';
@@ -35,7 +34,7 @@ import celebrateLife from '../images/portfolio-logos/celebrate-life_logo.jpg';
 class PortfolioLogos extends Component {
   render() {
     return (
-      <div>
+      <div className="portfolio-logos-wrapper">
         <img className="logos" src={jlogoMain} alt="Josh Holladay Logo" />
         <img className="logos" src={jlogoTri} alt="JH Triangle Logo" />
         <img className="logos" src={jCurve} alt="J Curve" />
@@ -47,27 +46,22 @@ class PortfolioLogos extends Component {
         <img className="logos" src={jhPentLogo} alt="Pentigon Logo" />
         <img className="logos" src={jlogoLightHex} alt="JH Hexigon Logo" />
         <img className="logos" src={jlogosep} alt="JH Seven Side Logo" />
+        <img className="logos" src={KeepItBurning} alt="Keep It Burning" />
+        <img className="logos" src={celebrateLife} alt="Josh Holladay Logo" />
         <img className="logos" src={flexpxLogo} alt="FlexGrid" />
         <img className="logos" src={fslogo} alt="FlowState" />
         <img className="logos" src={ssrough} alt="Story Start Rough" />
+        <img className="logos" src={onceUponATie} alt="Once Upon a Tie" />
         <img className="logos" src={eightReflect} alt="The $8 Tie Guy Reflected" />
         <img className="logos" src={theEightLogo} alt="The Eight Guy" />
-
-
-
-
-        <img className="logos" src={theEightBelow} alt="The $8 Tie Guy Words Below" />
         <img className="logos" src={theEightFinal} alt="The $8 Tie Guy Final" />
-        <img className="logos" src={trebleJH} alt="J Style Treble Clef" />
-        <img className="logos" src={ trebleClef} alt="Treble Clef" />
         <img className="logos" src={hApparelwhite} alt="Holladay Apparel White Logo" />
         <img className="logos" src={hApparelTag} alt="Holladay Apparel Necktie Tag" />
         <img className="logos" src={hApparelBizBlack} alt="Holladay Apparel Business Card Black" />
         <img className="logos" src={hApparelBizWhite} alt="Holladay Apparel Business Card White" />
-        <img className="logos" src={onceUponATie} alt="Once Upon a Tie" />
         <img className="logos" src={PaisleyStripe} alt="Paisley Patterns" />
-        <img className="logos" src={celebrateLife} alt="Josh Holladay Logo" />
-        <img className="logos" src={KeepItBurning} alt="Keep It Burning" />
+        <img className="logos" src={trebleJH} alt="J Style Treble Clef" />
+        <img className="logos" src={trebleClef} alt="Treble Clef" />
       </div>
     );
   }

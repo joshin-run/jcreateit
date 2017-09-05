@@ -1,5 +1,17 @@
+.portfolio-logos-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // justify-content: space-around;
+  align-items: center;
+  width: 100wv;
+  // padding: 50px;
+  // padding: 5em 0em 5em 0em;
+}
+
 .logos {
   width: auto;
-  height: 100px;
+  height: 70px;
   margin: 50px;
 }
