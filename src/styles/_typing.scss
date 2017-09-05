@@ -4,14 +4,17 @@
   -webkit-animation: typedjsBlink 0.7s infinite;
   animation: typedjsBlink 0.7s infinite;
 }
+
 @keyframes typedjsBlink{
   50% { opacity: 0.0; }
 }
+
 @-webkit-keyframes typedjsBlink{
   0% { opacity: 1; }
   50% { opacity: 0.0; }
   100% { opacity: 1; }
 }
+
 .typed-fade-out{
   opacity: 0;
   transition: opacity .25s;
