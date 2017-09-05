@@ -5,7 +5,7 @@ import BioContent from './BioContent'
 class Bio extends Component {
   render() {
     return (
-      <div className="bio-wrapper">
+      <div id="bio" className="bio-wrapper">
         <BioImage />
         <BioContent />
       </div>

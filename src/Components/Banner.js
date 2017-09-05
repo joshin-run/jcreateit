@@ -5,8 +5,7 @@ import Header from './Header'
 class Banner extends Component {
   render() {
     return (
-      <div className="hero-banner">
-        <a id="home"></a>
+      <div id="home" className="hero-banner">
         <Navbar />
         <Header />
       </div>

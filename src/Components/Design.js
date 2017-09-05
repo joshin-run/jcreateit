@@ -4,7 +4,7 @@ import PortfolioLogos from './PortfolioLogos'
 class Design extends Component {
   render() {
     return (
-      <div className="design-wrapper">
+      <div id="design" className="design-wrapper">
         <PortfolioLogos />
       </div>
     );

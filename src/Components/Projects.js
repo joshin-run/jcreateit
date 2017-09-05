@@ -7,7 +7,7 @@ import projFlowState from '../images/projects/FlowState.jpg'
 class Projects extends Component {
   render() {
     return (
-      <div id="projects-wrapper" className="projects-wrapper">
+      <div id="projects" className="projects-wrapper">
         <div className="thumb-6">
           <a href=" https://joshin-run.github.io/edison-tribute/" target="_blank"><img className="thumbnails image" src={projEdison} alt="Thomas Edison" /></a>
         </div>
