@@ -10,7 +10,7 @@ class Footer extends Component {
           <div className="logo-container">
             <a href="#home"><img className="footer-logo"  src={logo} alt="jh-logo" /></a>
           </div>
-          <p className="made-by-me">Handmade by me &copy; 2017.</p>
+          <p className="made-by-me">Handmade by me &copy; 2017</p>
           <Media />
         </div>
       </div>

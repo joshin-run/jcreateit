@@ -24,7 +24,7 @@
   font-family: 'Dosis', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  color: #000000;
+  color: lightgray;
   /*color: #f6f6f6;*/ }
 
 .bio-content span {
@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: darkslategray;
   height: 600px;
   width: 100vw;
   /*background-color: #ABABAB;*/
@@ -90,22 +90,24 @@ body {
   padding: 0px; }
 
 .footer-logo {
-  height: 45px;
-  margin: 10px; }
+  height: 45px; }
 
 .made-by-me {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  padding: 0px; }
+  margin: 0px;
+  padding: 15px;
+  font-size: .95em; }
 
 .logo-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 15px;
+  margin: 0px; }
 
 .header-container {
   width: 100vw;
@@ -148,6 +150,10 @@ body {
   transition: all 0.2s ease 0s;
   cursor: pointer; }
 
+.media-menu:hover {
+  color: lightgray;
+  transition: all 0.2s ease 0s; }
+
 ul {
   padding: 0px;
   margin: 0px; }
@@ -157,7 +163,7 @@ ul {
   margin: 0px 50px 0px 50px; }
 
 .logo-img {
-  height: 50px;
+  height: 55px;
   margin: 25px 0px 0px 0px; }
 
 .menu {
@@ -187,7 +193,8 @@ ul {
 
 .nav-menu:hover {
   background-color: #fff;
-  color: #777777; }
+  color: #777777;
+  color: lightgray; }
 
 #hire-josh {
   background-color: slategray; }
@@ -614,7 +621,7 @@ template {
   align-items: center;
   height: auto;
   width: 100vw;
-  background-color: darkslategray;
+  background-color: lightgray;
   padding: 5em 0em 5em 0em; }
 
 .portfolio-logos-wrapper {

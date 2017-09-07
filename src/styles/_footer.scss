@@ -17,7 +17,6 @@
 
 .footer-logo {
   height: 45px;
-	margin: 10px;
 }
 
 .made-by-me {
@@ -25,8 +24,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  padding: 0px;
+  margin: 0px;
+  padding: 15px;
+  font-size: .95em;
 }
 
 .logo-container {
@@ -34,4 +34,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 15px;
+  margin: 0px;
 }

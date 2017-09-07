@@ -20,6 +20,11 @@
   cursor: pointer;
 }
 
+.media-menu:hover {
+  color: lightgray;
+  transition: all 0.2s ease 0s;
+}
+
 ul {
   padding: 0px;
   margin: 0px;
