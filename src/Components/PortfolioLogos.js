@@ -34,7 +34,6 @@ class PortfolioLogos extends Component {
       <div className="portfolio-logos-wrapper">
         <img className="logos" src={jlogoMain} alt="Josh Holladay Logo" />
         <img className="logos" src={jlogoTri} alt="JH Triangle Logo" />
-        <img className="logos" src={slcdotnet} alt="SLC.Net" />
         <img className="logos" src={jCurve} alt="J Curve" />
         <img className="logos" src={jsqdigi} alt="Digi J Logo" />
         <img className="logos" src={jhexDot} alt="J Hex Dot Light Blue" />
@@ -45,9 +44,10 @@ class PortfolioLogos extends Component {
         <img className="logos" src={jlogoLightHex} alt="JH Hexigon Logo" />
         <img className="logos" src={jlogosep} alt="JH Seven Side Logo" />
         <img className="logos" src={KeepItBurning} alt="Keep It Burning" />
-        <img className="logos" src={celebrateLife} alt="Josh Holladay Logo" />
+        <img className="logos" src={celebrateLife} alt="Celebrate Life" />
         <img className="logos" src={flexpxLogo} alt="FlexGrid" />
         <img className="logos" src={fslogo} alt="FlowState" />
+        <img className="logos" src={slcdotnet} alt="SLC.Net" />
         <img className="logos" src={ssrough} alt="Story Start Rough" />
         <img className="logos" src={onceUponATie} alt="Once Upon a Tie" />
         <img className="logos" src={eightReflect} alt="The $8 Tie Guy Reflected" />

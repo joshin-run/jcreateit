@@ -5,15 +5,33 @@
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 200px;
+  height: 300px;
   width: 100%;
   background-color: #4D91A9;
   font-size: .85em;
   font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
 }
 
 .footer-logo {
-  height: 30px;
-  width: auto;
-	margin: 50px;
+  height: 45px;
+	margin: 10px;
+}
+
+.made-by-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 0px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

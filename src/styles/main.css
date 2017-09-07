@@ -80,16 +80,32 @@ body {
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 200px;
+  height: 300px;
   width: 100%;
   background-color: #4D91A9;
   font-size: .85em;
-  font-family: 'Julius Sans One', sans-serif; }
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
+  margin: 0px;
+  padding: 0px; }
 
 .footer-logo {
-  height: 30px;
-  width: auto;
-  margin: 50px; }
+  height: 45px;
+  margin: 10px; }
+
+.made-by-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 0px; }
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
 
 .header-container {
   width: 100vw;
@@ -120,18 +136,21 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
-  margin: 20px;
-  padding: 10px; }
+  align-content: center; }
 
 .media-menu {
   display: inline-block;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 1em;
   padding: 20px 20px;
+  margin: 0px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
   cursor: pointer; }
+
+ul {
+  padding: 0px;
+  margin: 0px; }
 
 .logo-item {
   align-self: flex-start;
