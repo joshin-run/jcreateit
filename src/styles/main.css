@@ -24,7 +24,7 @@
   font-family: 'Dosis', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  color: lightgray;
+  color: darkslategray;
   /*color: #f6f6f6;*/ }
 
 .bio-content span {
@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: darkslategray;
+  background-color: #ffffff;
   height: 600px;
   width: 100vw;
   /*background-color: #ABABAB;*/
@@ -619,7 +619,7 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 600px;
   width: 100vw;
   background-color: lightgray;
   padding: 5em 0em 5em 0em; }
