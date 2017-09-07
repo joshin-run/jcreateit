@@ -25,10 +25,7 @@ import hApparelBizWhite from '../images/portfolio-logos/HolladayApparel_BizCard_
 import onceUponATie from '../images/portfolio-logos/OnceUponATie.jpg';
 import PaisleyStripe from '../images/portfolio-logos/paisleyslider.png';
 import KeepItBurning from '../images/portfolio-logos/KeepItBurning-Jenks2015.png';
-// import ... from 'abc';
-// import ... from '../images/portfolio-logos/abc';
-
-
+import slcdotnet from '../images/portfolio-logos/SLCNETlogo_final.svg';
 import celebrateLife from '../images/portfolio-logos/celebrate-life_logo.jpg';
 
 class PortfolioLogos extends Component {
@@ -37,6 +34,7 @@ class PortfolioLogos extends Component {
       <div className="portfolio-logos-wrapper">
         <img className="logos" src={jlogoMain} alt="Josh Holladay Logo" />
         <img className="logos" src={jlogoTri} alt="JH Triangle Logo" />
+        <img className="logos" src={slcdotnet} alt="SLC.Net" />
         <img className="logos" src={jCurve} alt="J Curve" />
         <img className="logos" src={jsqdigi} alt="Digi J Logo" />
         <img className="logos" src={jhexDot} alt="J Hex Dot Light Blue" />
