@@ -651,7 +651,7 @@ template {
   align-items: center;
   height: 600px;
   width: 100vw;
-  background-color: lightgray;
+  background-color: #f0f0f0;
   padding: 5em 0em 5em 0em; }
 
 .portfolio-logos-wrapper {
