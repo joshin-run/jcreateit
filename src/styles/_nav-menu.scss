@@ -5,21 +5,21 @@
   justify-content: center;
   align-content: center;
   align-self: flex-end;
-  margin: 20px 20px 0px 0px;
-  padding: 10px;
-  /*border: 3px solid #fff;*/
+  // margin: 20px 20px 0px 0px;
+  // padding: 10px;
 }
 
 .nav-style {
-  font-size: 0.90em;
+  font-size: 1em;
   font-family: 'futura';
-  color: #fff;
+  color: #0c566f;
+  font-weight: bolder
 }
 
 .nav-menu {
   position: relative;
   display: block;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: monospace;
   font-size: 1em;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
@@ -28,18 +28,16 @@
 
 .nav-menu:hover {
   background-color: #fff;
-  color: #777777;
-  color: lightgray;
-  // opacity: 0.8;
+  color: #00c3ff;
 }
 
-#hire-josh {
-  background-color: slategray;
-}
+// #hire-josh {
+//   background-color: slategray;
+// }
 
-#hire-josh:hover {
-  background-color: #fff;
-}
+// #hire-josh:hover {
+//   background-color: #fff;
+// }
 
 a {
 	text-decoration: none;

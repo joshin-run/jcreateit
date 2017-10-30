@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/jlogo-dark-blue-white-border-20px.svg'
+import logo from '../images/biz-logos/jcreateit-jcube-blue.svg'
 import Media from './Media'
 
 class Footer extends Component {
@@ -10,7 +10,7 @@ class Footer extends Component {
           <div className="logo-container">
             <a href="#home"><img className="footer-logo"  src={logo} alt="jh-logo" /></a>
           </div>
-          <p className="made-by-me">Handmade by me &copy; 2017</p>
+          <p className="made-by-me">J Create It, LLC &copy; 2017</p>
           <Media />
         </div>
       </div>

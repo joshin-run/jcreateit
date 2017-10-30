@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/jlogo-dark-blue-white-border-20px.svg'
+import logo from '../images/biz-logos/jcreateit-logo-Complete-wh_left-edit1.svg'
 
 class NavLogo extends Component {
   render() {
@@ -8,7 +8,7 @@ class NavLogo extends Component {
         <div className="logo-item">
           <a href="#home"><img className="logo-img"  src={logo} alt="jh-logo" /></a>
         </div>
-      </div>  
+      </div>
     );
   }
 }

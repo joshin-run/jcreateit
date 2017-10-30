@@ -8,7 +8,6 @@
   height: 100vh;
   width: auto;
   z-index: 0;
-  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -86,9 +85,9 @@ body {
   /*padding: 5em 5em;*/
   height: 300px;
   width: 100%;
-  background-color: #4D91A9;
-  font-size: .85em;
-  font-family: 'Julius Sans One', sans-serif;
+  background-color: #00c3ff;
+  font-size: 1em;
+  font-family: monospace;
   color: #fff;
   margin: 0px;
   padding: 0px; }
@@ -172,8 +171,8 @@ body {
 
 .media-menu {
   display: inline-block;
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 1em;
+  font-family: monospace;
+  font-size: 1.5em;
   padding: 20px 20px;
   margin: 0px;
   /*border: 3px solid #fff;*/
@@ -189,12 +188,10 @@ ul {
   margin: 0px; }
 
 .logo-item {
-  align-self: flex-start;
-  margin: 0px 50px 0px 50px; }
+  align-self: flex-start; }
 
 .logo-img {
-  height: 55px;
-  margin: 25px 0px 0px 0px; }
+  height: 60px; }
 
 .menu {
   display: flex;
@@ -202,20 +199,18 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  align-self: flex-end;
-  margin: 20px 20px 0px 0px;
-  padding: 10px;
-  /*border: 3px solid #fff;*/ }
+  align-self: flex-end; }
 
 .nav-style {
-  font-size: 0.90em;
+  font-size: 1em;
   font-family: 'futura';
-  color: #fff; }
+  color: #0c566f;
+  font-weight: bolder; }
 
 .nav-menu {
   position: relative;
   display: block;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: monospace;
   font-size: 1em;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
@@ -223,14 +218,7 @@ ul {
 
 .nav-menu:hover {
   background-color: #fff;
-  color: #777777;
-  color: lightgray; }
-
-#hire-josh {
-  background-color: slategray; }
-
-#hire-josh:hover {
-  background-color: #fff; }
+  color: #00c3ff; }
 
 a {
   text-decoration: none;
@@ -246,11 +234,11 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  height: 70px;
   width: 100vw;
-  background-color: transparent;
-  background: transparent;
+  background-color: #fff;
   border-width: 0px;
-  padding: 0px; }
+  padding: 5px 30px 5px 30px; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
