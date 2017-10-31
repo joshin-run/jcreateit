@@ -126,8 +126,8 @@ body {
 .copy {
   margin: 0px;
   padding: 20px;
-  font-size: .75em;
-  font-family: 'Montserrat-Regular';
+  font-size: .55em;
+  font-family: 'Montserrat-Light';
   color: #fff;
   text-align: center;
   background-color: #00c3ff; }
@@ -174,7 +174,7 @@ body {
 
 .media-menu {
   display: block;
-  font-size: .85em;
+  font-size: .75em;
   font-family: 'Montserrat-Regular';
   margin: 0px;
   /*border: 3px solid #fff;*/
@@ -233,14 +233,13 @@ ul {
 
 .navbar-wrapper {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   justify-content: space-between;
-  align-items: center;
   height: 50px;
   width: 100vw;
   background-color: #fff;
-  border-width: 0px; }
+  border-width: 0px;
+  padding: 5px 10px 5px 10px; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
