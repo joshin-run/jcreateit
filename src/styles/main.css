@@ -16,7 +16,7 @@ a:link {
   justify-content: center;
   align-items: center;
   background-image: url(../images/banner/slides/slc.jpg);
-  height: 88vh;
+  height: 85vh;
   width: auto;
   z-index: 0;
   background-position: center center;
@@ -24,9 +24,6 @@ a:link {
   background-size: cover; }
 
 /*=== image for laptop screen size ===*/
-/*=== background immages for caruosel ===*/
-/*background-image: url(../img/new-code/orange-mockup.jpg);*/
-/*background-image: url(../img/new-code/green-code-smooth-constrast.jpg);*/
 .bio-content {
   height: 300px;
   width: 300px;
@@ -147,10 +144,10 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 85vw;
   height: 100px;
   background-color: #000;
-  opacity: 0.7; }
+  opacity: 0.6; }
 
 .title {
   font-family: 'Montserrat Bold', sans-serif;
