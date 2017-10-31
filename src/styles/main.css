@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(../images/banner/pineapple-darkblue-banner.jpg);
+  background-image: url(../images/banner/slides/slc.jpg);
   height: 100vh;
   width: auto;
   z-index: 0;
@@ -59,7 +59,7 @@ body {
   font-family: sans-serif; }
 
 .contact-wrapper {
-  background-color: #F2F3F9;
+  background-color: #ffff99;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,6 +76,30 @@ body {
 @font-face {
   font-family: 'Julius Sans One';
   src: url(../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf); }
+@font-face {
+  font-family: 'Montserrat Thin';
+  src: url(../fonts/Montserrat/Montserrat-Thin.otf); }
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url(../fonts/Montserrat/Montserrat-Light.otf); }
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-Regular.otf); }
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url(../fonts/Montserrat/Montserrat-Bold.otf); }
+@font-face {
+  font-family: 'Montserrat Alternates Thin';
+  src: url(../fonts/MontserratAlternates/MontserratAlternates-Thin.otf); }
+@font-face {
+  font-family: 'Montserrat Alternates Light';
+  src: url(../fonts/MontserratAlternates/MontserratAlternates-Light.otf); }
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url(../fonts/MontserratAlternates/MontserratAlternates-Regular.otf); }
+@font-face {
+  font-family: 'Montserrat Alternates Bold';
+  src: url(../fonts/MontserratAlternates/MontserratAlternates-Bold.otf); }
 .footer-wrapper {
   display: flex;
   flex-direction: row;
@@ -85,9 +109,7 @@ body {
   /*padding: 5em 5em;*/
   height: 300px;
   width: 100%;
-  background-color: #00c3ff;
-  font-size: 1em;
-  font-family: monospace;
+  background-color: #43A3FF;
   color: #fff;
   margin: 0px;
   padding: 0px; }
@@ -95,14 +117,15 @@ body {
 .footer-logo {
   height: 45px; }
 
-.made-by-me {
+.copy {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0px;
   padding: 15px;
-  font-size: .95em; }
+  font-size: .75em;
+  font-family: 'Montserrat-Regular'; }
 
 .logo-container {
   display: flex;
@@ -113,28 +136,32 @@ body {
   margin: 0px; }
 
 .header-container {
-  width: 100vw;
-  margin-bottom: 50px; }
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 400px;
+  background-color: #000;
+  opacity: 0.7; }
 
 .title {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   color: #fff;
   text-align: center;
-  font-weight: 200;
-  line-height: normal; }
-
-.name {
-  font-size: 2.25em;
-  margin: 0px; }
-
-.dev {
+  line-height: normal;
   font-size: 5em;
-  font-weight: bold;
-  margin: .5em .5em; }
+  margin: 0;
+  padding: 0; }
 
-.dev-type {
+.sub-title {
+  font-family: 'Montserrat Light', sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
   font-size: 1.5em;
-  margin: 0px; }
+  margin: 10px 0 0 0;
+  padding: 0px; }
 
 @media screen and (max-width: 375px) {
   .name {
@@ -171,8 +198,8 @@ body {
 
 .media-menu {
   display: inline-block;
-  font-family: monospace;
-  font-size: 1.5em;
+  font-size: .85em;
+  font-family: 'Montserrat-Regular';
   padding: 20px 20px;
   margin: 0px;
   /*border: 3px solid #fff;*/
@@ -210,7 +237,7 @@ ul {
 .nav-menu {
   position: relative;
   display: block;
-  font-family: monospace;
+  font-family: 'Montserrat Light', sans-serif;
   font-size: 1em;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/

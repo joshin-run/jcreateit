@@ -1,31 +1,45 @@
 .header-container {
-  width: 100vw;
-  margin-bottom: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 400px;
+  background-color: #000;
+  opacity: 0.7;
 }
 
 .title {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   color: #fff;
   text-align: center;
-  font-weight: 200;
   line-height:normal;
-}
-
-.name {
-  font-size: 2.25em;
-  margin: 0px;
-}
-
-.dev {
   font-size: 5em;
-  font-weight: bold;
-  margin: .5em .5em;
+  margin: 0;
+  padding: 0;
 }
 
-.dev-type {
+.sub-title {
+  font-family: 'Montserrat Light', sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
   font-size: 1.5em;
-  margin: 0px;
+  margin: 10px 0 0 0;
+  padding: 0px;
 }
+
+// .name {
+//   font-size: 2.25em;
+//   margin: 0px;
+// }
+//
+// .dev {
+//   font-size: 5em;
+//   font-weight: bold;
+//   margin: .5em .5em;
+// }
+
 
 @media screen and (max-width: 375px) {
   .name {

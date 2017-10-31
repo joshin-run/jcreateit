@@ -8,9 +8,9 @@ class Typing extends Component {
     const { strings } = this.props;
     const options = {
     	strings: strings,
-      typeSpeed: 80,
+      typeSpeed: 100,
       backDelay: 3000,
-      backSpeed: 30,
+      backSpeed: 50,
       cursorChar: '|',
       loop: true
     };

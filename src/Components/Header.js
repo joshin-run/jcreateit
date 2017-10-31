@@ -6,9 +6,9 @@ class Header extends Component {
     return (
       <div className="header-container">
         <p className="title dev">
-          <Typing strings={["Website Design", "Website Development", "Graphic Design", "Salt Lake City"]} />
+          <Typing strings={["Website Design", "Graphic Design", "Web Development", "Salt Lake City"]} />
         </p>
-        <p className="title dev-type">Modern and Responsive Web Applications</p>
+        <p className="sub-title">Modern and Responsive Web Applications</p>
       </div>
     );
   }

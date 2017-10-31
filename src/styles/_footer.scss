@@ -7,9 +7,8 @@
   /*padding: 5em 5em;*/
   height: 300px;
   width: 100%;
-  background-color: #00c3ff;
-  font-size: 1em;
-  font-family: monospace;
+  background-color: #43A3FF;
+  // background-color: #00c3ff;
   color: #fff;
   margin: 0px;
   padding: 0px;
@@ -19,14 +18,15 @@
   height: 45px;
 }
 
-.made-by-me {
+.copy {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0px;
   padding: 15px;
-  font-size: .95em;
+  font-size: .75em;
+  font-family: 'Montserrat-Regular';
 }
 
 .logo-container {
