@@ -12,9 +12,8 @@ class App extends Component {
     return (
       <div className="">
         <Banner />
-        <Bio />
-        <Projects />
-        <Contact />
+        {/*<Projects />
+        <Contact />*/}
         <Footer />
       </div>
     );

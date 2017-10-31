@@ -1,0 +1,45 @@
+.wwd_container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  height: auto;
+}
+
+.wwd_header_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  height: 750px;
+}
+
+.wwd_header {
+  font-size: 4em;
+}
+
+.wwd_services_container {
+  height: auto;
+  width: 100%;
+  background-color: yellow;
+}
+
+.service_web_design_container {
+  height: 500px;
+  width: 300px;
+  background-color: blue;
+}
+
+.service_graphic_design_container {
+  height: 500px;
+  width: 300px;
+  background-color: red;
+}
+
+.service_web_dev_container {
+  height: 500px;
+  width: 300px;
+  background-color: lightgreen;
+}

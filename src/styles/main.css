@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 .hero-banner {
   display: flex;
   flex-direction: row;
@@ -101,47 +106,43 @@ body {
   font-family: 'Montserrat Alternates Bold';
   src: url(../fonts/MontserratAlternates/MontserratAlternates-Bold.otf); }
 .footer-wrapper {
+  background-color: #43A3FF; }
+
+.footer-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 300px;
-  width: 100%;
-  background-color: #43A3FF;
+  height: 200px;
   color: #fff;
-  margin: 0px;
-  padding: 0px; }
+  margin: 0px; }
 
 .footer-logo {
-  height: 45px; }
+  height: 55px;
+  width: auto;
+  margin: 0 50px 0 0; }
 
 .copy {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin: 0px;
-  padding: 15px;
+  padding: 20px;
   font-size: .75em;
-  font-family: 'Montserrat-Regular'; }
+  font-family: 'Montserrat-Regular';
+  color: #fff;
+  text-align: center;
+  background-color: #00c3ff; }
 
 .logo-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  margin: 0px; }
+  padding: 0;
+  margin: 0; }
 
 .header-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 80vw;
-  height: 400px;
+  width: 90vw;
+  height: 100px;
   background-color: #000;
   opacity: 0.7; }
 
@@ -150,7 +151,7 @@ body {
   color: #fff;
   text-align: center;
   line-height: normal;
-  font-size: 5em;
+  font-size: 1.5em;
   margin: 0;
   padding: 0; }
 
@@ -158,53 +159,28 @@ body {
   font-family: 'Montserrat Light', sans-serif;
   color: #fff;
   text-align: center;
-  line-height: 30px;
-  font-size: 1.5em;
-  margin: 10px 0 0 0;
+  line-height: 20px;
+  font-size: 0.75em;
+  margin: 5px 0 0 0;
   padding: 0px; }
 
-@media screen and (max-width: 375px) {
-  .name {
-    font-size: 1em;
-    margin: 0px; }
-
-  .dev {
-    font-size: 1.25em;
-    font-weight: bold;
-    margin: .25em .25em; }
-
-  .dev-type {
-    font-size: .65em;
-    margin: 0px; } }
-@media screen and (max-width: 768px) {
-  .name {
-    font-size: 1.75em;
-    margin: 0px; }
-
-  .dev {
-    font-size: 2.75em;
-    font-weight: bold;
-    margin: .35em .35em; }
-
-  .dev-type {
-    font-size: .85em;
-    margin: 0px; } }
-.media-wrapper {
+.media-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  padding: 50px; }
 
 .media-menu {
-  display: inline-block;
+  display: block;
   font-size: .85em;
   font-family: 'Montserrat-Regular';
-  padding: 20px 20px;
   margin: 0px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 10px 0 10px 50px; }
 
 .media-menu:hover {
   color: lightgray;
@@ -214,11 +190,10 @@ ul {
   padding: 0px;
   margin: 0px; }
 
-.logo-item {
-  align-self: flex-start; }
-
 .logo-img {
-  height: 60px; }
+  height: 40px;
+  margin: 0;
+  padding: 0; }
 
 .menu {
   display: flex;
@@ -226,7 +201,8 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  align-self: flex-end; }
+  align-self: flex-end;
+  display: none; }
 
 .nav-style {
   font-size: 1em;
@@ -261,11 +237,10 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 50px;
   width: 100vw;
   background-color: #fff;
-  border-width: 0px;
-  padding: 5px 30px 5px 30px; }
+  border-width: 0px; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -703,5 +678,44 @@ template {
   transition: opacity .25s;
   -webkit-animation: 0;
   animation: 0; }
+
+.wwd_container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  height: auto; }
+
+.wwd_header_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  height: 750px; }
+
+.wwd_header {
+  font-size: 4em; }
+
+.wwd_services_container {
+  height: auto;
+  width: 100%;
+  background-color: yellow; }
+
+.service_web_design_container {
+  height: 500px;
+  width: 300px;
+  background-color: blue; }
+
+.service_graphic_design_container {
+  height: 500px;
+  width: 300px;
+  background-color: red; }
+
+.service_web_dev_container {
+  height: 500px;
+  width: 300px;
+  background-color: lightgreen; }
 
 /*# sourceMappingURL=main.css.map */
