@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
 import Bio from './Components/Bio';
 import Projects from './Components/Projects';
@@ -10,10 +11,9 @@ import './styles/main.css'
 class App extends Component {
   render() {
     return (
-      <div className="">
+      <div>
+        <Navbar />
         <Banner />
-        {/*<Projects />
-        <Contact />*/}
         <Footer />
       </div>
     );

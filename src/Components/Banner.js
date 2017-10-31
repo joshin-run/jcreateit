@@ -6,7 +6,6 @@ class Banner extends Component {
   render() {
     return (
       <div id="home" className="hero-banner">
-        <Navbar />
         <Header />
       </div>
     );

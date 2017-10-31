@@ -3,14 +3,20 @@
   margin: 0;
   box-sizing: border-box; }
 
+a:link {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
 .hero-banner {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-image: url(../images/banner/slides/slc.jpg);
-  height: 100vh;
+  height: 88vh;
   width: auto;
   z-index: 0;
   background-position: center center;
@@ -191,7 +197,7 @@ ul {
   margin: 0px; }
 
 .logo-img {
-  height: 40px;
+  height: 35px;
   margin: 0;
   padding: 0; }
 
@@ -223,6 +229,10 @@ ul {
   background-color: #fff;
   color: #00c3ff; }
 
+.mobile-menu-icon {
+  height: 20px;
+  width: 15px; }
+
 a {
   text-decoration: none;
   color: unset; }
@@ -233,13 +243,14 @@ ul {
 
 .navbar-wrapper {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   height: 50px;
   width: 100vw;
   background-color: #fff;
   border-width: 0px;
-  padding: 5px 10px 5px 10px; }
+  padding: 12px; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
