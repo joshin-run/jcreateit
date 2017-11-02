@@ -5,10 +5,9 @@ class Header extends Component {
   render() {
     return (
       <div className="header-container">
-        <p className="title dev">
-          <Typing strings={["Website Design", "Web Development"]} />
-        </p>
-        <p className="sub-title">Modern and Responsive Web Applications</p>
+        <div><p className="title dev">
+          <Typing strings={["Website Design...", "that tells Your Story,", "Developed...", "to change Their World.", "to change the World!"]} />
+        </p></div>
       </div>
     );
   }
