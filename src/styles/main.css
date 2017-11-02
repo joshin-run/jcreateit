@@ -15,7 +15,7 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/banner/slides/slc.jpg);
+  background-image: url(../images/banner/slides/pineapple-darkblue-banner.jpg);
   height: 85vh;
   width: auto;
   z-index: 0;
@@ -113,7 +113,7 @@ body {
 
 .footer-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
@@ -124,7 +124,7 @@ body {
 .footer-logo {
   height: 55px;
   width: auto;
-  margin: 0 50px 0 0; }
+  margin-bottom: 30px; }
 
 .copy {
   margin: 0px;
@@ -145,16 +145,14 @@ body {
   justify-content: center;
   align-items: center;
   width: 85vw;
-  height: 100px;
-  background-color: #000;
-  opacity: 0.6; }
+  height: 100px; }
 
 .title {
   font-family: 'Montserrat Bold', sans-serif;
   color: #fff;
   text-align: center;
   line-height: normal;
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin: 0;
   padding: 0; }
 
@@ -183,7 +181,7 @@ body {
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
   cursor: pointer;
-  margin: 10px 0 10px 50px; }
+  margin-bottom: 10px; }
 
 .media-menu:hover {
   color: lightgray;
@@ -687,42 +685,72 @@ template {
   animation: 0; }
 
 .wwd_container {
+  height: auto;
+  padding: 30px; }
+
+.wwd_header_container {
+  width: auto;
+  height: auto;
+  padding: 15px; }
+
+.wwd_header {
+  font-size: 1.5em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto; }
+
+.wwd_services_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin: 0; }
+
+.wwd_service_header {
+  font-size: 1.35em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center; }
+
+.wwd_service {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background-color: silver;
-  height: auto; }
+  width: auto;
+  margin: 20px 0 40px 0; }
 
-.wwd_header_container {
+.wwd_services_content {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
-  background-color: lightblue;
-  height: 750px; }
+  margin: 15px 0 0 0;
+  text-align: center;
+  color: #252525;
+  width: 250px;
+  font-family: 'Arial', sans-serif; }
 
-.wwd_header {
-  font-size: 4em; }
+.wwd_img {
+  height: 55px;
+  width: auto;
+  margin: 5px; }
 
-.wwd_services_container {
+.design-img {
   height: auto;
-  width: 100%;
-  background-color: yellow; }
+  width: 225px;
+  margin: 10px;
+  padding: 0;
+  align-items: center; }
 
-.service_web_design_container {
-  height: 500px;
-  width: 300px;
-  background-color: blue; }
+.code-img {
+  height: auto;
+  width: 225px;
+  margin: 10px;
+  padding: 0; }
 
-.service_graphic_design_container {
-  height: 500px;
-  width: 300px;
-  background-color: red; }
-
-.service_web_dev_container {
-  height: 500px;
-  width: 300px;
-  background-color: lightgreen; }
+.img-container {
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */

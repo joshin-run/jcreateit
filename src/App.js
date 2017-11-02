@@ -6,6 +6,7 @@ import Projects from './Components/Projects';
 import Design from './Components/Design';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import WhatWeDo from './Components/WhatWeDo';
 import './styles/main.css'
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Banner />
+        <WhatWeDo />
         <Footer />
       </div>
     );
