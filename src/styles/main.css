@@ -113,13 +113,14 @@ body {
 
 .footer-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
   height: 200px;
   color: #fff;
-  margin: 0px; }
+  margin: 0px;
+  padding: 25px; }
 
 .footer-logo {
   height: 55px;
@@ -129,7 +130,7 @@ body {
 .copy {
   margin: 0px;
   padding: 20px;
-  font-size: .55em;
+  font-size: .65em;
   font-family: 'Montserrat-Light';
   color: #fff;
   text-align: center;
@@ -139,6 +140,13 @@ body {
   padding: 0;
   margin: 0; }
 
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    padding-top: 125px;
+    padding-bottom: 125px; }
+
+  .copy {
+    font-size: .85em; } }
 .header-container {
   display: flex;
   flex-flow: column wrap;
@@ -192,7 +200,7 @@ body {
 .sub-title-two span {
   font-family: 'Montserrat', sans-serif; }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .header-container {
     align-items: flex-start; }
 
@@ -242,6 +250,9 @@ ul {
   margin: 0;
   padding: 0; }
 
+@media only screen and (min-width: 767px) {
+  .logo-img {
+    height: 45px; } }
 .menu {
   display: flex;
   flex-direction: row;
@@ -293,6 +304,10 @@ ul {
   border-width: 0px;
   padding: 12px; }
 
+@media only screen and (min-width: 768px) {
+  .navbar-wrapper {
+    height: 70px;
+    padding: 0 30px 0 30px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -786,11 +801,14 @@ template {
   padding: 10px;
   align-items: center;
   margin: 15px 10px 10px 10px;
-  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
   background-color: #ededed; }
 
 .wwd-img:hover {
   box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.5); }
+
+@media only screen and (min-height: 768px) {
+  .wwd_container {
+    padding: 70px 30px 70px 30px; } }
 
 /*# sourceMappingURL=main.css.map */

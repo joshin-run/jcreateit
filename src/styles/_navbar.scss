@@ -9,3 +9,12 @@
   border-width: 0px;
   padding: 12px;
 }
+
+@media only screen and (min-width: 768px) {
+
+  .navbar-wrapper {
+    height: 70px;
+    padding: 0 30px 0 30px;
+  }
+
+}

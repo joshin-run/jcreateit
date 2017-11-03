@@ -4,7 +4,7 @@
 
 .footer-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
@@ -12,7 +12,7 @@
   // width: 100%;
   color: #fff;
   margin: 0px;
-  // padding: 25px;
+  padding: 25px;
 }
 
 .footer-logo {
@@ -29,7 +29,7 @@
   // align-items: center;
   margin: 0px;
   padding: 20px;
-  font-size: .55em;
+  font-size: .65em;
   font-family: 'Montserrat-Light';
   color: #fff;
   // width: 100%;
@@ -44,4 +44,17 @@
   // align-items: center;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .footer-container {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+
+  .copy {
+    font-size: .85em;
+  }
+
 }
