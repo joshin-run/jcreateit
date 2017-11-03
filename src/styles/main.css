@@ -228,10 +228,10 @@ body {
   padding: 50px; }
 
 .media-menu {
-  display: block;
+  display: inline-block;
   font-size: .75em;
   font-family: 'Montserrat-Regular';
-  margin: 0px;
+  margin: 0px 10px 0px 10px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
   cursor: pointer;
@@ -293,6 +293,9 @@ ul {
   list-style-type: none;
   list-style: none; }
 
+@media only screen and (min-height: 768px) {
+  .mobile-menu-icon {
+    display: none; } }
 .navbar-wrapper {
   display: flex;
   flex-flow: row wrap;

@@ -11,11 +11,11 @@
 
 .media-menu {
   // position: relative;
-  display: block;
+  display: inline-block;
   font-size: .75em;
   font-family: 'Montserrat-Regular';
   // padding: 20px 20px;
-  margin: 0px;
+  margin: 0px 10px 0px 10px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
   cursor: pointer;
