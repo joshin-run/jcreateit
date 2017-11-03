@@ -28,7 +28,7 @@ class WhatWeDo extends Component {
           <div className="wwd_service">
             <img className="wwd-img"  src={codeImg} alt="jh-logo" />
             <div className="wwd_services_content">
-              <p>We impliment modern, responsive designs and code a well thought out concept with the mobile end user in mind creating unforgetable user experiences.</p>
+              <p>We impliment modern and responsive designs and code a well thought out concept with the mobile end user in mind creating unforgetable user experiences.</p>
             </div>
           </div>
         </div>
