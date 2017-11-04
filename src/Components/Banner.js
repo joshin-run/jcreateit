@@ -5,7 +5,7 @@ class Banner extends Component {
   render() {
     return (
       <div>
-      <div id="home" className="hero-banner">
+      <div className="hero-banner">
         {/*<Slider />*/}
         <Header />
       </div>

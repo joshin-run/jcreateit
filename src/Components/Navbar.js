@@ -6,7 +6,7 @@ import menuIcon from '../images/glyphs/if_three-bars_298879.svg'
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar-wrapper">
+      <div id="home" className="navbar-wrapper">
         <NavLogo />
         <img className="mobile-menu-icon" src={menuIcon} />
         <NavMenu />

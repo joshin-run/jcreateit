@@ -6,16 +6,16 @@ class Header extends Component {
     return (
       <div className="header-container">
         <div className="title-one">
-          Website Design
+          <p>Website Design</p>
         </div>
         <div className="title-two">
-          that tells <span>your story,</span>
+          <p>that tells <span>your story,</span></p>
         </div>
         <div className="sub-title-one">
-          Developed,
+          <p>Developed,</p>
         </div>
         <div className="sub-title-two">
-         to change <span>their world.</span>
+          <p>to change <span>their world.</span></p>
           {/*<Typing strings={["Website Design...", "that tells Your Story,", "Developed...", "to change Their World.", "to change the World!"]} />*/}
         </div>
       </div>

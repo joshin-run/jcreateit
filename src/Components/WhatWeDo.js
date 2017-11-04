@@ -8,7 +8,7 @@ import codeImg from '../images/codeIDE-226x144-word-lower-36.jpg'
 class WhatWeDo extends Component {
   render() {
     return (
-      <div className="wwd_container">
+      <div id="what-we-do" className="wwd_container">
         <div className="wwd_header_container">
           <p className="wwd_header">What we do</p>
         </div>

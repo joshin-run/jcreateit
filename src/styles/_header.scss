@@ -64,24 +64,28 @@
     align-items: flex-start;
   }
 
-  .title-one {
-    font-size: 8em;
+  .title-one p {
+    font-size: 4em;
     margin-left: 65px;
+    text-align: left;
   }
 
-  .title-two {
-    font-size: 4.5em;
-    margin: 0 0 50px 65px;
+  .title-two p {
+    font-size: 2.5em;
+    margin: 0 0 0 65px;
+    text-align: left;
   }
 
-  .sub-title-one {
-    font-size: 7.5em;
-    margin-left: 65px;
+  .sub-title-one p {
+    font-size: 4em;
+    margin-left: 55px;
+    text-align: left;
   }
 
-  .sub-title-two {
-    font-size: 4.5em;
+  .sub-title-two p {
+    font-size: 2.5em;
     margin-left: 65px;
+    text-align: left;
   }
 
 }

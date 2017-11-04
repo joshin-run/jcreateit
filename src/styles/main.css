@@ -204,21 +204,25 @@ body {
   .header-container {
     align-items: flex-start; }
 
-  .title-one {
-    font-size: 8em;
-    margin-left: 65px; }
+  .title-one p {
+    font-size: 4em;
+    margin-left: 65px;
+    text-align: left; }
 
-  .title-two {
-    font-size: 4.5em;
-    margin: 0 0 50px 65px; }
+  .title-two p {
+    font-size: 2.5em;
+    margin: 0 0 0 65px;
+    text-align: left; }
 
-  .sub-title-one {
-    font-size: 7.5em;
-    margin-left: 65px; }
+  .sub-title-one p {
+    font-size: 4em;
+    margin-left: 55px;
+    text-align: left; }
 
-  .sub-title-two {
-    font-size: 4.5em;
-    margin-left: 65px; } }
+  .sub-title-two p {
+    font-size: 2.5em;
+    margin-left: 65px;
+    text-align: left; } }
 .media-container {
   display: flex;
   flex-direction: row;
@@ -265,25 +269,24 @@ ul {
 .nav-style {
   font-size: 1em;
   font-family: 'futura';
-  color: #0c566f;
+  color: #14283c;
   font-weight: bolder; }
 
 .nav-menu {
   position: relative;
-  display: block;
   font-family: 'Montserrat Light', sans-serif;
-  font-size: 1em;
+  font-size: .9em;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
-  transition: all 0.2s ease 0s; }
+  transition: all 0.5s ease 0s; }
 
 .nav-menu:hover {
-  background-color: #fff;
-  color: #00c3ff; }
+  color: gray; }
 
 .mobile-menu-icon {
   height: 20px;
-  width: 15px; }
+  width: 15px;
+  display: block; }
 
 a {
   text-decoration: none;
@@ -293,9 +296,18 @@ ul {
   list-style-type: none;
   list-style: none; }
 
+.more {
+  color: gray; }
+
 @media only screen and (min-height: 768px) {
   .mobile-menu-icon {
-    display: none; } }
+    display: none; }
+
+  .menu {
+    display: inline-block; }
+
+  .nav-menu {
+    display: inline-block; } }
 .navbar-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -310,7 +322,7 @@ ul {
 @media only screen and (min-width: 768px) {
   .navbar-wrapper {
     height: 65px;
-    padding: 0 30px 0 30px; } }
+    padding: 0 90px 0 90px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
