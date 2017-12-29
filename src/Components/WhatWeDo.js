@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 // import logo from '../images/biz-logos/jcreateit-jcube-blue-darker.svg'
-import visionImg from '../images/vision-226x144-word.jpg'
-import designImg from '../images/orange-mockup-light-226x144-word-lower.jpg'
-import codeImg from '../images/codeIDE-226x144-word-lower-36.jpg'
+import visionImg from '../images/whatwedo/vision-226x144-word-min.jpg'
+import designImg from '../images/whatwedo/orange-mockup-light-226x144-word-lower-min.jpg'
+import codeImg from '../images/whatwedo/codeIDE-226x144-word-lower-36-min.jpg'
 
 
 class WhatWeDo extends Component {
