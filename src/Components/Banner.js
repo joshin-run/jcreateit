@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar';
 import Header from './Header';
 
 class Banner extends Component {
   render() {
     return (
       <div>
-      <div className="hero-banner">
-        {/*<Slider />*/}
-        <Header />
-      </div>
+        <Navbar />
+        <div className="hero-banner">
+          <Header />
+        </div>
       </div>
     );
   }

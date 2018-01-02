@@ -1,17 +1,18 @@
 .header-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 85vh;
-  background-color: #14283c;
-  opacity: 0.6;
+  // background-color: #14283c;
+  // opacity: 0.6;
   padding: 25px;
+  margin-top: 100px
 }
 
 .title-one {
-  font-family: 'Montserrat thin', sans-serif;
+  font-family: 'Montserrat Thin', sans-serif;
   color: #fff;
   text-align: center;
   line-height:normal;
@@ -21,7 +22,7 @@
 }
 
 .title-two {
-  font-family: 'Montserrat thin', sans-serif;
+  font-family: 'Montserrat Thin', sans-serif;
   color: #fff;
   text-align: center;
   line-height:normal;
