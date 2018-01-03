@@ -16,7 +16,6 @@ class Header extends Component {
         </div>
         <div className="sub-title-two">
           <p>to change <span>their world.</span></p>
-          {/*<Typing strings={["Website Design...", "that tells Your Story,", "Developed...", "to change Their World.", "to change the World!"]} />*/}
         </div>
       </div>
     );

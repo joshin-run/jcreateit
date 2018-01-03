@@ -15,7 +15,6 @@ class App extends Component {
       <div>
         <Banner />
         <WhatWeDo />
-        <Projects />
         <Footer />
       </div>
     );
