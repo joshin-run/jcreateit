@@ -21,76 +21,107 @@
 
 .title-one {
   font-family: 'Montserrat Extra Light', sans-serif;
-  text-align: center;
   line-height:normal;
   font-size: 2.15em;
   margin: 0;
   padding: 0;
 }
 
-.title-two {
-  font-family: 'Montserrat thin', sans-serif;
-  text-align: center;
+.sub-title-one {
+  font-family: 'Montserrat Thin', sans-serif;
   line-height:normal;
   font-size: 1.25em;
-  margin: 0 0 50px 0;
   padding: 0;
 }
 
-.title-two span {
-  font-family: 'Montserrat', sans-serif;
+.sub-title-one span {
+  font-family: 'Montserrat Light', sans-serif;
 }
 
-.sub-title-one {
+.title-two {
   font-family: 'Montserrat Extra Light', sans-serif;
-  text-align: center;
   line-height: normal;
   font-size: 1.95em;
-  margin: 5px 0 0 0;
   padding: 0px;
 }
 
 .sub-title-two {
-  font-family: 'Montserrat thin', sans-serif;
-  text-align: center;
+  font-family: 'Montserrat Thin', sans-serif;
   line-height: normal;
   font-size: 1.25em;
-  margin: 5px 0 0 0;
   padding: 0px;
 }
 
 .sub-title-two span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
-
-  .header-container {
-    justify-content: center;
-    align-items: center;
-  }
+@media only screen and (min-width: 481px) {
 
   .title-one p {
-    font-size: 4em;
-    // margin-left: 65px;
-    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Montserrat Light', sans-serif;
+  }
+
+  .sub-title-one p {
+    font-size: 2.25em;
   }
 
   .title-two p {
     font-size: 2.5em;
-    // margin: 0 0 0 65px;
-    text-align: center;
+    font-family: 'Montserrat Light', sans-serif;
+  }
+
+  .sub-title-two p {
+    font-size: 2.25em;
+  }
+}
+
+
+@media only screen and (min-width: 769px) {
+
+  .header-container {
+    justify-content: center;
+    align-items: center;
+    // align-items: flex-start;
+    padding: 0;
+    // padding: 100px;
+  }
+
+  .title-one p {
+    font-size: 3.75em;
   }
 
   .sub-title-one p {
-    font-size: 4em;
-    // margin-left: 55px;
+    font-size: 2.5em;
+  }
+
+  .title-two p {
+    font-size: 3.75em;
   }
 
   .sub-title-two p {
     font-size: 2.5em;
-    // margin-left: 65px;
   }
+  // .title-one p {
+  //   font-size: 3.75em;
+  //   margin-left: 45px;
+  // }
+  //
+  // .sub-title-one p {
+  //   font-size: 2.5em;
+  //   margin-left: 15px;
+  // }
+  //
+  // .title-two p {
+  //   font-size: 3.75em;
+  //   margin-left: -15px;
+  // }
+  //
+  // .sub-title-two p {
+  //   font-size: 2.5em;
+  //   margin-left: 38px;
+  // }
 
 }
 

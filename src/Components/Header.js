@@ -7,10 +7,10 @@ class Header extends Component {
         <div className="title-one">
           <p>Website Design</p>
         </div>
-        <div className="title-two">
+        <div className="sub-title-one">
           <p>that tells <span>your story,</span></p>
         </div>
-        <div className="sub-title-one">
+        <div className="title-two">
           <p>Developed,</p>
         </div>
         <div className="sub-title-two">

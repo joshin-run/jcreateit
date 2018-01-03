@@ -7,9 +7,9 @@ class Banner extends Component {
     return (
       <div>
         <Navbar />
-        <div className="hero-banner">
+        <section id="home" data-type="background" data-speed="10" className="hero-banner pages">
           <Header />
-        </div>
+        </section>
       </div>
     );
   }

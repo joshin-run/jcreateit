@@ -6,7 +6,7 @@ class NavMenu extends Component {
       <ul className="menu nav-style">
         <li className="nav-menu"><a href="#home">Home</a></li>
         <li className="nav-menu"><a href="#what-we-do">What We Do</a></li>
-        <li className="nav-menu"><a href="#projects">Projects</a></li>
+        <li className="nav-menu"><a href="#recent_work">Recent Work</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact Us</a></li>
       </ul>
     );
