@@ -83,6 +83,9 @@
   .header-container {
     justify-content: center;
     align-items: center;
+    // align-items: flex-start;
+    padding: 0;
+    // padding: 100px;
   }
 
   .title-one p {
@@ -100,6 +103,25 @@
   .sub-title-two p {
     font-size: 2.5em;
   }
+  // .title-one p {
+  //   font-size: 3.75em;
+  //   margin-left: 45px;
+  // }
+  //
+  // .sub-title-one p {
+  //   font-size: 2.5em;
+  //   margin-left: 15px;
+  // }
+  //
+  // .title-two p {
+  //   font-size: 3.75em;
+  //   margin-left: -15px;
+  // }
+  //
+  // .sub-title-two p {
+  //   font-size: 2.5em;
+  //   margin-left: 38px;
+  // }
 
 }
 
