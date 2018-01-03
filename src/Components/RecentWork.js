@@ -20,9 +20,9 @@ class Projects extends Component {
 
             <div className="recent_work_service">
               <div className="recent_work_services_content">
-                <p className="content-header text-left">Crypto Elevation</p>
-                <p className="tech-stack all-caps text-left">UX/UI Design, JavaScript, Elixir/Phoenix Development</p>
-                <p className="recent_work_main_content text-left">Crypto Elevation is a Global Cryptocurrency Opportunity that helps people all around the world create wealth, help others create wealth, and give back to our Choice Humanitarian cause.</p>
+                <p className="content-header text-left mobile-width">Crypto Elevation</p>
+                <p className="tech-stack all-caps text-left mobile-width">UX/UI Design, JavaScript, Elixir/Phoenix Development</p>
+                <p className="recent_work_main_content text-left mobile-width">Crypto Elevation is a Global Cryptocurrency Opportunity that helps people all around the world create wealth, help others create wealth, and give back to our Choice Humanitarian cause.</p>
               </div>
             </div>
 
