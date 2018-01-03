@@ -1,6 +1,6 @@
 .wwd_container {
   height: auto;
-  padding: 30px;
+  padding: 50px 30px 30px 30px;
   // background-color: lightgreen;
 }
 
@@ -74,7 +74,7 @@
 @media only screen and (min-height: 768px) {
 
   .wwd_container {
-    padding: 70px 30px 70px 30px;
+    padding: 100px 30px 70px 30px;
   }
 
   .wwd_services_content {
