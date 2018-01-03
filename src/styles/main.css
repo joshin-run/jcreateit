@@ -158,16 +158,12 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 100vw;
   height: 90vh;
-  opacity: 50%;
   padding: 25px;
   margin-top: 50px;
   color: #fff; }
-
-.opaque {
-  opacity: 0.8; }
 
 .title-one {
   font-family: 'Montserrat Extra Light', sans-serif;

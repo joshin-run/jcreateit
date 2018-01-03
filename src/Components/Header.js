@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Typing from './Typing';
 
 class Header extends Component {
   render() {
