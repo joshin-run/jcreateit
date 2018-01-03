@@ -19,7 +19,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "J Create It, LLC - Web Design / Web Development",
+  "description": "J Create It, LLC - Web Design / Development",
   "main": "index.js",
   "author": "Josh Holladay",
   "license": "ISC",
