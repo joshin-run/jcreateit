@@ -9,6 +9,10 @@ a:link {
   justify-content: center;
   align-items: center; }
 
+#home {
+  height: 90vh;
+  width: auto; }
+
 .hero-banner {
   display: flex;
   flex-direction: row;
