@@ -1,9 +1,9 @@
 .navbar-wrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content:space-between;
   align-items: center;
-  height: 50px;
+  height: 65px;
   width: 100vw;
   background-color: #fff;
   border-width: 0px;
@@ -12,11 +12,11 @@
   position: fixed;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
   .navbar-wrapper {
-    height: 65px;
+    height: 75px;
     padding: 0 90px 0 90px;
+    // padding: 0 90px 0 90px;
   }
-
 }

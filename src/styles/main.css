@@ -23,7 +23,6 @@ a:link {
   background-repeat: no-repeat;
   background-size: cover; }
 
-/*=== image for laptop screen size ===*/
 .bio-content {
   height: 300px;
   width: 300px;
@@ -167,56 +166,61 @@ body {
 
 .title-one {
   font-family: 'Montserrat Extra Light', sans-serif;
-  text-align: center;
   line-height: normal;
   font-size: 2.15em;
   margin: 0;
   padding: 0; }
 
-.title-two {
-  font-family: 'Montserrat thin', sans-serif;
-  text-align: center;
+.sub-title-one {
+  font-family: 'Montserrat Thin', sans-serif;
   line-height: normal;
   font-size: 1.25em;
-  margin: 0 0 50px 0;
   padding: 0; }
 
-.title-two span {
-  font-family: 'Montserrat', sans-serif; }
+.sub-title-one span {
+  font-family: 'Montserrat Light', sans-serif; }
 
-.sub-title-one {
+.title-two {
   font-family: 'Montserrat Extra Light', sans-serif;
-  text-align: center;
   line-height: normal;
   font-size: 1.95em;
-  margin: 5px 0 0 0;
   padding: 0px; }
 
 .sub-title-two {
-  font-family: 'Montserrat thin', sans-serif;
-  text-align: center;
+  font-family: 'Montserrat Thin', sans-serif;
   line-height: normal;
   font-size: 1.25em;
-  margin: 5px 0 0 0;
   padding: 0px; }
 
 .sub-title-two span {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat Light', sans-serif; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 481px) {
+  .title-one p {
+    font-size: 2.5em;
+    font-family: 'Montserrat Light', sans-serif; }
+
+  .sub-title-one p {
+    font-size: 2.25em; }
+
+  .title-two p {
+    font-size: 2.5em;
+    font-family: 'Montserrat Light', sans-serif; }
+
+  .sub-title-two p {
+    font-size: 2.25em; } }
+@media only screen and (min-width: 769px) {
   .header-container {
     justify-content: center;
     align-items: center; }
 
   .title-one p {
-    font-size: 4em;
-    text-align: center; }
-
-  .title-two p {
-    font-size: 2.5em;
-    text-align: center; }
+    font-size: 4em; }
 
   .sub-title-one p {
+    font-size: 2.5em; }
+
+  .title-two p {
     font-size: 4em; }
 
   .sub-title-two p {
@@ -267,7 +271,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  align-self: flex-end;
   display: none; }
 
 .nav-style {
@@ -303,7 +306,7 @@ ul {
 .more {
   color: gray; }
 
-@media only screen and (min-height: 768px) {
+@media only screen and (min-width: 769px) {
   .mobile-menu-icon {
     display: none; }
 
@@ -314,10 +317,10 @@ ul {
     display: inline-block; } }
 .navbar-wrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
+  height: 65px;
   width: 100vw;
   background-color: #fff;
   border-width: 0px;
@@ -325,9 +328,9 @@ ul {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
   position: fixed; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .navbar-wrapper {
-    height: 65px;
+    height: 75px;
     padding: 0 90px 0 90px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document

@@ -1,23 +1,21 @@
+#home {
+// background-image: url(../images/banner/slides/slc-min-blue12-min.jpg);
+// background: url(../images/banner/slides/slc-min-blue12-min.jpg) center/100% no-repeat fixed;
+// height: 90vh;
+// width: auto
+}
+
 .hero-banner {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  // background-image: url(../images/banner/slides/pineapple-darkblue-banner-narrow-LT-greener.jpg);
-  // background-image: url(../images/banner/slides/pineapple-darkblue-banner.jpg);
-  // background-image: url(../images/banner/slides/redcode.png);
-  // background-image: url(../images/banner/slides/yellow-mockup.jpg);
   background-image: url(../images/banner/slides/slc-min-blue12-min.jpg);
   height: 90vh;
   width: auto;
   z-index: 0;
-  // background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  // position: fixed;
 }
-
-/*=== image for laptop screen size ===*/
-  // background-image: url(../img/new-code/pineapple-supply-co-v1-blue_green-v1-1440px-dark.jpg);/*
