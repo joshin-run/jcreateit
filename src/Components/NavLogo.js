@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/biz-logos/jcreateit-logo-Complete-wh_left-edit1-fit.svg'
+import logo from '../images/biz-logos/j_create_it-logo.jpg'
 
 class NavLogo extends Component {
   render() {
