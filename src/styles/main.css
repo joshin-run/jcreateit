@@ -828,7 +828,11 @@ template {
   height: 250px;
   width: auto;
   align-items: center;
-  box-shadow: -1px 3px 15px rgba(0, 0, 0, 0.5); }
+  box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.4);
+  transition: 0.2s; }
+
+.recent_work_img:hover {
+  box-shadow: -1px 6px 30px rgba(0, 0, 0, 0.4); }
 
 .item-1 {
   margin-bottom: 0px;

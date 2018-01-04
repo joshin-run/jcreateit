@@ -10,7 +10,7 @@ class WhatWeDo extends Component {
     return (
       <div id="what-we-do" className="wwd_container">
         <div className="wwd_header_container">
-          <p className="wwd_header">What We Do</p>
+          <p className="wwd_header">What I Do</p>
         </div>
         <div className="wwd_services_container">
         <div className="wwd_service">
