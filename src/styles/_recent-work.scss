@@ -104,8 +104,12 @@
   // padding: 10px;
   align-items: center;
   // margin: 15px 10px 10px 10px;
-  box-shadow: -1px 3px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.15s;
+  box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+
+.recent_work_img:hover {
+  box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .item-1 {
