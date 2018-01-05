@@ -12,7 +12,11 @@ class Projects extends Component {
           </div>
 
 
-          <div className="recent_work_services_container item-1 line-bottom">
+          <div className="recent_work_services_container item-1">
+
+            <div className="recent_work_service">
+              <img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" />
+            </div>
 
             <div className="recent_work_service">
               <div className="recent_work_services_content">
@@ -22,12 +26,9 @@ class Projects extends Component {
               </div>
             </div>
 
-            <div className="recent_work_service">
-              <img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" />
-            </div>
-
           </div>
 
+          <div className="divider"></div>
 
           <div className="recent_work_services_container item-2">
 
