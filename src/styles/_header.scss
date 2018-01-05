@@ -3,12 +3,14 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 90vh;
+  // width: 100vw;
+  color: #fff;
+  padding: 30px;
+  // height: 90vh;
   // opacity: 50%;
-  padding: 25px;
-  margin-top: 50px;
-  color: #fff
+  // padding: 25px;
+  // margin-top: 50px;
+  border: 1px solid #fff;
 }
 
 // .hover-magic {
@@ -20,89 +22,120 @@
 // }
 
 .title-one {
-  font-family: 'Montserrat Extra Light', sans-serif;
-  line-height:normal;
-  font-size: 2.15em;
-  margin: 0;
-  padding: 0;
-}
-
-.sub-title-one {
+  font-size: 2.5em;
   font-family: 'Montserrat Thin', sans-serif;
   line-height:normal;
-  font-size: 1.25em;
   padding: 0;
+  // text-align: center;
 }
 
-.sub-title-one span {
-  font-family: 'Montserrat Light', sans-serif;
+.sub-title-one p {
+  font-size: 1.25em;
+  font-family: 'Montserrat Thin', sans-serif;
+  margin: 0 0 20px 0;
+}
+
+.sub-title-one p span {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title-two {
-  font-family: 'Montserrat Extra Light', sans-serif;
-  line-height: normal;
-  font-size: 1.95em;
-  padding: 0px;
-}
-
-.sub-title-two {
+  font-size: 2.5em;
   font-family: 'Montserrat Thin', sans-serif;
   line-height: normal;
-  font-size: 1.25em;
   padding: 0px;
+  // text-align: center;
 }
 
-.sub-title-two span {
-  font-family: 'Montserrat Light', sans-serif;
+.sub-title-two p {
+  font-size: 1.25em;
+  font-family: 'Montserrat Thin', sans-serif;
 }
 
-@media only screen and (min-width: 481px) {
-
-  .title-one p {
-    font-size: 2.5em;
-    font-family: 'Montserrat Light', sans-serif;
-  }
-
-  .sub-title-one p {
-    font-size: 2.25em;
-  }
-
-  .title-two p {
-    font-size: 2.5em;
-    font-family: 'Montserrat Light', sans-serif;
-  }
-
-  .sub-title-two p {
-    font-size: 2.25em;
-  }
+.sub-title-two p span {
+  font-family: 'Montserrat', sans-serif;
 }
+// @media only screen and (min-width: 481px) {
+//   .title-one {
+//     font-size: 2.5em;
+//   }
+//
+//   .sub-title-one p {
+//     font-size: 1.25em;
+//     font-family: 'Montserrat Extra Light', sans-serif;
+//     margin: 0 0 20px 0;
+//   }
+//
+//   .sub-title-one p span {
+//     font-family: 'Montserrat', sans-serif;
+//   }
+//
+//   .title-two {
+//     font-size: 2.5em;
+//     font-family: 'Montserrat Thin', sans-serif;
+//     line-height: normal;
+//     padding: 0px;
+//     text-align: center;
+//   }
+//
+//   .sub-title-two p {
+//     font-size: 1.25em;
+//     font-family: 'Montserrat Extra Light', sans-serif;
+//   }
+//
+//   .sub-title-two p span {
+//     font-family: 'Montserrat', sans-serif;
+//   }
+// }
+/****************************/
 
 
-@media only screen and (min-width: 769px) {
+//   .title-one p {
+//     font-size: 1em;
+//     font-family: 'Montserrat Light', sans-serif;
+//   }
 
-  .header-container {
-    justify-content: center;
-    align-items: center;
-    // align-items: flex-start;
-    padding: 0;
-    // padding: 100px;
-  }
+  // .sub-title-one p {
+  //   font-size: 1em;
+  // }
 
-  .title-one p {
-    font-size: 3.75em;
-  }
+  // .title-two p {
+  //   font-size: 1em;
+  //   font-family: 'Montserrat Light', sans-serif;
+  // }
 
-  .sub-title-one p {
-    font-size: 2.5em;
-  }
+  // .sub-title-two p {
+  //   font-size: 1em;
+  // }
 
-  .title-two p {
-    font-size: 3.75em;
-  }
 
-  .sub-title-two p {
-    font-size: 2.5em;
-  }
+
+// @media only screen and (min-width: 769px) {
+//
+//   .header-container {
+//     justify-content: center;
+//     align-items: center;
+//     // align-items: flex-start;
+//     padding: 0;
+//     // padding: 100px;
+//   }
+//
+//   .title-one p {
+//     font-size: 1em;
+//     margin-bottom: 80px;
+//   }
+//
+//   .sub-title-one p {
+//     font-size: 1em;
+//   }
+//
+//   .title-two p {
+//     font-size: 1em;
+//   }
+//
+//   .sub-title-two p {
+//     font-size: 1em;
+//   }
   // .title-one p {
   //   font-size: 3.75em;
   //   margin-left: 45px;
@@ -123,7 +156,7 @@
   //   margin-left: 38px;
   // }
 
-}
+// }
 
 .text-shadow {
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);

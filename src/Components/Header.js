@@ -8,7 +8,7 @@ class Header extends Component {
           <p>Website Design</p>
         </div>
         <div className="sub-title-one">
-          <p>that tells <span>your story,</span></p>
+          <p>that tells <span>your story.</span></p>
         </div>
         <div className="title-two">
           <p>Developed,</p>
