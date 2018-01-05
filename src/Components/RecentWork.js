@@ -27,7 +27,7 @@ class Projects extends Component {
             </div>
 
             <div className="recent_work_service">
-              <img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" />
+              <a href="http://cryptoelevation.com"><img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" /></a>
             </div>
 
           </div>
