@@ -4,7 +4,7 @@ class Media extends Component {
   render() {
     return (
       <div>
-        <ul clsssName="media-container">
+        <ul>
           <li className="media-menu">
             <a href="https://www.linkedin.com/in/joshholladay/" target="_blank">LinkedIn</a>
           </li>
