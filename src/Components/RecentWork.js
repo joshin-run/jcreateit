@@ -19,15 +19,11 @@ class Projects extends Component {
             </div>
 
             <div className="recent_work_service">
-<<<<<<< HEAD
-              <a href="http://cryptoelevation.com"><img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" /></a>
-=======
               <div className="recent_work_services_content">
                 <p className="content-header align mobile-width">Crypto Elevation</p>
                 <p className="tech-stack all-caps align mobile-width">UX/UI Design, Sass, JavaScript Development</p>
                 <p className="recent_work_main_content align mobile-width">Crypto Elevation is a Global Cryptocurrency Opportunity that helps people all around the world create wealth, help others create wealth, and give back to our Choice Humanitarian cause.</p>
               </div>
->>>>>>> jdev
             </div>
 
           </div>
