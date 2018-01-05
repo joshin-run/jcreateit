@@ -175,7 +175,7 @@ body {
 .sub-title-one p {
   font-size: 1.25em;
   font-family: 'Montserrat Thin', sans-serif;
-  margin: 0 0 20px 0; }
+  margin: 0 0 30px 0; }
 
 .sub-title-one p span {
   font-family: 'Montserrat', sans-serif; }
@@ -193,6 +193,18 @@ body {
 .sub-title-two p span {
   font-family: 'Montserrat', sans-serif; }
 
+@media only screen and (min-width: 481px) {
+  .title-one {
+    font-size: 4.5em; }
+
+  .sub-title-one p {
+    font-size: 2.5em; }
+
+  .title-two {
+    font-size: 4.5em; }
+
+  .sub-title-two p {
+    font-size: 2.5em; } }
 /****************************/
 .text-shadow {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
@@ -299,6 +311,7 @@ ul {
 
 @media only screen and (min-width: 481px) {
   .navbar-wrapper {
+    padding: 0 24px;
     height: 75px; } }
 @media only screen and (min-width: 769px) {
   .navbar-wrapper {
@@ -809,7 +822,14 @@ template {
   width: inherit; }
 
 @media only screen and (min-width: 481px) {
+  .recent_work_container {
+    padding: 100px 30px 100px 30px;
+    align-items: center; }
+
   .recent_work_img {
+    width: 500px; }
+
+  .recent_work_services_content {
     width: 500px; } }
 @media only screen and (min-width: 769px) {
   .recent_work_container {
