@@ -1,0 +1,466 @@
+// /* .header-container {
+//   display: flex;
+//   flex-flow: column nowrap;
+//   justify-content: center;
+//   align-items: center;
+//   // width: 100vw;
+//   color: #fff;
+//   padding: 30px;
+//   // height: 90vh;
+//   // opacity: 50%;
+//   // padding: 25px;
+//   // margin-top: 50px;
+//   // border: 1px solid #fff;
+//   margin-top: 55px;
+// }
+//
+// .title-one {
+//   font-size: 1em;
+//   // border: 1px solid #000;
+//   background-color: white;
+//   color: black;
+//   // opacity: .7;
+//   // padding: 20px 30px;
+//   // width: 1040px;
+//   text-align: center;
+// }
+//
+// .title-one .first {
+//   background: #F6412D;
+//   color: #fff;
+// }
+//
+// .title-one .second {
+//   background: #212121;
+//   color: #6734B9;
+//   font-family: 'Montserrat Bold', sans-serif;
+//   padding-right: 5px;
+// }
+//
+// // .sub-title-one p {
+// //   font-size: 3.75em;
+// //   background-color: #000;
+// //   color: #fff;
+// //   // opacity: .7;
+// //   padding: 10px 20px;
+// //   // border: 1px solid #000;
+// //   // border-top: none;
+// // }
+//
+// .title-two {
+//   font-size: 1em;
+//   background-color: #000;
+//   color: #fff;
+//   // opacity: .7;
+//   // padding: 20px 30px;
+//   // border: 1px solid #fff;
+//   // border-bottom: none;
+//   // width: 1040px;
+//   text-align: center;
+// }
+//
+// .title-two .zero,
+// .title-one .zero {
+//   padding-left: 5px;
+// }
+//
+// .title-two .first {
+//   background: #CCDD20;
+//   color: #fff;
+// }
+//
+// .title-two .second {
+//   background: lightblue;
+//   // background: #fff;
+//   color: #795547;
+//   font-family: 'Montserrat Bold', sans-serif;
+//   padding-right: 5px;
+// }
+//
+// // .sub-title-two p {
+// //   font-size: 3.75em;
+// //   background-color: black;
+// //   color: #fff;
+// //   // opacity: .7;
+// //   padding: 10px 20px;
+// //   // border: 1px solid #fff;
+// // }
+//
+// // .hover-magic {
+// //   transition: 1s ease;
+// // }
+// //
+// // .hover-magic:hover {
+// //   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+// // }
+//
+// // .title-one {
+// //   font-size: 2em;
+// //   font-family: 'Montserrat Thin', sans-serif;
+// //   line-height:normal;
+// //   padding: 0;
+// //   // text-align: center;
+// // }
+//
+// // .sub-title-one p {
+// //   font-size: 1.25em;
+// //   font-family: 'Montserrat Thin', sans-serif;
+// //   margin: 0 0 10px 0;
+// // }
+//
+// // .sub-title-one p span {
+// //   font-family: 'Montserrat', sans-serif;
+// // }
+//
+// // .title-two {
+// //   font-size: 2em;
+// //   font-family: 'Montserrat Thin', sans-serif;
+// //   line-height: normal;
+// //   padding: 0px;
+// //   // text-align: center;
+// // }
+// //
+// // .sub-title-two p {
+// //   font-size: 1.25em;
+// //   font-family: 'Montserrat Thin', sans-serif;
+// // }
+// //
+// // .sub-title-two p span {
+// //   font-family: 'Montserrat', sans-serif;
+// // }
+// @media only screen and (min-width: 481px) {
+//
+//   .title-one {
+//     font-size: 2.35em;
+//     // border: 1px solid #000;
+//     background-color: white;
+//     color: black;
+//     // opacity: .7;
+//     // padding: 20px 30px;
+//     // width: 1040px;
+//     text-align: center;
+//   }
+//
+//   .title-one .first {
+//     background: #F6412D;
+//     color: #fff;
+//   }
+//
+//   .title-one .second {
+//     background: #212121;
+//     color: #6734B9;
+//     font-family: 'Montserrat Bold', sans-serif;
+//     padding-right: 5px;
+//   }
+//
+//   // .sub-title-one p {
+//   //   font-size: 3.75em;
+//   //   background-color: #000;
+//   //   color: #fff;
+//   //   // opacity: .7;
+//   //   padding: 10px 20px;
+//   //   // border: 1px solid #000;
+//   //   // border-top: none;
+//   // }
+//
+//   .title-two {
+//     font-size: 2.35em;
+//     background-color: #000;
+//     color: #fff;
+//     // opacity: .7;
+//     // padding: 20px 30px;
+//     // border: 1px solid #fff;
+//     // border-bottom: none;
+//     // width: 1040px;
+//     text-align: center;
+//   }
+//
+//   .title-two .zero,
+//   .title-one .zero {
+//     padding-left: 5px;
+//   }
+//
+//   .title-two .first {
+//     background: #CCDD20;
+//     color: #fff;
+//   }
+//
+//   .title-two .second {
+//     background: lightblue;
+//     // background: #fff;
+//     color: #795547;
+//     font-family: 'Montserrat Bold', sans-serif;
+//     padding-right: 5px;
+//   }
+//
+//   // .sub-title-two p {
+//   //   font-size: 3.75em;
+//   //   background-color: black;
+//   //   color: #fff;
+//   //   // opacity: .7;
+//   //   padding: 10px 20px;
+//   //   // border: 1px solid #fff;
+//   // }
+//
+// }
+//
+// //   .header-container {
+// //     padding: 40px;
+// //     margin-top: 75px
+// //   }
+// //
+// //   .title-one {
+// //     font-size: 4.5em;
+// //     font-family: 'Montserrat Extra Light', sans-serif;
+// //   }
+// //
+// //   .sub-title-one p {
+// //     font-size: 2.5em;
+// //   }
+// //
+// //   .title-two {
+// //     font-size: 4.5em;
+// //     font-family: 'Montserrat Extra Light', sans-serif;
+// //   }
+// //
+// //   .sub-title-two p {
+// //     font-size: 2.5em;
+// //   }
+// //
+// // }
+//
+// @media only screen and (min-width: 769px) {
+//
+//   .header-container {
+//     padding: 50px;
+//     border: none;
+//     text-align: center;
+//   }
+//
+// }
+// //   .title-one {
+// //     font-size: 3.5em;
+// //     // border: 1px solid #000;
+// //     background-color: white;
+// //     color: black;
+// //     // opacity: .7;
+// //     // padding: 20px 30px;
+// //     // width: 1040px;
+// //     text-align: center;
+// //   }
+// //
+// //   .title-one .first {
+// //     background: #F6412D;
+// //     color: #fff;
+// //   }
+// //
+// //   .title-one .second {
+// //     background: #212121;
+// //     color: #6734B9;
+// //     font-family: 'Montserrat Bold', sans-serif;
+// //     padding-right: 10px;
+// //   }
+// //
+// //   .sub-title-one p {
+// //     font-size: 3.75em;
+// //     background-color: #000;
+// //     color: #fff;
+// //     // opacity: .7;
+// //     padding: 10px 20px;
+// //     // border: 1px solid #000;
+// //     // border-top: none;
+// //   }
+// //
+// //   .title-two {
+// //     font-size: 3.5em;
+// //     background-color: #000;
+// //     color: #fff;
+// //     // opacity: .7;
+// //     // padding: 20px 30px;
+// //     // border: 1px solid #fff;
+// //     // border-bottom: none;
+// //     // width: 1040px;
+// //     text-align: center;
+// //   }
+// //
+// //   .title-two .zero,
+// //   .title-one .zero {
+// //     margin-left: 10px;
+// //   }
+// //
+// //   .title-two .first {
+// //     background: #CCDD20;
+// //     color: #fff;
+// //   }
+// //
+// //   .title-two .second, {
+// //     background: lightblue;
+// //     // background: #fff;
+// //     color: #795547;
+// //     font-family: 'Montserrat Bold', sans-serif;
+// //     padding-right: 10px;
+// //   }
+// //
+// //   .sub-title-two p {
+// //     font-size: 3.75em;
+// //     background-color: black;
+// //     color: #fff;
+// //     // opacity: .7;
+// //     padding: 10px 20px;
+// //     // border: 1px solid #fff;
+// //   }
+// //
+// // }
+//
+//
+//
+//
+//
+//
+//
+//
+// //   .title-one {
+// //     font-size: 2.5em;
+// //   }
+// //
+// //   .sub-title-one p {
+// //     font-size: 1.25em;
+// //     font-family: 'Montserrat Extra Light', sans-serif;
+// //     margin: 0 0 20px 0;
+// //   }
+// //
+// //   .sub-title-one p span {
+// //     font-family: 'Montserrat', sans-serif;
+// //   }
+// //
+// //   .title-two {
+// //     font-size: 2.5em;
+// //     font-family: 'Montserrat Thin', sans-serif;
+// //     line-height: normal;
+// //     padding: 0px;
+// //     text-align: center;
+// //   }
+// //
+// //   .sub-title-two p {
+// //     font-size: 1.25em;
+// //     font-family: 'Montserrat Extra Light', sans-serif;
+// //   }
+// //
+// //   .sub-title-two p span {
+// //     font-family: 'Montserrat', sans-serif;
+// //   }
+// // }
+// /****************************/
+//
+//
+// //   .title-one p {
+// //     font-size: 1em;
+// //     font-family: 'Montserrat Light', sans-serif;
+// //   }
+//
+//   // .sub-title-one p {
+//   //   font-size: 1em;
+//   // }
+//
+//   // .title-two p {
+//   //   font-size: 1em;
+//   //   font-family: 'Montserrat Light', sans-serif;
+//   // }
+//
+//   // .sub-title-two p {
+//   //   font-size: 1em;
+//   // }
+//
+//
+//
+// // @media only screen and (min-width: 769px) {
+// //
+// //   .header-container {
+// //     justify-content: center;
+// //     align-items: center;
+// //     // align-items: flex-start;
+// //     padding: 0;
+// //     // padding: 100px;
+// //   }
+// //
+// //   .title-one p {
+// //     font-size: 1em;
+// //     margin-bottom: 80px;
+// //   }
+// //
+// //   .sub-title-one p {
+// //     font-size: 1em;
+// //   }
+// //
+// //   .title-two p {
+// //     font-size: 1em;
+// //   }
+// //
+// //   .sub-title-two p {
+// //     font-size: 1em;
+// //   }
+//   // .title-one p {
+//   //   font-size: 3.75em;
+//   //   margin-left: 45px;
+//   // }
+//   //
+//   // .sub-title-one p {
+//   //   font-size: 2.5em;
+//   //   margin-left: 15px;
+//   // }
+//   //
+//   // .title-two p {
+//   //   font-size: 3.75em;
+//   //   margin-left: -15px;
+//   // }
+//   //
+//   // .sub-title-two p {
+//   //   font-size: 2.5em;
+//   //   margin-left: 38px;
+//   // }
+//
+// // }
+//
+// .text-shadow {
+//   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+// }
+//
+// .text-float {
+//   text-shadow: 0px 3px 0px #b2a98f,
+//                0px 14px 10px rgba(0,0,0,0.15),
+//                0px 24px 2px rgba(0,0,0,0.1),
+//                0px 34px 30px rgba(0,0,0,0.1);
+// }
+// =======
+//      <div className="header-container">
+      //   <div className="title-one">
+      //     <p>
+      //       <span className="zero">Website Design</span>
+      //       <span className="first">that tells</span>
+      //       <span className="second">your story.</span>
+      //     </p>
+      //   </div>
+      //   <div className="title-two">
+      //     <p>
+      //       <span className="zero">Developed,</span>
+      //       <span className="first">to change</span>
+      //       <span className="second">their world.</span>
+      //     </p>
+      //   </div>
+      // </div>
+//
+// //
+// <div className="header-container">
+//   <div className="title-one">
+//     <p>Website Design</p>
+//   </div>
+//   <div className="sub-title-one">
+//     <p>that tells <span>your story.</span></p>
+//   </div>
+//   <div className="title-two">
+//     <p>Developed,</p>
+//   </div>
+//   <div className="sub-title-two">
+//     <p>to change <span>their world.</span></p>
+//   </div>
+// </div> */

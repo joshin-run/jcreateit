@@ -163,11 +163,12 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  padding: 30px;
-  border: 1px solid #fff; }
+  padding: 70px 30px;
+  margin-top: 55px;
+  width: 100vw; }
 
 .title-one {
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'Montserrat Thin', sans-serif;
   line-height: normal;
   padding: 0; }
@@ -175,10 +176,10 @@ body {
 .sub-title-one p {
   font-size: 1.25em;
   font-family: 'Montserrat Thin', sans-serif;
-  margin: 0 0 30px 0; }
+  margin: 0 0 10px 0; }
 
 .sub-title-one p span {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat Light', sans-serif; }
 
 .title-two {
   font-size: 2.5em;
@@ -191,20 +192,43 @@ body {
   font-family: 'Montserrat Thin', sans-serif; }
 
 .sub-title-two p span {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat Light', sans-serif; }
 
 @media only screen and (min-width: 481px) {
+  .header-container {
+    padding: 80px 40px;
+    margin-top: 75px; }
+
   .title-one {
-    font-size: 4.5em; }
+    font-size: 4.75em;
+    font-family: 'Montserrat Thin', sans-serif; }
 
   .sub-title-one p {
     font-size: 2.5em; }
 
   .title-two {
-    font-size: 4.5em; }
+    font-size: 4.75em;
+    font-family: 'Montserrat Thin', sans-serif; }
 
   .sub-title-two p {
     font-size: 2.5em; } }
+@media only screen and (min-width: 769px) {
+  .header-container {
+    padding: 50px 100px; }
+
+  .title-one {
+    font-size: 8.5em;
+    font-family: 'Montserrat Light', sans-serif; }
+
+  .sub-title-one p {
+    font-size: 3.25em; }
+
+  .title-two {
+    font-size: 8.5em;
+    font-family: 'Montserrat Light', sans-serif; }
+
+  .sub-title-two p {
+    font-size: 3.25em; } }
 /****************************/
 .text-shadow {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
@@ -827,10 +851,20 @@ template {
     align-items: center; }
 
   .recent_work_img {
-    width: 500px; }
+    width: 500px;
+    margin-bottom: 55px; }
 
   .recent_work_services_content {
-    width: 500px; } }
+    width: 500px; }
+
+  .content-header {
+    font-size: 2em; }
+
+  .tech-stack {
+    font-size: 1em; }
+
+  .recent_work_main_content {
+    font-size: 1.25em; } }
 @media only screen and (min-width: 769px) {
   .recent_work_container {
     padding: 70px 30px 70px 30px;
@@ -840,7 +874,10 @@ template {
     text-align: left; }
 
   .recent_work_img {
-    width: 450px; } }
+    width: 750px; }
+
+  .recent_work_services_content {
+    width: 650px; } }
 .typed-cursor {
   opacity: 1;
   animation: typedjsBlink 0.7s infinite;

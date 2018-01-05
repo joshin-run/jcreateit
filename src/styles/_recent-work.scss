@@ -131,10 +131,23 @@
 
   .recent_work_img {
     width: 500px;
+    margin-bottom: 55px;
   }
 
   .recent_work_services_content {
     width: 500px;
+  }
+
+  .content-header {
+    font-size: 2em;
+  }
+
+  .tech-stack {
+    font-size: 1em;
+  }
+
+  .recent_work_main_content {
+    font-size: 1.25em;
   }
 
 }
@@ -151,7 +164,11 @@
   }
 
   .recent_work_img {
-    width: 450px;
+    width: 750px;
+  }
+
+  .recent_work_services_content {
+    width: 650px;
   }
 
 }
