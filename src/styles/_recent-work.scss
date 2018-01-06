@@ -52,6 +52,15 @@
   font-family: 'Montserrat Bold', sans-serif;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.recent_work_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: rgb(75,75,75);
 }
 
 .recent_work_services_container {
@@ -186,11 +195,11 @@
   }
 
   .tech-stack {
-    font-size: 1em;
+    font-size: .90em;
   }
 
   .recent_work_main_content {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
 }
@@ -198,24 +207,47 @@
 @media only screen and (min-width: 769px) {
 
   .recent_work_container {
-    padding: 90px 30px 70px 30px;
+    padding: 90px auto 70px auto;
     align-items: center;
   }
 
-  // .recent_work_services_container {
-  //   flex-flow: row;
-  // }
+  .recent_work_services_container {
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    // background: blue;
+    width: 1050px;
+  }
+
+  .recent_work_services_content {
+    width: 400px;
+    // background-color: yellow;
+    margin: 0;
+    padding: 0;
+  }
 
   .align {
     text-align: left;
   }
 
   .recent_work_img {
-    width: 750px;
+    width: 550px;
   }
 
-  .recent_work_services_content {
-    width: 650px;
+  // .recent_work_services_content {
+  //   width: 650px;
+  // }
+
+  .crypto-img {
+    order: 1;
+  }
+
+  .crypto-content {
+    order: 0;
+  }
+
+  .item-2 {
+    margin-top: 100px;
   }
 
 }

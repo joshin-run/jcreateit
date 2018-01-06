@@ -11,6 +11,7 @@ class WhatWeDo extends Component {
       <div id="what-we-do" className="wwd_container">
         <div className="wwd_header_container">
           <p className="wwd_header">What I Do</p>
+          <p className="wwd_header-sub">Front-end Web Design and Development</p>
         </div>
         <div className="wwd_services_container">
         <div className="wwd_service">
