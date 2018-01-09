@@ -1,0 +1,84 @@
+.testimonials_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  // background-color: #fff;
+  height: auto;
+  width: auto;
+  height: 100%;
+  padding: 120px 30px 120px 30px;
+  background-image: url(../images/tokyo.jpg);
+  // background-image: url(../images/people.jpeg);
+  background-size: 100%;
+  // -webkit-filter: blur(5px);
+  // -moz-filter: blur(5px);
+  // -o-filter: blur(5px);
+  // -ms-filter: blur(5px);
+  // background-image: blur(5px);
+}
+
+.testimonials_header_container {
+  width: auto;
+  height: auto;
+  padding: 20px 25px 0px 25px;
+  margin-bottom: 80px;
+  background-color: #fff;
+  // border-radius: 10px;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.testimonials_header {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.testimonials_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: rgb(75,75,75);
+}
+
+.testimonials-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  font-family: 'Josefin Sans Italic', sans-serif;
+  font-size: 1em;
+  padding: 20px;
+  background-color: #fff;
+  // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.1);
+  // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.2);
+  // border-radius: 10px;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.testimonial-ce-img {
+  height: auto;
+  width: 60%;
+  margin-bottom: 25px;
+}
+
+.testimonials-content p:nth-child(2) {
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+.testimonials-content p:nth-child(3) {
+  font-size: .90em;
+  font-family: 'Josefin Sans', sans-serif;
+  align-self: flex-start;
+}
+.testimonials-content p:nth-child(4) {
+  font-size: .90em;
+  font-family: 'Josefin Sans Bold', sans-serif;
+  align-self: flex-start;
+}

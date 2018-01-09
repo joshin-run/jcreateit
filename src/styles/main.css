@@ -85,9 +85,6 @@ body {
   height: auto; }
 
 @font-face {
-  font-family: 'Julius Sans One';
-  src: url(../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf); }
-@font-face {
   font-family: 'Montserrat Thin';
   src: url(../fonts/Montserrat/Montserrat-Thin.otf); }
 @font-face {
@@ -117,6 +114,21 @@ body {
 @font-face {
   font-family: 'Montserrat Alternates Bold';
   src: url(../fonts/MontserratAlternates/MontserratAlternates-Bold.otf); }
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url(../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf); }
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf); }
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf); }
+@font-face {
+  font-family: 'Josefin Sans Italic';
+  src: url(../fonts/Josefin_Sans/JosefinSans-Italic.ttf); }
+@font-face {
+  font-family: 'Josefin Sans Bold';
+  src: url(../fonts/Josefin_Sans/JosefinSans-Bold.ttf); }
 .footer-wrapper {
   background-color: #43A3FF; }
 
@@ -767,7 +779,6 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   background-color: #dcedff;
   height: auto;
   width: 100%;
@@ -920,6 +931,73 @@ template {
 
   .item-2 {
     margin-top: 100px; } }
+.testimonials_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  height: 100%;
+  padding: 120px 30px 120px 30px;
+  background-image: url(../images/tokyo.jpg);
+  background-size: 100%; }
+
+.testimonials_header_container {
+  width: auto;
+  height: auto;
+  padding: 20px 25px 0px 25px;
+  margin-bottom: 80px;
+  background-color: #fff;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4); }
+
+.testimonials_header {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.testimonials_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: #4b4b4b; }
+
+.testimonials-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  font-family: 'Josefin Sans Italic', sans-serif;
+  font-size: 1em;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4); }
+
+.testimonial-ce-img {
+  height: auto;
+  width: 60%;
+  margin-bottom: 25px; }
+
+.testimonials-content p:nth-child(2) {
+  margin-bottom: 20px;
+  align-self: flex-start; }
+
+.testimonials-content p:nth-child(3) {
+  font-size: .90em;
+  font-family: 'Josefin Sans', sans-serif;
+  align-self: flex-start; }
+
+.testimonials-content p:nth-child(4) {
+  font-size: .90em;
+  font-family: 'Josefin Sans Bold', sans-serif;
+  align-self: flex-start; }
+
 .typed-cursor {
   opacity: 1;
   animation: typedjsBlink 0.7s infinite;
