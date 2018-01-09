@@ -168,7 +168,7 @@ body {
   width: 100vw; }
 
 .title-one {
-  font-size: 2.5em;
+  font-size: 2.25em;
   font-family: 'Montserrat Light', sans-serif;
   line-height: normal;
   padding: 0; }
@@ -182,7 +182,7 @@ body {
   font-family: 'Montserrat Light', sans-serif; }
 
 .title-two {
-  font-size: 2.5em;
+  font-size: 2.25em;
   font-family: 'Montserrat Light', sans-serif;
   line-height: normal;
   padding: 0px; }
@@ -769,7 +769,6 @@ template {
   align-items: center;
   width: 100vw;
   background-color: #dcedff;
-  padding: 5em 0em 5em 0em;
   height: auto;
   width: 100%;
   padding: 50px 30px 65px 30px; }
@@ -784,7 +783,7 @@ template {
   width: 100%;
   height: auto;
   padding: 15px;
-  margin-bottom: 60px; }
+  margin-bottom: 38px; }
 
 .recent_work_header {
   font-size: 2.25em;
