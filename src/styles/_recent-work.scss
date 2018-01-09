@@ -182,13 +182,14 @@
     align-items: center;
   }
 
-  .recent_work_img {
-    width: 500px;
-    margin-bottom: 55px;
-  }
+  // .recent_work_img {
+  //   width: 500px;
+  //   margin-bottom: 55px;
+  // }
 
   .recent_work_services_content {
-    width: 500px;
+    width: 100%;
+    max-width: 500px
   }
 
   .content-header {
@@ -205,7 +206,15 @@
 
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 600px) {
+  .recent_work_img {
+    width: 500px;
+    margin-bottom: 55px;
+  }
+}
+
+@media only screen and (min-width: 1126px) {
+// @media only screen and (min-width: 769px) {
 
   .recent_work_container {
     padding: 90px auto 70px auto;
