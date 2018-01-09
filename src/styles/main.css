@@ -354,7 +354,7 @@ ul {
   .navbar-wrapper {
     padding: 0 24px;
     height: 75px; } }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1025px) {
   .navbar-wrapper {
     padding: 0 90px 0 90px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
