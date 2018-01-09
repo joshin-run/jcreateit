@@ -27,7 +27,7 @@
 
 .title-one {
   font-size: 2.5em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   line-height:normal;
   padding: 0;
   // text-align: center;
@@ -45,7 +45,7 @@
 
 .title-two {
   font-size: 2.5em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   line-height: normal;
   padding: 0px;
   // text-align: center;
@@ -67,51 +67,51 @@
   }
 
   .title-one {
-    font-size: 4.75em;
-    font-family: 'Montserrat Thin', sans-serif;
+    font-size: 3.15em;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .sub-title-one p {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .title-two {
-    font-size: 4.75em;
-    font-family: 'Montserrat Thin', sans-serif;
+    font-size: 3.15em;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .sub-title-two p {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
 }
 
-// @media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) {
 
-  // .header-container {
-  //   padding: 50px 100px;
-  //   // border: 1px solid #fff;
-  // }
-  //
-  // .title-one {
-  //   font-size: 8.5em;
-  //   font-family: 'Montserrat Light', sans-serif;
-  // }
-  //
-  // .sub-title-one p {
-  //   font-size: 3.25em;
-  // }
-  //
-  // .title-two {
-  //   font-size: 8.5em;
-  //   font-family: 'Montserrat Light', sans-serif;
-  // }
-  //
-  // .sub-title-two p {
-  //   font-size: 3.25em;
-  // }
+  .header-container {
+    padding: 50px 100px;
+    // border: 1px solid #fff;
+  }
 
-// }
+  .title-one {
+    font-size: 4.5em;
+    font-family: 'Montserrat Light', sans-serif;
+  }
+
+  .sub-title-one p {
+    font-size: 3em;
+  }
+
+  .title-two {
+    font-size: 4.5em;
+    font-family: 'Montserrat Light', sans-serif;
+  }
+
+  .sub-title-two p {
+    font-size: 3em;
+  }
+
+}
 
 @media only screen and (min-width: 1125px) {
 
@@ -121,21 +121,21 @@
   }
 
   .title-one {
-    font-size: 8.5em;
+    font-size: 6.05em;
     font-family: 'Montserrat Light', sans-serif;
   }
 
   .sub-title-one p {
-    font-size: 3.25em;
+    font-size: 3.05em;
   }
 
   .title-two {
-    font-size: 8.5em;
+    font-size: 6.05em;
     font-family: 'Montserrat Light', sans-serif;
   }
 
   .sub-title-two p {
-    font-size: 3.25em;
+    font-size: 3.05em;
   }
 
 }
