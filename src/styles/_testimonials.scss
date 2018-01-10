@@ -17,11 +17,8 @@
 .testimonials_header_container {
   width: auto;
   height: auto;
-  padding: 20px 25px 0px 25px;
+  padding: 0px 25px 0px 25px;
   margin-bottom: 80px;
-  background-color: #fff;
-  border-radius: 10px;
-  // box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
 }
 
 .testimonials_header {
@@ -30,6 +27,8 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 10px;
+  color: #fff;
+  // color: #000;
 }
 
 .testimonials_header-sub {
@@ -37,7 +36,9 @@
   font-family: 'Montserrat Light', sans-serif;
   font-size: 1.45em;
   margin-bottom: 20px;
-  color: rgb(75,75,75);
+  // color: #fff;
+  color: rgb(223,223,223);
+  // color: rgb(50,50,50);
 }
 
 .testimonials-content {
