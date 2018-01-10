@@ -12,7 +12,7 @@ class Footer extends Component {
           </div>
           <Media />
         </div>
-        <p className="copy">J Create It, LLC &copy; 2017</p>
+        <p className="copy">J Create It, LLC &copy; 2018</p>
       </div>
     );
   }

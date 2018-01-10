@@ -4,19 +4,14 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  // background-color: #fff;
-  height: auto;
-  width: auto;
-  height: 100%;
   padding: 120px 30px 120px 30px;
   background-image: url(../images/tokyo.jpg);
-  // background-image: url(../images/people.jpeg);
-  background-size: 100%;
-  // -webkit-filter: blur(5px);
-  // -moz-filter: blur(5px);
-  // -o-filter: blur(5px);
-  // -ms-filter: blur(5px);
-  // background-image: blur(5px);
+  height: auto;
+  width: auto;
+  z-index: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .testimonials_header_container {
@@ -25,8 +20,8 @@
   padding: 20px 25px 0px 25px;
   margin-bottom: 80px;
   background-color: #fff;
-  // border-radius: 10px;
-  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  // box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
 }
 
 .testimonials_header {
@@ -58,8 +53,8 @@
   background-color: #fff;
   // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.1);
   // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.2);
-  // border-radius: 10px;
-  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  // box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.4);
 }
 
 .testimonial-ce-img {

@@ -1,16 +1,16 @@
-.wwd_container {
+.personal_projects_container {
   height: auto;
   padding: 50px 30px 30px 30px;
-  background-color: #fff;
 }
 
-.wwd_header_container {
+.personal_projects_header_container {
   width: auto;
   height: auto;
   padding: 15px;
+  // background-color: red;
 }
 
-.wwd_header {
+.personal_projects_header {
   font-size: 2.25em;
   font-family: 'Montserrat Bold', sans-serif;
   text-align: center;
@@ -18,7 +18,7 @@
   margin-bottom: 20px;
 }
 
-.wwd_header-sub {
+.personal_projects_header-sub {
   text-align: center;
   font-family: 'Montserrat Light', sans-serif;
   font-size: 1.45em;
@@ -26,7 +26,7 @@
   color: rgb(75,75,75);
 }
 
-.wwd_services_container {
+.personal_projects_services_container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -34,9 +34,10 @@
   height: auto;
   width: 100%;
   margin: 0;
+  // background-color: pink;
 }
 
-.wwd_service {
+.personal_projects_service {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -45,7 +46,7 @@
   margin: 20px 20px 40px 20px;
 }
 
-.wwd_services_content {
+.personal_projects_services_content {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -59,10 +60,10 @@
   font-family: 'Montserrat Light', sans-serif;
 }
 
-.wwd-img {
-  height: 145px;
-  width: auto;
-  padding: 10px;
+.personal_projects-img {
+  height: auto;
+  width: 215px;
+  // padding: 10px;
   align-items: center;
   margin: 15px 10px 10px 10px;
   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -70,21 +71,17 @@
   background-color: #ededed;
 }
 
-.wwd-img:hover {
-
-  // box-shadow: none;
+.personal_projects-img:hover {
   box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.5);
-
-  // box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
-  .wwd_container {
+  .personal_projects_container {
     padding: 100px 30px 70px 30px;
   }
 
-  .wwd_services_content {
+  .personal_projects_services_content {
     font-size: 1em;
     line-height: 1.4;
     width: 300px;
