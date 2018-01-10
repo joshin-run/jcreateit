@@ -812,6 +812,10 @@ template {
   line-height: 1.8;
   font-family: 'Montserrat Light', sans-serif; }
 
+.personal_projects_services_content .tech-stack {
+  font-size: .85em;
+  color: #323232; }
+
 .personal_projects-img {
   height: auto;
   width: 215px;
