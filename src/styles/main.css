@@ -327,7 +327,7 @@ ul {
 .mobile-menu-icon {
   height: 20px;
   width: 15px;
-  display: none; }
+  display: block; }
 
 a {
   text-decoration: none;

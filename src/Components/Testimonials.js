@@ -9,7 +9,7 @@ class NavMenu extends Component {
 
           <div className="testimonials_header_container">
             <p className="testimonials_header">Testimonials</p>
-            <p className="testimonials_header-sub">Here's what people are saying</p>
+            <p className="testimonials_header-sub">What people are saying.</p>
           </div>
 
           <div className="testimonials-content">

@@ -10,7 +10,7 @@ class WhatWeDo extends Component {
       <div id="personal_projects" className="personal_projects_container">
         <div className="personal_projects_header_container">
           <p className="personal_projects_header">Personal Projects</p>
-          <p className="personal_projects_header-sub">Ideas, Interests and Experiments</p>
+          <p className="personal_projects_header-sub">Interests, Ideas and Experiments.</p>
         </div>
         <div className="personal_projects_services_container">
           <div className="personal_projects_service">
