@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/biz-logos/jcreateit-jcube-blue-darker.svg'
+import logo from '../images/tri-j-logo-mid2j.png'
 import Media from './Media'
 
 class Footer extends Component {

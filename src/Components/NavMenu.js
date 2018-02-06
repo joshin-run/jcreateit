@@ -1,7 +1,20 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 class NavMenu extends Component {
   render() {
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 375) {
+          $(".navbar-wrapper").css("background" , "rgb(115,154,247)");
+        }
+
+        else{
+          $(".navbar-wrapper").css("background" , "none");
+        }
+      })
+    })
     return (
       <ul className="menu nav-style">
         <li className="nav-menu"><a href="#home">Home</a></li>

@@ -5,16 +5,16 @@ class Header extends Component {
     return (
       <div className="header-container">
         <div className="title-one">
-          <p>Website Design</p>
+          <p>WEBSITE DESIGN</p>
         </div>
         <div className="sub-title-one">
-          <p>that tells <span>your story.</span></p>
+          <p>that tells <span>your story</span></p>
         </div>
         <div className="title-two">
-          <p>Developed,</p>
+          <p>DEVELOPED</p>
         </div>
         <div className="sub-title-two">
-          <p>to change <span>their world.</span></p>
+          <p>to change <span>their world</span></p>
         </div>
       </div>
     );
