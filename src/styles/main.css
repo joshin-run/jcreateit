@@ -10,22 +10,30 @@ a:link {
   align-items: center; }
 
 #home {
-  height: 90vh;
-  width: auto; }
-
-.hero-banner {
+  width: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  background-image: url(../images/banner/slides/slc-min-blue12-min.jpg);
-  height: 90vh;
+  align-items: center; }
+
+.hero-banner {
+  background: url(../images/banner/slc.jpg);
+  height: 100vh;
   width: auto;
-  z-index: 0;
+  z-index: 99;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.banner-gradient {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  background: linear-gradient(to right, rgba(115, 154, 247, 0.7), rgba(81, 88, 80, 0.7));
+  height: 100vh; }
 
 .bio-content {
   height: 300px;
@@ -175,92 +183,74 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  padding: 70px 30px;
-  margin-top: 55px;
   width: 100vw; }
 
 .title-one {
   font-size: 2.25em;
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   line-height: normal;
   padding: 0; }
 
 .sub-title-one p {
   font-size: 1.25em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   margin: 0 0 10px 0; }
 
 .sub-title-one p span {
-  font-family: 'Montserrat Light', sans-serif; }
+  font-family: 'Montserrat Bold', sans-serif; }
 
 .title-two {
   font-size: 2.25em;
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   line-height: normal;
   padding: 0px; }
 
 .sub-title-two p {
   font-size: 1.25em;
-  font-family: 'Montserrat Thin', sans-serif; }
+  font-family: 'Montserrat Light', sans-serif;
+  weight: bold; }
 
 .sub-title-two p span {
-  font-family: 'Montserrat Light', sans-serif; }
+  font-family: 'Montserrat Bold', sans-serif; }
 
 @media only screen and (min-width: 481px) {
-  .header-container {
-    padding: 80px 40px;
-    margin-top: 75px; }
-
   .title-one {
-    font-size: 3.15em;
-    font-family: 'Montserrat', sans-serif; }
+    font-size: 3.15em; }
 
   .sub-title-one p {
     font-size: 2em; }
 
   .title-two {
-    font-size: 3.15em;
-    font-family: 'Montserrat', sans-serif; }
+    font-size: 3.15em; }
 
   .sub-title-two p {
     font-size: 2em; } }
 @media only screen and (min-width: 769px) {
-  .header-container {
-    padding: 50px 100px; }
-
   .title-one {
-    font-size: 4.5em;
-    font-family: 'Montserrat Light', sans-serif; }
+    font-size: 4.5em; }
 
   .sub-title-one p {
     font-size: 3em; }
 
   .title-two {
-    font-size: 4.5em;
-    font-family: 'Montserrat Light', sans-serif; }
+    font-size: 4.5em; }
 
   .sub-title-two p {
     font-size: 3em; } }
 @media only screen and (min-width: 1125px) {
-  .header-container {
-    padding: 50px 100px; }
-
   .title-one {
-    font-size: 6.05em;
-    font-family: 'Montserrat Light', sans-serif; }
+    font-size: 6.05em; }
 
   .sub-title-one p {
     font-size: 3.05em; }
 
   .title-two {
-    font-size: 6.05em;
-    font-family: 'Montserrat Light', sans-serif; }
+    font-size: 6.05em; }
 
   .sub-title-two p {
     font-size: 3.05em; } }
-/****************************/
 .text-shadow {
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+  text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.3); }
 
 .text-float {
   text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1); }
@@ -309,17 +299,16 @@ ul {
 
 .nav-style {
   font-size: 1em;
-  font-family: 'futura';
-  color: #14283c;
   font-weight: bolder; }
 
 .nav-menu {
   position: relative;
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: .9em;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
-  transition: all 0.5s ease 0s; }
+  transition: all 0.5s ease 0s;
+  color: #fff; }
 
 .nav-menu:hover {
   color: gray; }
@@ -354,21 +343,17 @@ ul {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  align-self: flex-start;
   height: 55px;
   width: 100vw;
-  background-color: #fff;
+  background-color: none;
   border-width: 0px;
-  padding: 12px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-  position: fixed; }
+  position: relative; }
 
 @media only screen and (min-width: 481px) {
   .navbar-wrapper {
     padding: 0 24px;
     height: 75px; } }
-@media only screen and (min-width: 1025px) {
-  .navbar-wrapper {
-    padding: 0 90px 0 90px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

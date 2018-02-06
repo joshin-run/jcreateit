@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/biz-logos/j_create_it-logo.jpg'
+import logo from '../images/tri-j-logo-midj.png'
 
 class NavLogo extends Component {
   render() {
