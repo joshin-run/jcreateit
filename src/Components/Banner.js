@@ -7,7 +7,7 @@ class Banner extends Component {
     return (
       <div id="banner">
         <div className="hero-banner">
-          <section id="home" data-type="background" data-speed="10" className="banner-gradient pages">
+          <section className="banner-gradient pages">
             <Navbar />
             <Header />
           </section>

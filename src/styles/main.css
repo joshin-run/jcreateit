@@ -9,14 +9,6 @@ a:link {
   justify-content: center;
   align-items: center; }
 
-#home {
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; }
-
 .hero-banner {
   background: url(../images/banner/slc.jpg);
   height: 100vh;
@@ -183,37 +175,41 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  width: 100vw; }
+  width: 100vw;
+  height: calc(100% - 75px); }
 
 .title-one {
   font-size: 2.25em;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: normal;
   padding: 0; }
 
 .sub-title-one p {
   font-size: 1.25em;
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat Thin', sans-serif;
   margin: 0 0 10px 0; }
 
 .sub-title-one p span {
-  font-family: 'Montserrat Bold', sans-serif; }
+  font-family: 'Montserrat Light', sans-serif; }
 
 .title-two {
   font-size: 2.25em;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: normal;
   padding: 0px; }
 
 .sub-title-two p {
   font-size: 1.25em;
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat Thin', sans-serif;
   weight: bold; }
 
 .sub-title-two p span {
-  font-family: 'Montserrat Bold', sans-serif; }
+  font-family: 'Montserrat Light', sans-serif; }
 
 @media only screen and (min-width: 481px) {
+  .header-container {
+    height: calc(100% - 125px); }
+
   .title-one {
     font-size: 3.15em; }
 
@@ -250,7 +246,7 @@ body {
   .sub-title-two p {
     font-size: 3.05em; } }
 .text-shadow {
-  text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.3); }
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); }
 
 .text-float {
   text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1); }
@@ -298,20 +294,18 @@ ul {
   display: none; }
 
 .nav-style {
-  font-size: 1em;
+  font-family: 'Montserrat Thin', sans-serif;
   font-weight: bolder; }
 
 .nav-menu {
   position: relative;
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: .9em;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
-  transition: all 0.5s ease 0s;
+  transition: all 0.2s ease 0s;
   color: #fff; }
 
 .nav-menu:hover {
-  color: gray; }
+  background: #73bbf7; }
 
 .mobile-menu-icon {
   height: 20px;
