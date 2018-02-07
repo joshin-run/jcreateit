@@ -31,8 +31,9 @@
 
 .title-one {
   font-size: 2.25em;
-  font-family: 'Montserrat Extra Light', sans-serif;
+  font-family: 'Josefin Sans Italic';
   // font-family: 'Montserrat Extra Light', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
   line-height:normal;
   padding: 0;
   // text-align: center;
@@ -43,25 +44,31 @@
   font-family: 'Montserrat Thin', sans-serif;
   weight: 100;
   // font-family: 'Montserrat Thin', sans-serif;
-  margin: 0 0 10px 0;
+  margin: 0 0 30px 0;
 }
 
 .sub-title-one p span {
-  font-family: 'Montserrat', sans-serif;
-  // font-family: 'Montserrat Light', sans-serif;
-  // border-bottom: 5px dotted orange;
+  font-family: 'Montserrat Thin', sans-serif;
+  border-bottom: 5px dotted rgba(255,255,0,0.8);
+  // background: rgba(255,174,25, 0.4);
+  // background: rgba(255,255,100,0.8);
+  // border-bottom: 5px solid rgba(255,255,0,0.4);
+
   // border-bottom: 5px dotted rgba(255,174,25, 1);
+  // font-family: 'Montserrat Light', sans-serif;
+  // border-bottom: 5px dotted yellow;
 
   // background: rgba(150,150,255, 0.5);
-  // background: rgba(255,174,25, 0.4);
+
 
   // background: rgba(200,200,200,.5);
 }
 
 .title-two {
   font-size: 2.25em;
-  font-family: 'Montserrat Extra Light', sans-serif;
-  // font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Josefin Sans Italic';
+  // font-family: 'Montserrat', sans-serif;
+  // font-family: 'Montserrat Extra Light', sans-serif;
   line-height: normal;
   padding: 0px;
   // text-align: center;
@@ -74,12 +81,11 @@
 }
 
 .sub-title-two p span {
-  font-family: 'Montserrat', sans-serif;
-  // border-bottom: 5px dotted rgba(255,255,0,1);
+  font-family: 'Montserrat Thin', sans-serif;
+  // background: rgba(255,255,0,.4);
+  border-bottom: 5px dotted rgba(255,255,0,0.8);
 
   // background: rgba(150,150,255,.5);
-  // background: rgba(255,255,0,.4);
-
   // background: rgba(255,255,102,.7);
   // background: rgba(200,200,200,.5);
 }

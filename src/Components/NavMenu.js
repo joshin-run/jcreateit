@@ -8,10 +8,17 @@ class NavMenu extends Component {
         var scroll = $(window).scrollTop();
         if (scroll > 375) {
           $(".navbar-wrapper").css("background" , "rgb(115,154,247)");
+          $(".navbar-wrapper").css("height" , "50px");
+          $(".navbar-wrapper").css("box-shadow" , "0px 2px 8px rgba(0,0,0,0.2)");
+          $(".logo-img").css("height" , "30px");
+          $(".logo-img").css("transition" , "0.5s ease-in-out");
         }
 
         else{
           $(".navbar-wrapper").css("background" , "none");
+          $(".navbar-wrapper").css("height" , "75px");
+          $(".navbar-wrapper").css("box-shadow" , "none");
+          $(".logo-img").css("height" , "45px");
         }
       })
     })
