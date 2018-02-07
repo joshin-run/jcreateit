@@ -10,7 +10,7 @@ a:link {
   align-items: center; }
 
 .hero-banner {
-  background: url(../images/banner/lone-land.jpg);
+  background: url(../images/banner/ice.jpg);
   height: 100vh;
   width: auto;
   z-index: 99;
@@ -25,7 +25,7 @@ a:link {
   left: 0;
   height: 100vh;
   background: #000;
-  background: linear-gradient(to right, rgba(71, 186, 255, 0.8), rgba(6, 190, 120, 0.7)); }
+  background: linear-gradient(to right, rgba(71, 186, 255, 0.9), rgba(6, 190, 120, 0.7)); }
 
 .bio-content {
   height: 300px;
