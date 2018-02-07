@@ -23,9 +23,9 @@ a:link {
   right: 0;
   bottom: 0;
   left: 0;
+  height: 100vh;
   background: #000;
-  background: linear-gradient(to right, rgba(71, 186, 255, 0.8), rgba(6, 190, 120, 0.7));
-  height: 100vh; }
+  background: linear-gradient(to right, rgba(71, 186, 255, 0.8), rgba(6, 190, 120, 0.7)); }
 
 .bio-content {
   height: 300px;
@@ -945,6 +945,10 @@ template {
   margin-bottom: 50px; }
 
 .item-2 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.item-3 {
   margin-top: 50px; }
 
 .all-caps {
@@ -1006,6 +1010,9 @@ template {
     order: 0; }
 
   .item-2 {
+    margin-top: 100px; }
+
+  .item-3 {
     margin-top: 100px; } }
 .testimonials_container {
   display: flex;

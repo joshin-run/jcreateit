@@ -116,35 +116,17 @@
   font-family: 'Montserrat Light', sans-serif;
 }
 
-// <<<<<<< HEAD
-// .recent_work_img {
-//   height: 250px;
-//   width: auto;
-//   // padding: 10px;
-//   align-items: center;
-//   // margin: 15px 10px 10px 10px;
-//   box-shadow: -1px 3px 15px rgba(0, 0, 0, 0.5);
-//   transition: 0.2s;
-// }
-//
-// .recent_work_img:hover {
-//   box-shadow: -1px 6px 30px rgba(0, 0, 0, 0.5);
-// }
-//
-// =======
-// >>>>>>> jdev
 .item-1 {
   margin-bottom: 50px;
 }
 
 .item-2 {
-// <<<<<<< HEAD
-//   margin-top: 90px;
-//   margin-bottom: 30px;
-//   padding-bottom: 0px;
-// =======
   margin-top: 50px;
-// >>>>>>> jdev
+  margin-bottom: 50px;
+}
+
+.item-3 {
+  margin-top: 50px;
 }
 
 .all-caps {
@@ -240,7 +222,13 @@
     order: 0;
   }
 
+  // .item-1 {
+  //   margin-top: 100px;
+  // }
   .item-2 {
+    margin-top: 100px;
+  }
+  .item-3 {
     margin-top: 100px;
   }
 
