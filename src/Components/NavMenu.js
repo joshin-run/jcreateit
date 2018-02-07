@@ -6,12 +6,12 @@ class NavMenu extends Component {
     $(document).ready(function(){
       $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 375) {
+        if (scroll > 200) {
           $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(6,190,155,1))");
           $(".navbar-wrapper").css("height" , "50px");
           $(".navbar-wrapper").css("box-shadow" , "0px 2px 8px rgba(0,0,0,0.2)");
           $(".logo-img").css("height" , "30px");
-          $(".logo-img").css("transition" , "0.5s ease-in-out");
+          $(".logo-img").css("transition" , "0.25s ease-in-out");
         }
 
         else{

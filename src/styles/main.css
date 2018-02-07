@@ -203,21 +203,18 @@ body {
   line-height: normal;
   padding: 0; }
 
-.ampersand {
-  font-size: 6em;
-  font-family: 'Sue Ellen Francisco';
-  line-height: .75; }
-
 .sub-title-one p {
   font-size: 1.25em;
   font-family: 'Montserrat Thin', sans-serif;
-  weight: 100; }
+  weight: 100;
+  margin: 0 0 30px 0; }
 
 .sub-title-one p span {
   font-family: 'Montserrat Light', sans-serif; }
 
 .title-two {
   font-size: 2.25em;
+  font-family: 'Josefin Sans Italic';
   line-height: normal;
   padding: 0px; }
 
@@ -255,16 +252,16 @@ body {
     font-size: 3em; } }
 @media only screen and (min-width: 1125px) {
   .title-one {
-    font-size: 6.05em; }
+    font-size: 5.05em; }
 
   .sub-title-one p {
-    font-size: 3.05em; }
+    font-size: 2.25em; }
 
   .title-two {
-    font-size: 6.05em; }
+    font-size: 5.05em; }
 
   .sub-title-two p {
-    font-size: 3.05em; } }
+    font-size: 2.25em; } }
 .text-shadow {
   text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.3); }
 
@@ -331,7 +328,7 @@ ul {
 .mobile-menu-icon {
   height: 20px;
   width: 15px;
-  display: block; }
+  display: none; }
 
 a {
   text-decoration: none;
@@ -364,11 +361,12 @@ ul {
   background-color: none;
   border-width: 0px;
   position: fixed;
-  transition: 0.5s ease-in-out; }
+  transition: 0.25s ease-in-out;
+  padding: 0 20px; }
 
 @media only screen and (min-width: 481px) {
   .navbar-wrapper {
-    padding: 0 24px;
+    padding: 0 20px;
     height: 75px; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
