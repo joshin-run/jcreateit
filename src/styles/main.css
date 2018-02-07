@@ -210,11 +210,11 @@ body {
 
 .sub-title-one p {
   font-size: 1.25em;
-  font-family: 'Josefin Sans Italic';
+  font-family: 'Montserrat Thin', sans-serif;
   weight: 100; }
 
 .sub-title-one p span {
-  font-family: 'Josefin Sans Bold'; }
+  font-family: 'Montserrat Light', sans-serif; }
 
 .title-two {
   font-size: 2.25em;
@@ -223,11 +223,11 @@ body {
 
 .sub-title-two p {
   font-size: 1.25em;
-  font-family: 'Josefin Sans Italic';
+  font-family: 'Montserrat Thin', sans-serif;
   weight: bold; }
 
 .sub-title-two p span {
-  font-family: 'Josefin Sans Bold'; }
+  font-family: 'Montserrat Light', sans-serif; }
 
 @media only screen and (min-width: 481px) {
   .title-one {
