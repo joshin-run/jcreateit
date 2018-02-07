@@ -31,6 +31,7 @@
 
 .title-one {
   font-size: 2.25em;
+  // font-family: 'Sue Ellen Francisco';
   font-family: 'Josefin Sans Italic';
   // font-family: 'Montserrat Extra Light', sans-serif;
   // font-family: 'Montserrat', sans-serif;
@@ -39,21 +40,34 @@
   // text-align: center;
 }
 
+.ampersand {
+  font-size: 6em;
+  font-family: 'Sue Ellen Francisco';
+  line-height: .75;
+}
+
 .sub-title-one p {
   font-size: 1.25em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Josefin Sans Italic';
+  // font-family: 'Azedo Light', sans-serif;
+  // font-family: 'Montserrat Thin', sans-serif;
   weight: 100;
   // font-family: 'Montserrat Thin', sans-serif;
-  margin: 0 0 30px 0;
+
+
 }
 
 .sub-title-one p span {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Josefin Sans Bold';
+  // font-family: 'Azedo Bold', sans-serif;
+  // font-family: 'Montserrat Thin', sans-serif;
   // border-bottom: 5px dotted rgba(255,255,255,1);
 
   // border-bottom: 5px dotted rgba(255,255,0,1);
 
   // background: rgba(255,174,25, 0.4);
+  // background: rgba(255,255,255, 0.7);
+  // color: rgb(150,150,150);
   // background: rgba(255,255,100,0.8);
   // border-bottom: 5px solid rgba(255,255,0,0.4);
 
@@ -69,7 +83,7 @@
 
 .title-two {
   font-size: 2.25em;
-  font-family: 'Josefin Sans Italic';
+  // font-family: 'Sue Ellen Francisco';
   // font-family: 'Montserrat', sans-serif;
   // font-family: 'Montserrat Extra Light', sans-serif;
   line-height: normal;
@@ -79,12 +93,16 @@
 
 .sub-title-two p {
   font-size: 1.25em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Josefin Sans Italic';
+  // font-family: 'Azedo Light', sans-serif;
+  // font-family: 'Montserrat Thin', sans-serif;
   weight: bold;
 }
 
 .sub-title-two p span {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Josefin Sans Bold';
+  // font-family: 'Azedo Bold', sans-serif;
+  // font-family: 'Montserrat Thin', sans-serif;
   // background: rgba(255,255,0,.4);
 
   // border-bottom: 5px dotted rgba(255,255,255,1);
@@ -158,21 +176,21 @@
   }
 
   .title-one {
-    font-size: 5.05em;
+    font-size: 6.05em;
     // font-family: 'Montserrat Light', sans-serif;
   }
 
   .sub-title-one p {
-    font-size: 2.55em;
+    font-size: 3.05em;
   }
 
   .title-two {
-    font-size: 5.05em;
+    font-size: 6.05em;
     // font-family: 'Montserrat Light', sans-serif;
   }
 
   .sub-title-two p {
-    font-size: 2.55em;
+    font-size: 3.05em;
   }
 
 }
