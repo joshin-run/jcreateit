@@ -23,13 +23,13 @@ class WhatWeDo extends Component {
           <div className="wwd_service">
             <img className="wwd-img"  src={designImg} alt="jh-logo" />
             <div className="wwd_services_content">
-              <p>Create mockups and wireframes that turn client ideas into solid design plans that empower the brand backed by UX/UI guiding principles.</p>
+              <p>Create wireframes and mockups that turn client ideas into solid design plans which empower the brand backed by UX/UI guiding principles.</p>
             </div>
           </div>
           <div className="wwd_service">
             <img className="wwd-img"  src={codeImg} alt="jh-logo" />
             <div className="wwd_services_content">
-              <p>Impliment modern and responsive designs and code a well thought out concept with the mobile end user in mind creating unforgetable user experiences.</p>
+              <p>Impliment modern and responsive designs and code a well thought out concept with both web and mobile end users in mind.</p>
             </div>
           </div>
         </div>
