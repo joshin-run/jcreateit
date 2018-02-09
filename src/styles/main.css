@@ -252,16 +252,16 @@ body {
     font-size: 3em; } }
 @media only screen and (min-width: 1125px) {
   .title-one {
-    font-size: 5.05em; }
+    font-size: 6.05em; }
 
   .sub-title-one p {
-    font-size: 2.25em; }
+    font-size: 3.25em; }
 
   .title-two {
-    font-size: 5.05em; }
+    font-size: 6.05em; }
 
   .sub-title-two p {
-    font-size: 2.25em; } }
+    font-size: 3.25em; } }
 .text-shadow {
   text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.3); }
 
