@@ -9,6 +9,48 @@ a:link {
   justify-content: center;
   align-items: center; }
 
+.about-wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100vw; }
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  padding: 50px 30px 65px 30px; }
+
+.about_header_container {
+  width: auto;
+  height: auto;
+  padding: 0px 25px 0px 25px;
+  margin-bottom: 80px; }
+
+.about_header {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #000; }
+
+.about_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: #646464; }
+
 .hero-banner {
   background: url(../images/banner/ice.jpg);
   height: 100vh;
@@ -69,7 +111,7 @@ body {
   font-family: sans-serif; }
 
 .contact-wrapper {
-  background-color: #ffff99;
+  background-color: #00F7EF;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -77,6 +119,27 @@ body {
   align-items: center;
   height: 600px;
   width: 100vw; }
+
+.contact_header_container {
+  width: auto;
+  height: auto;
+  padding: 0px 25px 0px 25px;
+  margin-bottom: 80px; }
+
+.contact_header {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #40A8E6; }
+
+.contact_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: #05C0B2; }
 
 .design-wrapper {
   width: 100wv;

@@ -39,8 +39,8 @@ class NavMenu extends Component {
         <li className="nav-menu"><a href="#banner">Home</a></li>
         <li className="nav-menu"><a href="#what-we-do">What I Do</a></li>
         <li className="nav-menu"><a href="#recent_work">Recent Work</a></li>
-        <li className="nav-menu"><a href="#projects">Projects</a></li>
-        <li className="nav-menu"><a href="#TESTIMONIALS">Testimonials</a></li>
+        <li className="nav-menu"><a href="#personal_projects">Projects</a></li>
+        <li className="nav-menu"><a href="#testimonials">Testimonials</a></li>
         <li className="nav-menu"><a href="#about">About</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact</a></li>
       </ul>

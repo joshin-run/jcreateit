@@ -4,7 +4,7 @@ import ceLogo from '../images/recent-work/crypto-elevation/crypto-elevation-logo
 class NavMenu extends Component {
   render() {
     return (
-      <div id="Testimonials">
+      <div id="testimonials">
         <div className="testimonials_container">
 
           <div className="testimonials_header_container">
