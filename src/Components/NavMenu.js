@@ -11,7 +11,7 @@ class NavMenu extends Component {
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(6,240,220,1))");
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(8,191,181,1))");
-          
+
           $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(63,169,230,1),rgba(8,191,181,1))");
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(6,190,155,1))");
@@ -36,10 +36,13 @@ class NavMenu extends Component {
     })
     return (
       <ul className="menu nav-style">
-        <li className="nav-menu"><a href="#banner">HOME</a></li>
-        <li className="nav-menu"><a href="#what-we-do">WHAT I DO</a></li>
-        <li className="nav-menu"><a href="#recent_work">RECENT WORK</a></li>
-        <li className="nav-menu"><a href="#contact-us">CONTACT</a></li>
+        <li className="nav-menu"><a href="#banner">Home</a></li>
+        <li className="nav-menu"><a href="#what-we-do">What I Do</a></li>
+        <li className="nav-menu"><a href="#recent_work">Recent Work</a></li>
+        <li className="nav-menu"><a href="#projects">Projects</a></li>
+        <li className="nav-menu"><a href="#TESTIMONIALS">Testimonials</a></li>
+        <li className="nav-menu"><a href="#about">About</a></li>
+        <li className="nav-menu"><a href="#contact-us">Contact</a></li>
       </ul>
     );
   }
