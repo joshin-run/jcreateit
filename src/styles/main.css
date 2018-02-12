@@ -239,7 +239,7 @@ body {
   font-family: 'Sue Ellen Francisco';
   src: url(../fonts/SueEllenFrancisco.ttf); }
 .footer-wrapper {
-  background-color: #739AF7; }
+  background-color: #3997cf; }
 
 .footer-container {
   display: flex;
@@ -264,9 +264,8 @@ body {
   font-family: 'Montserrat Thin';
   color: #fff;
   text-align: center;
-  background-color: #3fa9e6;
-  background-color: #739AF7;
-  border-top: 1px solid #32cfff; }
+  background-color: #3997cf;
+  border-top: 1px solid #2dbae5; }
 
 .logo-container {
   padding: 0;
