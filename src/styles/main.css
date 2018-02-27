@@ -219,6 +219,9 @@ body {
   font-family: 'Montserrat Alternates Light';
   src: url(../fonts/MontserratAlternates/MontserratAlternates-Light.otf); }
 @font-face {
+  font-family: 'Montserrat Alternates Extra Light';
+  src: url(../fonts/MontserratAlternates/MontserratAlternates-ExtraLight.otf); }
+@font-face {
   font-family: 'Montserrat Alternates';
   src: url(../fonts/MontserratAlternates/MontserratAlternates-Regular.otf); }
 @font-face {
@@ -309,21 +312,21 @@ body {
 
 .title-one {
   font-size: 2.25em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Montserrat Alternates Thin', sans-serif;
   line-height: normal;
   padding: 0; }
 
 .title-one p span {
-  font-family: 'Montserrat Light', sans-serif; }
+  font-family: 'Montserrat Alternates Light', sans-serif; }
 
 .title-two {
   font-size: 2.25em;
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Montserrat Alternates Thin', sans-serif;
   line-height: normal;
   padding: 0; }
 
 .title-two p span {
-  font-family: 'Montserrat Light', sans-serif; }
+  font-family: 'Montserrat Alternates Light', sans-serif; }
 
 .down-arrow {
   width: 50px;
@@ -383,7 +386,7 @@ ul {
 .nav-menu {
   position: relative;
   font-size: .85em;
-  font-family: 'Montserrat Thin';
+  font-family: 'Montserrat Extra Light', sans-serif;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
