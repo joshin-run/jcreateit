@@ -53,8 +53,10 @@ a:link {
 
 .about_img {
   height: auto;
-  width: 50%;
-  margin-bottom: 50px;
+  width: 70%;
+  max-width: 300px;
+  margin: 0 0 50px 0;
+  padding: 0;
   align-items: center;
   box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.4); }
 
@@ -70,15 +72,53 @@ a:link {
   font-family: 'Montserrat Light', sans-serif;
   margin-top: 15px; }
 
+.about_img-content_container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin: auto; }
+
+.about_content_wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  color: #545454;
+  width: auto;
+  font-size: .85em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8; }
+
 @media only screen and (min-width: 481px) {
   .about_img {
     max-width: 500px; }
 
   .about_container {
-    padding: 100px 30px 65px 30px; } }
+    padding: 100px 30px 65px 30px; }
+
+  .about_content_wrapper {
+    width: 100%;
+    max-width: 500px; } }
 @media only screen and (min-width: 769px) {
   .about_header-sub {
     margin-bottom: 50px; } }
+@media only screen and (min-width: 1025px) {
+  .about_img {
+    height: auto;
+    width: 350px; }
+
+  .about_img-content_container {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start; }
+
+  .about_content_wrapper {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px; } }
 .button {
   width: 175px;
   height: 44px;
@@ -311,19 +351,21 @@ body {
   height: 100%; }
 
 .title-one {
-  font-size: 2.25em;
+  font-size: 1.25em;
   font-family: 'Montserrat Alternates Thin', sans-serif;
   line-height: normal;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
 
 .title-one p span {
   font-family: 'Montserrat Alternates Light', sans-serif; }
 
 .title-two {
-  font-size: 2.25em;
+  font-size: 1.25em;
   font-family: 'Montserrat Alternates Thin', sans-serif;
   line-height: normal;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
 
 .title-two p span {
   font-family: 'Montserrat Alternates Light', sans-serif; }
@@ -332,6 +374,18 @@ body {
   width: 50px;
   height: 50px; }
 
+@media only screen and (min-width: 481px) {
+  .title-one {
+    font-size: 2.25em; }
+
+  .title-two {
+    font-size: 2.25em; } }
+@media only screen and (min-width: 1125px) {
+  .title-one {
+    font-size: 2.75em; }
+
+  .title-two {
+    font-size: 2.75em; } }
 .text-shadow {
   text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.3); }
 

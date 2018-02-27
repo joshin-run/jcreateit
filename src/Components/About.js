@@ -17,14 +17,14 @@ class About extends Component {
             <p className="about_header-sub">Designer・Developer</p>
           </div>
 
-          <div className="recent_work_services_container item-1">
+          <div className="about_img-content_container item-1">
 
 
             <img className="about_img" src={profilePic} alt="Profile Picture" />
 
 
             <div className="recent_work_service crypto-content">
-              <div className="recent_work_services_content">
+              <div className="about_content_wrapper">
                 <p className="content-header align mobile-width">My Story</p>
                 <p className="about_main_content align mobile-width">Growing up in Northern California my grandpa owned a computer repair business. There was always a computer to toy around with. I loved typing classes and was the king of MS Paint. Ever since I could remember I would format word documents to death, manipulate screenshot images and create with whatever tools were available. Doodling, drawing, and art classes were all a part of what I loved.</p>
                 <p className="about_main_content align mobile-width">Today, I use my artistic instinct and technical skills to create intriging design concepts and websites. I'm always looking for opportunities to add value to a project. I'm an idea guy and I rarely forget a name.</p>
