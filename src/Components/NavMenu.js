@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import logo from '../images/tri-j-logo-mid2j.png'
+import logo2 from '../images/biz-logos/tri-j-logo-onWhite.png'
 import $ from 'jquery';
 
 class NavMenu extends Component {
@@ -12,7 +14,9 @@ class NavMenu extends Component {
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(8,191,181,1))");
 
-          $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(63,169,230,1),rgba(8,191,181,1))");
+          $(".navbar-wrapper").css("background" , "#fff");
+
+          // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(63,169,230,1),rgba(8,191,181,1))");
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(6,190,155,1))");
 
@@ -21,7 +25,10 @@ class NavMenu extends Component {
           $(".navbar-wrapper").css("box-shadow" , "0px 2px 8px rgba(0,0,0,0.2)");
           $(".logo-img").css("height" , "30px");
           $(".logo-img").css("transition" , "0.25s ease-in-out");
+          $(".nav-menu").css("color" , "#0A75A6");
           $(".mobile-menu-icon").css("height" , "28px");
+          // $("#logoImage").attr("src" , "{logo2}");
+          $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519680052/tri-j-logo-onWhite_gajmuc.png");
         }
 
         else{
@@ -30,7 +37,9 @@ class NavMenu extends Component {
           $(".navbar-wrapper").css("box-shadow" , "none");
           $(".navbar-wrapper").css("padding" , "25px");
           $(".logo-img").css("height" , "45px");
+          $(".nav-menu").css("color" , "#fff");
           $(".mobile-menu-icon").css("height" , "36px");
+          $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519766563/tri-j-logo-mid2j_olcki9.png");
         }
       })
     })

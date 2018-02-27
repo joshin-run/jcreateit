@@ -20,7 +20,7 @@ class Projects extends Component {
           <div className="recent_work_services_container item-1">
 
             <div className="recent_work_service crypto-img">
-              <a href="https://www.behance.net/josh852a"><img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" /></a>
+              <a href="https://www.behance.net/gallery/62567607/Crypto-Elevation"><img className="recent_work_img" src={cryptoElevationHome} alt="Crypto Elevation Home Page" /></a>
             </div>
 
             <div className="recent_work_service crypto-content">
@@ -29,7 +29,7 @@ class Projects extends Component {
                 <p className="tech-stack all-caps align mobile-width">UX/UI Design, Sass, JavaScript Development</p>
                 <p className="recent_work_main_content align mobile-width">Crypto Elevation is a Global Cryptocurrency Opportunity that helps people all around the world create wealth, help others create wealth, and give back to our Choice Humanitarian cause.</p>
               </div>
-              <a href="https://www.behance.net/josh852a"><button className="button filled">VIEW PROJECT</button></a>
+              <a href="https://www.behance.net/gallery/62567607/Crypto-Elevation"><button className="button filled">VIEW PROJECT</button></a>
             </div>
 
           </div>
@@ -42,7 +42,7 @@ class Projects extends Component {
           <div className="recent_work_services_container item-2">
 
             <div className="recent_work_service upss-img">
-              <a href="https://www.behance.net/josh852a"><img className="recent_work_img" src={upssHome} alt="Utah Plastic Surgery Society Home Page" /></a>
+              <a href="https://www.behance.net/gallery/62594949/Utah-Plastic-Surgery-Society"><img className="recent_work_img" src={upssHome} alt="Utah Plastic Surgery Society Home Page" /></a>
             </div>
 
             <div className="recent_work_service upss-content">
@@ -51,7 +51,7 @@ class Projects extends Component {
                 <p className="tech-stack all-caps align">UX/UI Design, SASS, JavaScript, ReactJS Development</p>
                 <p className="recent_work_main_content align">The Utah Plastic Surgery Society is an organization that encourages the highest possible standards in the field of plastic surgery, provides trustworthy information to prospective patients, and protects the public from irresponsible and unqualified practitioners.</p>
               </div>
-              <a href="https://www.behance.net/josh852a"><button className="button filled">VIEW PROJECT</button></a>
+              <a href="https://www.behance.net/gallery/62594949/Utah-Plastic-Surgery-Society"><button className="button filled">VIEW PROJECT</button></a>
             </div>
 
           </div>
