@@ -20,7 +20,7 @@ class About extends Component {
           <div className="recent_work_services_container item-1">
 
 
-              <img className="about_img" src={profilePic} alt="Crypto Elevation Home Page" />
+            <img className="about_img" src={profilePic} alt="Profile Picture" />
 
 
             <div className="recent_work_service crypto-content">

@@ -60,7 +60,7 @@ class Projects extends Component {
           <div className="recent_work_services_container item-1 item-3">
 
             <div className="recent_work_service crypto-img">
-              <img className="recent_work_img" src={strongBod} alt="StrongBod" />
+              <a href="https://www.behance.net/gallery/62564293/StrongBod"><img className="recent_work_img" src={strongBod} alt="StrongBod" /></a>
             </div>
 
             <div className="recent_work_service crypto-content">
@@ -69,6 +69,7 @@ class Projects extends Component {
                 <p className="tech-stack all-caps align mobile-width">Graphic Design, Photoshop, Illustrator, XD</p>
                 <p className="recent_work_main_content align mobile-width">StrongBod was a project I particularly enjoyed. Their goal was to present their product idea before actually building the app. I created a slide deck that far exceeded their expectations with nine custom mockups of mobile app screens, meaningful image use, and a design flow based consistant with presentational topics.</p>
               </div>
+              <a href="https://www.behance.net/gallery/62564293/StrongBod"><button className="button filled">VIEW PROJECT</button></a>
             </div>
 
           </div>

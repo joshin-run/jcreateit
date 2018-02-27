@@ -21,6 +21,10 @@ class Media extends Component {
               <li className="media-menu">
                 <a href="https://github.com/joshin-run" target="_blank">GitHub</a>
               </li>
+              <li className="media-menu">•</li>
+              <li className="media-menu">
+                <a href="https://www.behance.net/josh852a" target="_blank">Behance</a>
+              </li>
             </ul>
           </div>
         </ul>
