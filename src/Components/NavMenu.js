@@ -23,6 +23,7 @@ class NavMenu extends Component {
           $(".navbar-wrapper").css("height" , "50px");
           $(".navbar-wrapper").css("padding" , "20px");
           $(".navbar-wrapper").css("box-shadow" , "0px 2px 8px rgba(0,0,0,0.2)");
+          $(".navbar-wrapper").css("z-index" , "99");
           $(".logo-img").css("height" , "30px");
           $(".logo-img").css("transition" , "0.25s ease-in-out");
           $(".nav-menu").css("color" , "#0A75A6");
@@ -45,7 +46,6 @@ class NavMenu extends Component {
     })
     return (
       <ul className="menu nav-style">
-        <li className="nav-menu"><a href="#banner">Home</a></li>
         <li className="nav-menu"><a href="#what-we-do">What I Do</a></li>
         <li className="nav-menu"><a href="#featured_work">Featured Work</a></li>
         <li className="nav-menu"><a href="#portfolio">Portfolio</a></li>
@@ -58,6 +58,8 @@ class NavMenu extends Component {
 }
 
 export default NavMenu;
+
+// <li className="nav-menu"><a href="#banner">Home</a></li>
 
 // <ul className="menu nav-style">
 //   <li className="nav-menu"><a href="#home">Home</a></li>
