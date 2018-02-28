@@ -132,7 +132,7 @@ a:link {
   font-weight: 500;
   font-size: 0.70em;
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin-top: 30px;
   transition: all .2s ease-in-out;
   cursor: pointer; }
 
@@ -537,7 +537,7 @@ ul {
 .nav-menu {
   position: relative;
   font-size: .85em;
-  font-family: 'Montserrat Extra Light', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   padding: 20px 20px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
@@ -1118,14 +1118,14 @@ template {
 .recent_work_service {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: auto; }
 
 .recent_work_services_content {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: flex-start;
   color: #545454;
   width: auto;
   font-size: .85em;
@@ -1233,7 +1233,10 @@ template {
     margin-top: 100px; }
 
   .item-3 {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+
+  .recent_work_container {
+    padding-bottom: 15px; } }
 .testimonials_container {
   display: flex;
   flex-direction: column;

@@ -26,7 +26,8 @@ class NavMenu extends Component {
           $(".navbar-wrapper").css("z-index" , "99");
           $(".logo-img").css("height" , "30px");
           $(".logo-img").css("transition" , "0.25s ease-in-out");
-          $(".nav-menu").css("color" , "#0A75A6");
+          // $(".nav-menu").css("color" , "#0A75A6");
+          $(".nav-menu").css("color" , "#0000ff");
           $(".mobile-menu-icon").css("height" , "28px");
           // $("#logoImage").attr("src" , "{logo2}");
           $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519680052/tri-j-logo-onWhite_gajmuc.png");

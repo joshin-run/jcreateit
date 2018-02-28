@@ -65,7 +65,7 @@
 .recent_work_service {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: auto;
   // margin: 0px 20px 40px 20px;
@@ -75,7 +75,7 @@
 .recent_work_services_content {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: flex-start;
   // margin: 15px 0 0 0;
   color: #545454;
   width: auto;
@@ -233,5 +233,7 @@
   .item-3 {
     margin-top: 100px;
   }
-
+  .recent_work_container {
+    padding-bottom: 15px;
+  }
 }
