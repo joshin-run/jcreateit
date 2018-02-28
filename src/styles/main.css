@@ -254,17 +254,22 @@ body {
 .who-content {
   margin-bottom: 20px; }
 
-.view-project-link {
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: .85em;
-  padding: 20px;
-  text-align: right; }
-
 .view-project-link-container {
-  background-color: #6D6DFF;
+  background-color: #5D5DFF;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; }
+
+.view-project-link-container:hover {
+  background-color: #6d6dff; }
+
+.view-project-link {
+  color: #fff;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+  transition: all .2s ease-in-out;
+  padding: 20px;
+  text-align: right; }
 
 .contact-wrapper {
   background-color: #00F7EF;
@@ -1084,8 +1089,7 @@ template {
 .recent_work_header_container {
   width: 100%;
   height: auto;
-  padding: 15px;
-  margin-bottom: 38px; }
+  padding: 15px; }
 
 .recent_work_header {
   font-size: 2.25em;
@@ -1099,8 +1103,8 @@ template {
   text-align: center;
   font-family: 'Montserrat Light', sans-serif;
   font-size: 1.45em;
-  margin-bottom: 20px;
-  color: #646464; }
+  color: #646464;
+  color: #4b4b7d; }
 
 .recent_work_services_container {
   display: flex;

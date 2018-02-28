@@ -71,17 +71,23 @@
   margin-bottom: 20px;
 }
 
-.view-project-link {
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: .85em;
-  padding: 20px;
-  text-align: right;
-}
-
 .view-project-link-container{
-  background-color: #6D6DFF;
+  background-color: #5D5DFF;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   // justify-content: flex-end;
+}
+
+.view-project-link-container:hover {
+  background-color: #6d6dff;
+}
+
+.view-project-link {
+  color: #fff;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+  transition: all .2s ease-in-out;
+  padding: 20px;
+  text-align: right;
 }

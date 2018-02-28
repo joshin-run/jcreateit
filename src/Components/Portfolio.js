@@ -59,7 +59,7 @@ class Portfolio extends Component {
 
               <div className="view-project-link-container">
                 <a href="https://www.behance.net/gallery/62567607/Crypto-Elevation">
-                  <p className="view-project-link">View Project ➔</p>
+                  <p className="view-project-link all-caps">View Project ➔</p>
                 </a>
               </div>
             </div>
