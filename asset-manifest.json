@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.dcb50b44.css",
-  "main.css.map": "static/css/main.dcb50b44.css.map",
-  "main.js": "static/js/main.dd77b6b8.js",
-  "main.js.map": "static/js/main.dd77b6b8.js.map",
+  "main.css": "static/css/main.fd454dde.css",
+  "main.css.map": "static/css/main.fd454dde.css.map",
+  "main.js": "static/js/main.5b087eec.js",
+  "main.js.map": "static/js/main.5b087eec.js.map",
   "static/media/2018ProfilePic.jpg": "static/media/2018ProfilePic.14f0be46.jpg",
   "static/media/Agent_Mac.ttf": "static/media/Agent_Mac.195be07c.ttf",
   "static/media/Azedo-Bold.otf": "static/media/Azedo-Bold.0980a328.otf",
@@ -33,6 +33,7 @@
   "static/media/bvi-iconLeft.png": "static/media/bvi-iconLeft.5f4c6415.png",
   "static/media/crypto-elevation-home.jpg": "static/media/crypto-elevation-home.264c3a36.jpg",
   "static/media/crypto-elevation-logo.jpg": "static/media/crypto-elevation-logo.e3784e02.jpg",
+  "static/media/crypto_elevation-card-img.png": "static/media/crypto_elevation-card-img.4abd5c57.png",
   "static/media/dark-ice.jpg": "static/media/dark-ice.a56c6c86.jpg",
   "static/media/edison.jpg": "static/media/edison.2cb4292e.jpg",
   "static/media/orange-mockup-light-226x144-word-lower-min.jpg": "static/media/orange-mockup-light-226x144-word-lower-min.3bc13bbb.jpg",
@@ -40,6 +41,7 @@
   "static/media/strongBod.png": "static/media/strongBod.f7dfaca2.png",
   "static/media/tokyo.jpg": "static/media/tokyo.99395ba4.jpg",
   "static/media/tri-j-logo-onWhite.png": "static/media/tri-j-logo-onWhite.cd754066.png",
+  "static/media/unboxt-card-img-dark.png": "static/media/unboxt-card-img-dark.90eecaa0.png",
   "static/media/unboxt.png": "static/media/unboxt.48f69671.png",
   "static/media/utah-plastic-surgery-society-home.jpg": "static/media/utah-plastic-surgery-society-home.14e99758.jpg",
   "static/media/whiteVision.jpg": "static/media/whiteVision.c45a7cb0.jpg"
