@@ -36,6 +36,18 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
+
+          <div id="project-grid" className="project-grid">
+            <div className="proj-1"></div>
+            <div className="proj-2"></div>
+            <div className="proj-3"></div>
+          </div>
+
+          <div id="project-grid2" className="project-grid">
+            <div className="proj2-1"></div>
+            <div className="proj2-2"></div>
+            <div className="proj2-3"></div>
+          </div>
         </div>
       </div>
     );
