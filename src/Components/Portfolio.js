@@ -4,13 +4,13 @@ import projWhiteVision from '../images/projects/whiteVision.jpg'
 import projEdison from '../images/projects/edison.jpg'
 
 
-class WhatWeDo extends Component {
+class Portfolio extends Component {
   render() {
     return (
-      <div id="personal_projects" className="personal_projects_container">
+      <div id="portfolio" className="personal_projects_container">
         <div className="personal_projects_header_container">
-          <p className="personal_projects_header">Personal Projects</p>
-          <p className="personal_projects_header-sub">Interests, Ideas and Experiments.</p>
+          <p className="personal_projects_header">Portfolio Work</p>
+          <p className="personal_projects_header-sub">From client driven projects to creative ideas.</p>
         </div>
         <div className="personal_projects_services_container">
           <div className="personal_projects_service">
@@ -42,4 +42,4 @@ class WhatWeDo extends Component {
   }
 }
 
-export default WhatWeDo;
+export default Portfolio;

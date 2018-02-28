@@ -7,11 +7,11 @@ import unboxt from '../images/recent-work/Unboxt/unboxt.png'
 class Projects extends Component {
   render() {
     return (
-      <div id="recent_work">
+      <div id="featured_work">
         <div className="recent_work_container">
           <div className="recent_work_header_container">
-            <p className="recent_work_header">Recent Work</p>
-            <p className="recent_work_header-sub">Client projects I've tackled.</p>
+            <p className="recent_work_header">Featured Work</p>
+            <p className="recent_work_header-sub">Here's some of my best work yet.</p>
           </div>
 
 

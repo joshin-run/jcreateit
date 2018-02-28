@@ -154,7 +154,7 @@ a:link {
   bottom: 0;
   left: 0;
   height: 100vh;
-  background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(23, 181, 255, 0.1)); }
+  background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7)); }
 
 .bio-content {
   height: 300px;
@@ -302,7 +302,7 @@ body {
   font-family: 'Sue Ellen Francisco';
   src: url(../fonts/SueEllenFrancisco.ttf); }
 .footer-wrapper {
-  background-color: #17B5FF; }
+  background-color: #0A52C5; }
 
 .footer-container {
   display: flex;
@@ -327,7 +327,7 @@ body {
   font-family: 'Montserrat Thin';
   color: #fff;
   text-align: center;
-  background-color: #17B5FF;
+  background-color: #0A52C5;
   border-top: 1px solid #e5e5e5; }
 
 .logo-container {

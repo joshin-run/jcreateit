@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Banner from './Components/Banner';
 import WhatWeDo from './Components/WhatWeDo';
 import RecentWork from './Components/RecentWork';
-// import PersonalProjects from './Components/PersonalProjects';
+import Portfolio from './Components/Portfolio';
 import Testimonials from './Components/Testimonials';
 import About from './Components/About';
 // import Contact from './Components/Contact';
@@ -16,7 +16,7 @@ class App extends Component {
         <Banner />
         <WhatWeDo />
         <RecentWork />
-
+        <Portfolio />
         <Testimonials />
         <About />
 
