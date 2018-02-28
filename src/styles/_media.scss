@@ -12,7 +12,7 @@
 .media-menu {
   // position: relative;
   display: inline-block;
-  font-size: .85em;
+  font-size: .65em;
   font-family: 'Montserrat Thin';
   // padding: 20px 20px;
   margin: 0px 10px 0px 10px;
@@ -31,4 +31,10 @@
 ul {
   padding: 0px;
   margin: 0px;
+}
+
+@media only screen and (min-width: 414px) {
+  .media-menu {
+    font-size: .85em;
+  }
 }
