@@ -1,11 +1,14 @@
 .footer-wrapper {
   //
-  background-color: #0A52C5;
+  // background-color: #0A52C5;
+
+  // background-color: rgba(23,181,255,.8);
   // background-color: #17B5FF;
 
   // background-color: rgb(57,151,207);
 
-  // background-color: #739AF7;
+  background-color: #b4e7ff;
+  // background-color: #ecf5ff;
 
   // background-color: rgba(63,169,230,1);
   // background-color: #40A8E6;
@@ -22,7 +25,8 @@
   /*padding: 5em 5em;*/
   height: 200px;
   // width: 100%;
-  color: #fff;
+  color: #4987FF;
+  // color: #00C3FF;
   margin: 0px;
   padding: 25px;
 }
@@ -42,12 +46,12 @@
   margin: 0px;
   padding: 20px;
   font-size: .65em;
-  font-family: 'Montserrat Thin';
-  color: #fff;
+  font-family: 'Montserrat';
+  color: #4987FF;
   // width: 100%;
   text-align: center;
 
-  background-color: #0A52C5;
+  // background-color: #0A52C5;
   // background-color: #17B5FF;
 
   // background-color: rgb(57,151,207);
@@ -57,7 +61,7 @@
   // background-color: rgb(115,154,247);
 
 
-  // background-color: #739AF7;
+  background-color: #fff;
   // background-color: #00617f;
   // background-color: #21517f;
 
@@ -66,7 +70,7 @@
 
   // border-top: 1px solid #e5e5e5
 
-  border-top: 1px solid #e5e5e5;
+
   // border-top: 1px solid #2dbae5;
   // border-top: 1px solid #32cfff;
   // border-top: 1px solid #66dbff
@@ -89,7 +93,7 @@
   }
 
   .copy {
-    font-size: .75em;
+    font-size: .65em;
   }
 
 }

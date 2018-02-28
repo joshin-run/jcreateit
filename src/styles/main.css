@@ -134,11 +134,65 @@ a:link {
   letter-spacing: 1px;
   margin-top: 30px;
   transition: all .2s ease-in-out;
-  cursor: pointer; }
+  curser: pointer; }
 
 .button:hover {
   background: #6d6dff; }
 
+.button-email {
+  width: 175px;
+  height: 44px;
+  background: #ffae19;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.70em;
+  letter-spacing: 1px;
+  margin: 30px 7px 7px 7px;
+  transition: all .2s ease-in-out;
+  curser: pointer;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); }
+
+.button-email:hover {
+  background: #ffa500; }
+
+.buttons-container-contact {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.button-empty-contact {
+  width: 175px;
+  height: 44px;
+  background: none;
+  border: 2px solid #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.70em;
+  letter-spacing: 1px;
+  margin: 7px;
+  transition: all .2s ease-in-out;
+  curser: pointer; }
+
+.button-empty-contact:hover {
+  border: 2px solid #E3ECF6;
+  color: #E3ECF6; }
+
+@media only screen and (min-width: 414px) {
+  .buttons-container-contact {
+    flex-flow: row nowrap; }
+
+  .button-empty-contact {
+    margin: 30px 7px 7px 7px; } }
 .hero-banner {
   background: url(../images/banner/dark-ice.jpg);
   height: 100vh;
@@ -272,20 +326,23 @@ body {
   text-align: right; }
 
 .contact-wrapper {
-  background-color: #00F7EF;
+  background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7));
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 600px;
-  width: 100vw; }
+  height: auto;
+  width: 100vw;
+  padding: 70px; }
 
 .contact_header_container {
   width: auto;
   height: auto;
-  padding: 0px 25px 0px 25px;
-  margin-bottom: 80px; }
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
 
 .contact_header {
   font-size: 2.25em;
@@ -293,14 +350,21 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  color: #40A8E6; }
+  color: #fff; }
 
 .contact_header-sub {
   text-align: center;
   font-family: 'Montserrat Light', sans-serif;
   font-size: 1.45em;
-  margin-bottom: 20px;
-  color: #05C0B2; }
+  margin-bottom: 30px;
+  color: #fff; }
+
+.contact_content {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: .90em;
+  margin-bottom: 5px;
+  color: #E3ECF6; }
 
 .design-wrapper {
   width: 100wv;
@@ -375,7 +439,7 @@ body {
   font-family: 'Sue Ellen Francisco';
   src: url(../fonts/SueEllenFrancisco.ttf); }
 .footer-wrapper {
-  background-color: #0A52C5; }
+  background-color: #b4e7ff; }
 
 .footer-container {
   display: flex;
@@ -384,7 +448,7 @@ body {
   align-items: center;
   /*padding: 5em 5em;*/
   height: 200px;
-  color: #fff;
+  color: #4987FF;
   margin: 0px;
   padding: 25px; }
 
@@ -397,11 +461,10 @@ body {
   margin: 0px;
   padding: 20px;
   font-size: .65em;
-  font-family: 'Montserrat Thin';
-  color: #fff;
+  font-family: 'Montserrat';
+  color: #4987FF;
   text-align: center;
-  background-color: #0A52C5;
-  border-top: 1px solid #e5e5e5; }
+  background-color: #fff; }
 
 .logo-container {
   padding: 0;
@@ -413,7 +476,7 @@ body {
     padding-bottom: 125px; }
 
   .copy {
-    font-size: .75em; } }
+    font-size: .65em; } }
 #project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 500px 1fr 1fr;
@@ -497,7 +560,7 @@ body {
 .media-menu {
   display: inline-block;
   font-size: .65em;
-  font-family: 'Montserrat Thin';
+  font-family: 'Montserrat';
   margin: 0px 10px 0px 10px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
@@ -1075,7 +1138,7 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #ecf5ff;
+  background-color: #E3ECF6;
   height: auto;
   width: 100%;
   padding: 50px 30px 65px 30px; }

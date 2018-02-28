@@ -8,7 +8,7 @@ class Media extends Component {
     return (
       <div>
         <ul>
-          <div>
+          <div className="media-links">
             <ul>
               <li className="media-menu">
                 <a href="https://www.linkedin.com/in/joshholladay/" target="_blank">LinkedIn</a>
