@@ -31,6 +31,11 @@ class NavMenu extends Component {
           $(".mobile-menu-icon").css("height" , "28px");
           // $("#logoImage").attr("src" , "{logo2}");
           $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519680052/tri-j-logo-onWhite_gajmuc.png");
+          $("#resume-link").css("background" , "none");
+          // $("#resume-link").css("background" , "#5D5DFF");
+          $("#resume-link").css("color" , "#0000ff");
+          $("#resume-link").css("padding" , "9px 15px");
+          $("#resume-link").css("border" , "2px solid #0000ff");
         }
 
         else{
@@ -42,6 +47,11 @@ class NavMenu extends Component {
           $(".nav-menu").css("color" , "#fff");
           $(".mobile-menu-icon").css("height" , "36px");
           $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519766563/tri-j-logo-mid2j_olcki9.png");
+          // $("#resume-link").css("background" , "#fff");
+          // $("#resume-link").css("color" , "#0108B7");
+          $("#resume-link").css("color" , "#fff");
+          $("#resume-link").css("border" , "2px solid #fff");
+          $("#resume-link").css("padding" , "12px 15px");
         }
       })
     })
@@ -49,10 +59,11 @@ class NavMenu extends Component {
       <ul className="menu nav-style">
         <li className="nav-menu"><a href="#what-we-do">What I Do</a></li>
         <li className="nav-menu"><a href="#featured_work">Featured Work</a></li>
-        <li className="nav-menu"><a href="#portfolio">Portfolio</a></li>
+        <li className="nav-menu"><a href="#projects">Projects</a></li>
         <li className="nav-menu"><a href="#testimonials">Testimonials</a></li>
         <li className="nav-menu"><a href="#about">About</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact</a></li>
+        <li id="resume-link" className="nav-menu"><a href="https://www.visualcv.com/josh-holladay/pdf" target="_blank">Resume</a></li>
       </ul>
     );
   }

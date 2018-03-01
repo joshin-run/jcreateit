@@ -10,10 +10,10 @@ import crypto from '../images/cards/crypto_elevation-card-img.png'
 class Portfolio extends Component {
   render() {
     return (
-      <div id="portfolio" className="personal_projects_container">
+      <div id="projects" className="personal_projects_container">
 
         <div className="personal_projects_header_container">
-          <p className="personal_projects_header">Portfolio Work</p>
+          <p className="personal_projects_header">Project Work</p>
           <p className="personal_projects_header-sub">From creative ideas to client driven projects.</p>
         </div>
         <div className="card-wrapper">

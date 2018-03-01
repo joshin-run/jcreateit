@@ -58,7 +58,8 @@ a:link {
   margin: 0 0 50px 0;
   padding: 0;
   align-items: center;
-  box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.4); }
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease-in-out; }
 
 .about-stack {
   font-size: 1em;
@@ -68,7 +69,7 @@ a:link {
 .about_main_content {
   color: #278aad;
   line-height: 1.5;
-  font-size: .95em;
+  font-size: 1.11em;
   font-family: 'Montserrat Light', sans-serif;
   margin-top: 15px; }
 
@@ -654,6 +655,18 @@ ul {
 
 .more {
   color: gray; }
+
+#resume-link {
+  display: inline-block;
+  padding: 12px 15px;
+  background: none;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid #fff; }
+
+#resume-link:hover {
+  color: #e6e6e6;
+  border-color: #e6e6e6; }
 
 @media only screen and (min-width: 769px) {
   .mobile-menu-icon {
@@ -1334,6 +1347,99 @@ template {
 
   .recent_work_container {
     padding-bottom: 15px; } }
+.resume-bar {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  padding: 50px;
+  background-image: linear-gradient(to right, rgba(23, 181, 255, 0.8), yellow); }
+
+.resume-bar-text {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  color: #646464;
+  margin-bottom: 20px; }
+
+.resume-bar-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+.resume-button_resume-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 44px;
+  background: #ffae19;
+  display: block;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.70em;
+  letter-spacing: 1px;
+  margin: 0 15px 20px 15px;
+  transition: all .2s ease-in-out;
+  curser: pointer;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  padding-left: 5px; }
+
+.portfolio-button_resume-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 44px;
+  background: #17b5ff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.70em;
+  letter-spacing: 1px;
+  margin: 0 15px;
+  transition: all .2s ease-in-out;
+  curser: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  padding-left: 5px; }
+
+a .portfolio-button_resume-bar, .resume-button_resume-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+@media only screen and (min-width: 410px) {
+  .resume-button_resume-bar {
+    margin-bottom: 0; } }
+@media only screen and (min-width: 1100px) {
+  .resume-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgba(23, 181, 255, 0.8), yellow); }
+
+  .resume-bar-text {
+    margin-bottom: 0; }
+
+  .resume-bar-buttons {
+    margin-left: 40px; } }
 .testimonials_container {
   display: flex;
   flex-direction: column;

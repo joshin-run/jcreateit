@@ -4,6 +4,7 @@ import WhatWeDo from './Components/WhatWeDo';
 import RecentWork from './Components/RecentWork';
 import Portfolio from './Components/Portfolio';
 import Testimonials from './Components/Testimonials';
+import ResumeBar from './Components/ResumeBar';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
@@ -18,6 +19,7 @@ class App extends Component {
         <RecentWork />
         <Portfolio />
         <Testimonials />
+        <ResumeBar />
         <About />
         <Contact />
         <Footer />
