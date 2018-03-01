@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  padding: 50px;
+  // padding: 50px;
   // margin: 20px;
   // padding: 10px;
 }
@@ -16,20 +16,15 @@
 .media-menu {
   // position: relative;
   display: inline-block;
-  font-size: .65em;
+  // font-size: .65em;
   font-family: 'Montserrat';
   // padding: 20px 20px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 4px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
   cursor: pointer;
   // margin: 10px 0 10px 50px;
-  margin-bottom: 10px;
-}
-
-.media-menu:hover {
-  color: lightgray;
-  transition: all 0.2s ease 0s;
+  // margin-bottom: 10px;
 }
 
 ul {
@@ -37,8 +32,48 @@ ul {
   margin: 0px;
 }
 
+.menu-media-icons {
+  transition: all 0.4s ease-in-out;
+}
+
+#linkedin_i {
+  height: 16px;
+  width: auto;
+  margin: 0 12px;
+}
+#behance_i {
+  height: 13px;
+  width: auto;
+  margin: 0 12px;
+}
+#github_i {
+  height: 15px;
+  width: auto;
+  margin: 0 12px;
+}
+#dribbble_i {
+  height: 16px;
+  width: auto;
+  margin: 0 12px;
+}
+#twitter_i {
+  height: 15px;
+  width: auto;
+  margin: 0 12px;
+}
+#wordpress_i {
+  height: 15px;
+  width: auto;
+  margin: 0 12px;
+}
+#email_i {
+  height: 13px;
+  width: auto;
+  margin: 0 12px;
+}
+
 @media only screen and (min-width: 414px) {
   .media-menu {
-    font-size: .85em;
+    // font-size: .75em;
   }
 }

@@ -366,6 +366,9 @@ body {
   margin-bottom: 5px;
   color: #E3ECF6; }
 
+@media only screen and (min-width: 414px) {
+  .contact-wrapper {
+    padding: 100px 70px; } }
 .design-wrapper {
   width: 100wv;
   background-color: #ffffff;
@@ -439,7 +442,7 @@ body {
   font-family: 'Sue Ellen Francisco';
   src: url(../fonts/SueEllenFrancisco.ttf); }
 .footer-wrapper {
-  background-color: #b4e7ff; }
+  background-color: #ecf5ff; }
 
 .footer-container {
   display: flex;
@@ -447,36 +450,35 @@ body {
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 200px;
-  color: #4987FF;
+  height: auto;
+  color: #00C3FF;
   margin: 0px;
-  padding: 25px; }
+  padding: 77px 70px 70px 70px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4); }
 
 .footer-logo {
-  height: 55px;
+  height: 50px;
   width: auto;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .copy {
-  margin: 0px;
-  padding: 20px;
-  font-size: .65em;
-  font-family: 'Montserrat';
-  color: #4987FF;
+  font-family: 'Montserrat Light';
+  color: #00C3FF;
   text-align: center;
-  background-color: #fff; }
+  margin-bottom: 25px; }
 
 .logo-container {
   padding: 0;
   margin: 0; }
 
-@media only screen and (min-width: 768px) {
-  .footer-container {
-    padding-top: 125px;
-    padding-bottom: 125px; }
+.bottom-border {
+  height: 25px;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgba(23, 181, 255, 0.8), blue); }
 
+@media only screen and (min-width: 768px) {
   .copy {
-    font-size: .65em; } }
+    font-size: .75em; } }
 #project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 500px 1fr 1fr;
@@ -554,30 +556,58 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
-  padding: 50px; }
+  align-content: center; }
 
 .media-menu {
   display: inline-block;
-  font-size: .65em;
   font-family: 'Montserrat';
-  margin: 0px 10px 0px 10px;
+  margin: 0px 4px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
-  cursor: pointer;
-  margin-bottom: 10px; }
-
-.media-menu:hover {
-  color: lightgray;
-  transition: all 0.2s ease 0s; }
+  cursor: pointer; }
 
 ul {
   padding: 0px;
   margin: 0px; }
 
-@media only screen and (min-width: 414px) {
-  .media-menu {
-    font-size: .85em; } }
+.menu-media-icons {
+  transition: all 0.4s ease-in-out; }
+
+#linkedin_i {
+  height: 16px;
+  width: auto;
+  margin: 0 12px; }
+
+#behance_i {
+  height: 13px;
+  width: auto;
+  margin: 0 12px; }
+
+#github_i {
+  height: 15px;
+  width: auto;
+  margin: 0 12px; }
+
+#dribbble_i {
+  height: 16px;
+  width: auto;
+  margin: 0 12px; }
+
+#twitter_i {
+  height: 15px;
+  width: auto;
+  margin: 0 12px; }
+
+#wordpress_i {
+  height: 15px;
+  width: auto;
+  margin: 0 12px; }
+
+#email_i {
+  height: 13px;
+  width: auto;
+  margin: 0 12px; }
+
 .logo-img {
   height: 35px;
   margin: 0;
