@@ -22,7 +22,7 @@ class NavMenu extends Component {
 
           $(".navbar-wrapper").css("height" , "50px");
           $(".navbar-wrapper").css("padding" , "20px");
-          $(".navbar-wrapper").css("box-shadow" , "0px 2px 8px rgba(0,0,0,0.2)");
+          $(".navbar-wrapper").css("box-shadow" , "0px 1px 6px rgba(0,0,0,0.1)");
           $(".navbar-wrapper").css("z-index" , "99");
           $(".logo-img").css("height" , "30px");
           $(".logo-img").css("transition" , "0.25s ease-in-out");
