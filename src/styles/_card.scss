@@ -77,6 +77,12 @@
   border-bottom-left-radius: 10px;
   // justify-content: flex-end;
 }
+// .view-project-link-container-light {
+//   background-color: rgb(125,125,255);
+//   border-bottom-right-radius: 10px;
+//   border-bottom-left-radius: 10px;
+//   // justify-content: flex-end;
+// }
 
 .view-project-link-container:hover {
   background-color: #6d6dff;
@@ -88,6 +94,24 @@
   font-size: 0.85em;
   letter-spacing: 1px;
   transition: all .2s ease-in-out;
-  padding: 20px;
+  padding: 24px;
   text-align: right;
 }
+
+// .view-project-link-right {
+//   color: #6d6dff;
+//   font-family: 'Montserrat', sans-serif;
+//   font-size: 0.85em;
+//   letter-spacing: 1px;
+//   transition: all .2s ease-in-out;
+//   // padding: 20px;
+//   margin-top: 20px;
+//   text-align: right;
+// }
+//
+// a .view-project-link-right-container {
+//   display: flex;
+//   flex-flow: row wrap;
+//   justify-content: flex-end;
+//   align-items: flex-end;
+// }
