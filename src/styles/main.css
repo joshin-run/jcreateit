@@ -3,12 +3,6 @@
   margin: 0;
   box-sizing: border-box; }
 
-a:link {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center; }
-
 .about-wrapper {
   background-color: #fff;
   display: flex;
@@ -124,7 +118,7 @@ a:link {
   width: 175px;
   height: 44px;
   line-height: 44px;
-  background: #5D5DFF;
+  background: #6d6dff;
   display: inline-block;
   text-align: center;
   border-radius: 50px;
@@ -138,7 +132,7 @@ a:link {
   curser: pointer; }
 
 .button:hover {
-  background: #6d6dff; }
+  background: #5D5DFF; }
 
 .button-email {
   width: 175px;
@@ -259,7 +253,17 @@ body {
   justify-content: center;
   align-items: flex-start; }
 
+.no-view-project-button {
+  display: block;
+  height: 27px;
+  width: auto;
+  background: none; }
+
 .card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,60 +276,74 @@ body {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  width: 300px;
-  border-radius: 10px;
-  margin: 30px;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); }
+  width: 320px;
+  margin: 30px; }
 
 .card-img {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   display: block;
   vertical-align: middle;
   border-style: none;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px; }
-
-.card-header {
-  color: #646464;
-  line-height: 1;
-  font-size: .85em;
-  font-family: 'Montserrat Bold', sans-serif;
-  margin-bottom: 5px; }
+  border-radius: 16px; }
 
 .card-content-wrapper {
-  margin: 25px 15px; }
+  margin: 30px 0px; }
+
+.card-content-stack {
+  color: #778899;
+  line-height: 1.2;
+  font-size: .85em;
+  padding: 0;
+  font-family: 'Montserrat Bold', sans-serif;
+  margin-bottom: 20px;
+  text-align: center; }
 
 .card-content {
   color: #778899;
   line-height: 1.2;
   font-size: .85em;
   font-family: 'Montserrat Light', sans-serif;
-  padding: 0; }
-
-.card-content span {
-  font-family: 'Montserrat Bold', sans-serif; }
-
-.who-content {
-  margin-bottom: 20px; }
-
-.view-project-link-container {
-  background-color: #5D5DFF;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px; }
+  padding: 0;
+  text-align: center;
+  margin-bottom: 30px; }
 
 .view-project-link-container:hover {
   background-color: #6d6dff; }
 
 .view-project-link {
-  color: #fff;
-  font-family: 'Montserrat Light', sans-serif;
-  font-size: 0.85em;
+  color: #5D5DFF;
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 0.75em;
   letter-spacing: 1px;
   transition: all .2s ease-in-out;
-  padding: 24px;
-  text-align: right; }
+  text-align: right;
+  margin-right: 15px; }
 
+.view-project-proj-link {
+  align-items: flex-end;
+  display: inline-block;
+  color: #fff;
+  background: #6d6dff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  transition: all .2s ease-in-out;
+  padding: 7px 21px 7px 21px;
+  text-align: right;
+  border-radius: 50px;
+  width: auto; }
+
+.view-project-proj-link:hover {
+  background-color: #5D5DFF; }
+
+.flex-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+/********** END 20 ************/
 .contact-wrapper {
   background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7));
   display: flex;
@@ -1611,9 +1629,6 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
   transition: 0.15s;
   background-color: #ededed; }
-
-.wwd-img:hover {
-  box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.5); }
 
 @media only screen and (min-width: 768px) {
   .wwd_container {
