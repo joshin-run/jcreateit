@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Components/Banner';
+import Menu from './Components/Menu';
 import WhatWeDo from './Components/WhatWeDo';
 import RecentWork from './Components/RecentWork';
 import Portfolio from './Components/Portfolio';
@@ -15,6 +16,7 @@ class App extends Component {
     return (
       <div>
         <Banner />
+        <Menu />
         <WhatWeDo />
         <RecentWork />
         <Portfolio />

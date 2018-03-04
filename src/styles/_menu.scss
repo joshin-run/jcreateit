@@ -1,0 +1,33 @@
+.menu-wrapper {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1293EF,rgba(0,0,255,1));
+  // background: linear-gradient(to right, rgba(23,181,255,1),rgba(0,0,255,1));
+  // background-color: #0111BD;
+  // background-color: #0000ff;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+}
+
+.menu-wrapper ul {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#resume-item {
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0 15px;
+  line-height: 1.35;
+}
+
+.menu-item {
+  // text-shadow: 1px 3px 4px rgba(0,0,0,0.5);
+}
