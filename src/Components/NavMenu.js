@@ -36,6 +36,8 @@ class NavMenu extends Component {
           $("#resume-link").css("color" , "#0000ff");
           $("#resume-link").css("padding" , "9px 15px");
           $("#resume-link").css("border" , "2px solid #0000ff");
+          $("#hamb_bl").css("display" , "block");
+          $("#hamb_wh").css("display" , "none");
         }
 
         else{
@@ -52,6 +54,8 @@ class NavMenu extends Component {
           $("#resume-link").css("color" , "#fff");
           $("#resume-link").css("border" , "2px solid #fff");
           $("#resume-link").css("padding" , "12px 15px");
+          $("#hamb_bl").css("display" , "none");
+          $("#hamb_wh").css("display" , "block");
         }
       })
     })
