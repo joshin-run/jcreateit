@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavLogo from './NavLogo'
 import NavMenu from './NavMenu'
-import menuIcon from '../images/icons/partial-hamb-blue.svg'
+import menuIcon from '../images/icons/partial-hamb.svg'
 import menuIconBlue from '../images/icons/partial-hamb-bright-blue.svg'
 
 class Navbar extends Component {

@@ -38,9 +38,7 @@ class NavMenu extends Component {
           $("#resume-link").css("border" , "2px solid #0000ff");
           $("#hamb_bl").css("display" , "block");
           $("#hamb_wh").css("display" , "none");
-        }
-
-        else{
+        } else {
           $(".navbar-wrapper").css("background" , "none");
           $(".navbar-wrapper").css("height" , "75px");
           $(".navbar-wrapper").css("box-shadow" , "none");
@@ -57,6 +55,24 @@ class NavMenu extends Component {
           $("#hamb_bl").css("display" , "none");
           $("#hamb_wh").css("display" , "block");
         }
+
+        if (window.matchMedia("(min-width: 769px)").matches) {
+          $("#hamb_bl").css("display" , "none");
+          $("#hamb_wh").css("display" , "none");          
+        }
+        //   $("mobile-menu-icon").css("display" , "none");
+        //   $("menu").css("display" , "inline-block");
+        //   $("nav-menu").css("display" , "inline-block");
+        // }
+        //   $("#hamb_bl").css("display" , "none");
+        //   $("#hamb_wh").css("display" , "none");
+        //
+        // if (window.matchMedia("(min-width: 769px)").matches) {
+        //   $("mobile-menu-icon").css("display" , "block");
+        //   $("menu").css("display" , "none");
+        //   $("#hamb_bl").css("display" , "none");
+        //   $("#hamb_wh").css("display" , "block");
+        // }
       })
     })
     return (
