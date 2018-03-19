@@ -84,7 +84,7 @@ class NavMenu extends Component {
         <li className="nav-menu"><a href="#about">About</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact</a></li>
         <li id="resume-link" className="nav-menu">
-        <a href="http://jcreateit.com/src/assets/docs/JoshHolladay-UIUXDesignerResume.pdf" target="_blank">Resume</a></li>
+        <a href="../assets/docs/JoshHolladay-UIUXDesignerResume.pdf" target="_blank">Resume</a></li>
       </ul>
     );
   }
