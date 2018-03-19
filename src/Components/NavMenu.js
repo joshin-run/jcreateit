@@ -10,55 +10,55 @@ class NavMenu extends Component {
       $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 200) {
+
+          $(".navbar-wrapper").css("background" , "#fff");
+          $(".navbar-wrapper").css("box-shadow" , "0px 1px 6px rgba(0,0,0,0.1)");
+          $(".navbar-wrapper").css("z-index" , "99");
+          $(".nav-menu").css("color" , "#0000ff");
+          $(".mobile-menu-icon").css("height" , "28px");
+          $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519680052/tri-j-logo-onWhite_gajmuc.png");
+          $("#resume-link").css("background" , "none");
+          $("#resume-link").css("color" , "#0000ff");
+          $("#resume-link").css("border" , "2px solid #0000ff");
+          $("#hamb_bl").css("display" , "block");
+          $("#hamb_wh").css("display" , "none");
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(6,240,220,1))");
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(8,191,181,1))");
-
-          $(".navbar-wrapper").css("background" , "#fff");
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(63,169,230,1),rgba(8,191,181,1))");
 
           // $(".navbar-wrapper").css("background" , "linear-gradient(to right, rgba(71,186,255,1),rgba(6,190,155,1))");
 
-          $(".navbar-wrapper").css("height" , "50px");
-          $(".navbar-wrapper").css("padding" , "20px");
-          $(".navbar-wrapper").css("box-shadow" , "0px 1px 6px rgba(0,0,0,0.1)");
-          $(".navbar-wrapper").css("z-index" , "99");
-          $(".logo-img").css("height" , "30px");
-          $(".logo-img").css("transition" , "0.25s ease-in-out");
+          // $(".navbar-wrapper").css("height" , "50px");
+          // $(".navbar-wrapper").css("padding" , "20px");
+          // $(".logo-img").css("height" , "30px");
+          // $(".logo-img").css("transition" , "0.25s ease-in-out");
           // $(".nav-menu").css("color" , "#0A75A6");
-          $(".nav-menu").css("color" , "#0000ff");
-          $(".mobile-menu-icon").css("height" , "28px");
           // $("#logoImage").attr("src" , "{logo2}");
-          $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519680052/tri-j-logo-onWhite_gajmuc.png");
-          $("#resume-link").css("background" , "none");
           // $("#resume-link").css("background" , "#5D5DFF");
-          $("#resume-link").css("color" , "#0000ff");
-          $("#resume-link").css("padding" , "9px 15px");
-          $("#resume-link").css("border" , "2px solid #0000ff");
-          $("#hamb_bl").css("display" , "block");
-          $("#hamb_wh").css("display" , "none");
+          // $("#resume-link").css("padding" , "9px 15px");
         } else {
           $(".navbar-wrapper").css("background" , "none");
-          $(".navbar-wrapper").css("height" , "75px");
           $(".navbar-wrapper").css("box-shadow" , "none");
-          $(".navbar-wrapper").css("padding" , "25px");
-          $(".logo-img").css("height" , "45px");
           $(".nav-menu").css("color" , "#fff");
-          $(".mobile-menu-icon").css("height" , "36px");
           $("#logoImage").attr("src" , "http://res.cloudinary.com/jahmsc/image/upload/v1519766563/tri-j-logo-mid2j_olcki9.png");
-          // $("#resume-link").css("background" , "#fff");
-          // $("#resume-link").css("color" , "#0108B7");
           $("#resume-link").css("color" , "#fff");
           $("#resume-link").css("border" , "2px solid #fff");
-          $("#resume-link").css("padding" , "12px 15px");
           $("#hamb_bl").css("display" , "none");
           $("#hamb_wh").css("display" , "block");
+          // $(".navbar-wrapper").css("height" , "75px");
+          // $(".navbar-wrapper").css("padding" , "25px");
+          // $(".logo-img").css("height" , "45px");
+          // $(".mobile-menu-icon").css("height" , "36px");
+          // $("#resume-link").css("background" , "#fff");
+          // $("#resume-link").css("color" , "#0108B7");
+          // $("#resume-link").css("padding" , "12px 15px");
         }
 
         if (window.matchMedia("(min-width: 769px)").matches) {
           $("#hamb_bl").css("display" , "none");
-          $("#hamb_wh").css("display" , "none");          
+          $("#hamb_wh").css("display" , "none");
         }
         //   $("mobile-menu-icon").css("display" , "none");
         //   $("menu").css("display" , "inline-block");
@@ -83,7 +83,8 @@ class NavMenu extends Component {
         <li className="nav-menu"><a href="#testimonials">Testimonials</a></li>
         <li className="nav-menu"><a href="#about">About</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact</a></li>
-        <li id="resume-link" className="nav-menu"><a href="https://www.visualcv.com/josh-holladay/pdf" target="_blank">Resume</a></li>
+        <li id="resume-link" className="nav-menu">
+        <a href="http://jcreateit.com/src/assets/docs/JoshHolladay-UIUXDesignerResume.pdf" target="_blank">Resume</a></li>
       </ul>
     );
   }
