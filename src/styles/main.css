@@ -631,11 +631,11 @@ ul {
   margin: 0 12px; }
 
 .menu-wrapper {
+  display: none;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to right, #1293EF, blue);
-  display: flex;
   height: 100vh;
   width: 100vw;
   padding: 50px; }
