@@ -8,7 +8,7 @@ class ResumeBar extends Component {
           <p className="resume-bar-text">Click on one of these buttons and learn more about me.</p>
           <div className="resume-bar-buttons">
 
-            <a href="../assets/docs/JoshHolladay-UIUXDesignerResume.pdf" target="_blank">
+            <a href="https://drive.google.com/open?id=1ALQdU-cblP6JUHfYKqwEjRpTTlR9HDQx" target="_blank">
               <div className="resume-button_resume-bar all-caps">
                 Resume ➔
               </div>

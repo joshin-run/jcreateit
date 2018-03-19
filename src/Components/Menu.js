@@ -11,7 +11,7 @@ class Menu extends Component {
           <li className="menu-item"><a href="#testimonials">Testimonials</a></li>
           <li className="menu-item"><a href="#about">About</a></li>
           <li className="menu-item"><a href="#contact-us">Contact</a></li>
-          <li id="resume-item" className="menu-item"><a href="../assets/docs/JoshHolladay-UIUXDesignerResume.pdf" target="_blank">Resume</a></li>
+          <li id="resume-item" className="menu-item"><a href="https://drive.google.com/open?id=1ALQdU-cblP6JUHfYKqwEjRpTTlR9HDQx" target="_blank">Resume</a></li>
         </ul>
       </div>
     );
