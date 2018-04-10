@@ -5,6 +5,10 @@ import projEdison from '../images/projects/edison.jpg'
 import apio from '../images/cards/apio-card-img.png'
 import unboxt from '../images/cards/unboxt-card-img.png'
 import crypto from '../images/cards/cryptoElevation-card-img.png'
+import emergentSolutions from '../images/cards/emergent-solutions-card-img.png'
+import lowderMusic from '../images/cards/LowderMusic-card-img.png'
+import ppl from '../images/cards/ppl-card.png'
+import coinless from '../images/cards/coinless-card3.png'
 
 
 class Portfolio extends Component {
@@ -55,9 +59,60 @@ class Portfolio extends Component {
           </div>
 
 
+          <div className="card">
+            <img className="card-img" src={lowderMusic} alt="Card image cap" />
+            <div id="devTest" className="card-container">
+              <div className="card-content-wrapper">
+                <p className="card-content-stack">Logo and Graphic Design Project using Adobe Photoshop, and Illustrator.</p>
+                <p className="card-content">Isaac Lowder is currently a music educator and an old college buddy back during our Collegiate Singers days at BYU-Idaho. He's promoting his business and came to me for a logo and business card design.</p>
+                <a className="flex-center" href="https://www.behance.net/gallery/64279585/Lowder-Music-Isaac-Lowder-Designs">
+                  <p className="view-project-proj-link">View Project ➔</p>
+                </a>
+              </div>
+            </div>
+          </div>
 
 
+          <div className="card">
+            <img className="card-img" src={ppl} alt="Card image cap" />
+            <div id="devTest" className="card-container">
+              <div className="card-content-wrapper">
+                <p className="card-content-stack">Graphic and UI Design using Adobe Photoshop, Illustrator, and Sketch.</p>
+                <p className="card-content">PPL is the creator of 'family servers', small, plug-and-play cloud servers designed to plug into your home router and used to save and share files from any device. My role was to design the landing page and other illustrations.</p>
+                <a className="flex-center" href="https://www.behance.net/gallery/64284677/PPLfamily-Landing-Page-and-Illustrations?">
+                  <p className="view-project-proj-link">View Project ➔</p>
+                </a>
+              </div>
+            </div>
+          </div>
 
+
+          <div className="card">
+            <img className="card-img" src={coinless} alt="Card image cap" />
+            <div id="devTest" className="card-container">
+              <div className="card-content-wrapper">
+                <p className="card-content-stack">WordPress,  CSS, Graphic and Illustration Design, Adobe Photoshop and Illustrator.</p>
+                <p className="card-content">Coinless connects car washes with customer phones for a game-changing business solution. My involvement included WordPress theme implementation, icon design, layout design and custom CSS.</p>
+                <a className="flex-center" href="https://www.behance.net/gallery/64286079/Coinless-LandingPage-WordPress">
+                  <p className="view-project-proj-link">View Project ➔</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="card">
+            <img className="card-img emergent-card" src={emergentSolutions} alt="Card image cap" />
+            <div id="devTest" className="card-container">
+              <div className="card-content-wrapper">
+                <p className="card-content-stack">Graphic Design Project using Adobe Photoshop, Illustrator, and Sketch.</p>
+                <p className="card-content">Reza Ahmadi acts as Principal for his organization, Emergent Solutions. I was hired to design the digital signage for his presentation on Designing Culture: Building a Foundation for Performance in 90 Days.</p>
+                <a className="flex-center" href="https://www.behance.net/gallery/64276721/Emergent-Solutions-Presentation-Graphic">
+                  <p className="view-project-proj-link">View Project ➔</p>
+                </a>
+              </div>
+            </div>
+          </div>
 
 
         </div>
