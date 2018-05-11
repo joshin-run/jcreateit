@@ -733,10 +733,9 @@ ul {
 #resume-link {
   display: inline-block;
   padding: 12px 15px;
-  background: none;
-  color: #fff;
-  border-radius: 50px;
-  border: 2px solid #fff; }
+  background: #fff;
+  color: #0000ff;
+  border-radius: 50px; }
 
 #resume-link:hover {
   color: #e6e6e6;
