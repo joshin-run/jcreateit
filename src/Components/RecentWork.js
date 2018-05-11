@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import upssHome from '../images/recent-work/utah-plastic-surgery-society/utah-plastic-surgery-society-home.jpg'
-import strongBod from '../images/recent-work/strong_bod-feature-img.png'
+import strongBod from '../images/recent-work/StrongBod/strong-bod2.jpg'
 import logoDesignCodeBlue from '../images/recent-work/logo_design_code_blue-feature-img-big.png'
 // import cryptoElevationHome from '../images/recent-work/crypto-elevation/crypto-elevation-home.jpg'
 // import unboxt from '../images/recent-work/Unboxt/unboxt.png'
