@@ -14,7 +14,7 @@ class About extends Component {
 
           <div className="about_header_container">
             <p className="about_header">About</p>
-            <p className="about_header-sub">Designer・Developer</p>
+            <p className="about_header-sub">UI/UX Designer</p>
           </div>
 
           <div className="about_img-content_container item-1">

@@ -16,11 +16,11 @@ class Footer extends Component {
               <li className="media-menu">
                 <p className="copy">Handcrafted with &#10084; in Utah.</p>
               </li>
-              <li className="media-menu">•</li>
+              <li className="media-menu dot">•</li>
               <li className="media-menu">
                 <p className="copy">J Create It, LLC.</p>
               </li>
-              <li className="media-menu">•</li>
+              <li className="media-menu dot">•</li>
               <li className="media-menu">
                 <p className="copy">Copyright 2018. All rights reserved.</p>
               </li>
