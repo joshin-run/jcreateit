@@ -1,14 +1,13 @@
 .wwd_container {
   height: auto;
-  padding: 30px;
-  // background-color: lightgreen;
+  padding: 50px 30px 30px 30px;
+  background-color: #fff;
 }
 
 .wwd_header_container {
   width: auto;
   height: auto;
   padding: 15px;
-  // background-color: red;
 }
 
 .wwd_header {
@@ -16,6 +15,15 @@
   font-family: 'Montserrat Bold', sans-serif;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.wwd_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: rgb(100,100,100);
 }
 
 .wwd_services_container {
@@ -26,7 +34,6 @@
   height: auto;
   width: 100%;
   margin: 0;
-  // background-color: pink;
 }
 
 .wwd_service {
@@ -49,7 +56,7 @@
   width: 250px;
   font-size: 1em;
   line-height: 1.8;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
 }
 
 .wwd-img {
@@ -66,15 +73,15 @@
 .wwd-img:hover {
 
   // box-shadow: none;
-  box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.5);
+  // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.5);
 
   // box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
-@media only screen and (min-height: 768px) {
+@media only screen and (min-width: 768px) {
 
   .wwd_container {
-    padding: 70px 30px 70px 30px;
+    padding: 100px 30px 70px 30px;
   }
 
   .wwd_services_content {

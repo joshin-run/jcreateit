@@ -1,22 +1,43 @@
-.hero-banner {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  // background-image: url(../images/banner/slides/pineapple-darkblue-banner-narrow-LT-greener.jpg);
-  // background-image: url(../images/banner/slides/pineapple-darkblue-banner.jpg);
-  // background-image: url(../images/banner/slides/redcode.png);
-  // background-image: url(../images/banner/slides/yellow-mockup.jpg);
-  background-image: url(../images/banner/slides/slc.jpg);
-  height: 85vh;
+ .hero-banner {
+  // background: url(../images/banner/mountains.jpg);
+  // background: url(../images/banner/winding.jpg);
+  // background: url(../images/banner/spacex.jpg);
+  // background: url(../images/banner/ice.jpg);
+  background: url(../images/banner/dark-ice.jpg);
+  // background: url(../images/banner/waterWays.jpg);
+  // background: url(../images/banner/cliff.jpg);
+  // background: url(../images/banner/lone-land.jpg);
+
+  // background-image: url(../images/banner/slides/slc-min-blue12-min.jpg);
+  // background: url(../images/banner/blue-painting.jpg);
+  // background: url(../images/banner/slc.jpg);
+  // background: url(../images/banner/net-water.jpg);
+  // background-image: url(../images/banner/slides/slc-min-blue12-2nd.jpg);
+  height: 100vh;
   width: auto;
-  z-index: 0;
-  // background-attachment: fixed;
+  z-index: 99;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/*=== image for laptop screen size ===*/
-  // background-image: url(../img/new-code/pineapple-supply-co-v1-blue_green-v1-1440px-dark.jpg);/*
+.banner-gradient {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+
+  background: linear-gradient(to right, rgba(23,181,255,.8),rgba(0,0,255,.7));
+  // background: linear-gradient(to right, rgba(23,181,255,.8),rgba(23,181,255,.1));
+
+  // background: linear-gradient(to right, rgba(71,186,255,0.9),rgba(6,240,220,.7));
+
+  // background: rgba(71,186,255,0.8);
+  // background: linear-gradient(to right, rgba(71,186,255,0.8),rgba(6,190,86,.7));
+
+  // background: linear-gradient(to right, rgba(115,154,247,0.7),rgba(81,88,80,0.7));
+
+  // background: linear-gradient(to right, rgba(187,222,251,0.9),rgba(67,132,129,0.9));
+  // background: linear-gradient(to right, rgba(191,189,244,0.8),rgba(13, 186, 177,0.8));
+}

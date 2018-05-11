@@ -1,0 +1,239 @@
+.recent_work_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  // height: auto;
+  // background-color: #c3e0ff;
+  // background-color: #90D9E5;
+  // background-color: #dcedff;
+  background-color: #E3ECF6;
+  // padding: 5em 0em 5em 0em;
+  height: auto;
+  width: 100%;
+  padding: 50px 30px 65px 30px;
+}
+
+.divider {
+  margin: 1em 0;
+  padding: 0;
+  width: 90vw;
+  border-bottom: 1px solid rgb(210,210,255);
+  // border-bottom: 1px solid #d6e1e5;
+}
+
+.recent_work_header_container {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  // margin-bottom: 38px;
+}
+
+.recent_work_header {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #000;
+  // color: rgb(58, 58, 130);
+}
+
+.recent_work_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  // margin-bottom: 20px;
+  color: rgb(100,100,100);
+  color: rgb(75,75,125);
+  // color: #0000ff;
+}
+
+.recent_work_services_container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin: auto;
+  // max-width: 1000px;
+  // background-color: pink;
+}
+
+.recent_work_service {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  // margin: 0px 20px 40px 20px;
+  // background-color: yellow;
+}
+
+.recent_work_services_content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  // margin: 15px 0 0 0;
+  color: #545454;
+  width: auto;
+  font-size: .85em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8;
+}
+
+.recent_work_img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  align-items: center;
+  box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+
+.recent_work_img:hover {
+  box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.content-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.tech-stack {
+  font-size: .85em;
+  font-family: 'Montserrat Bold', sans-serif;
+  color: #278aad;
+  margin-bottom: 25px;
+}
+
+.recent_work_main_content {
+  color: #3badd6;
+  line-height: 1.5;
+  font-size: .95em;
+  font-family: 'Montserrat Light', sans-serif;
+}
+
+.item-1 {
+  margin-bottom: 50px;
+}
+
+.item-2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.item-3 {
+  margin-top: 50px;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.align {
+  text-align: left;
+}
+
+.mobile-width {
+  width: inherit;
+}
+
+@media only screen and (min-width: 481px) {
+
+  .recent_work_container {
+    padding: 100px 30px 100px 30px;
+    align-items: center;
+  }
+
+  // .recent_work_img {
+  //   width: 500px;
+  //   margin-bottom: 55px;
+  // }
+
+  .recent_work_services_content {
+    width: 100%;
+    max-width: 500px
+  }
+
+  .content-header {
+    font-size: 2em;
+  }
+
+  .tech-stack {
+    font-size: .90em;
+  }
+
+  .recent_work_main_content {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .recent_work_img {
+    width: 500px;
+    margin-bottom: 55px;
+  }
+}
+
+@media only screen and (min-width: 1126px) {
+// @media only screen and (min-width: 769px) {
+
+  .recent_work_container {
+    padding: 90px auto 70px auto;
+    align-items: center;
+  }
+
+  .recent_work_services_container {
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    // background: blue;
+    width: 1050px;
+  }
+
+  .recent_work_services_content {
+    width: 400px;
+    // background-color: yellow;
+    margin: 0;
+    padding: 0;
+  }
+
+  .align {
+    text-align: left;
+  }
+
+  .recent_work_img {
+    width: 550px;
+  }
+
+  // .recent_work_services_content {
+  //   width: 650px;
+  // }
+
+  .crypto-img {
+    order: 1;
+  }
+
+  .crypto-content {
+    order: 0;
+  }
+
+  // .item-1 {
+  //   margin-top: 100px;
+  // }
+  .item-2 {
+    margin-top: 100px;
+  }
+  .item-3 {
+    margin-top: 100px;
+  }
+  .recent_work_container {
+    padding-bottom: 15px;
+  }
+}

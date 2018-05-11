@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
-import Header from './Header'
-import Slider from './Slider'
 import Navbar from './Navbar';
+import Header from './Header';
 
 class Banner extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMenuOpen: false
+    }
+    this.toggleMenu = this.toggleMenu.bind(this)
+  }
+
+  toggleMenu = () => {
+    this.setState({isMenuOpen: !this.state.isMenuOpen})
+  }
+  
   render() {
     return (
-      <div>
-      <div id="home" className="hero-banner">
-        {/*<Slider />*/}
-        <Header />
-      </div>
+      <div id="banner">
+        <div className="hero-banner">
+          <section className="banner-gradient pages">
+            <Navbar />
+            <Header />
+          </section>
+        </div>
       </div>
     );
   }

@@ -1,5 +1,20 @@
 .footer-wrapper {
-  background-color: #43A3FF;
+  //
+  // background-color: #0A52C5;
+
+  // background-color: rgba(23,181,255,.8);
+  // background-color: #17B5FF;
+
+  // background-color: rgb(57,151,207);
+
+  // background-color: #fff;
+  background-color: #ecf5ff;
+
+  // background-color: rgba(63,169,230,1);
+  // background-color: #40A8E6;
+  // background-color: rgb(115,154,247);
+
+  // background-color: #43A3FF;
 }
 
 .footer-container {
@@ -8,17 +23,19 @@
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 200px;
+  height: auto;
   // width: 100%;
-  color: #fff;
+  color: #00C3FF;
+  // color: #00C3FF;
   margin: 0px;
-  padding: 25px;
+  padding: 77px 70px 70px 70px;
+  box-shadow: 2px 3px 5px rgba(0,0,0,0.4);
 }
 
 .footer-logo {
-  height: 55px;
+  height: 50px;
   width: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   // margin: 0 50px 0 0;
 }
 
@@ -27,14 +44,37 @@
   // flex-direction: row;
   // justify-content: center;
   // align-items: center;
-  margin: 0px;
-  padding: 20px;
-  font-size: .65em;
-  font-family: 'Montserrat-Light';
-  color: #fff;
+  // padding: 20px;
+  // font-size: .65em;
+  font-family: 'Montserrat Light';
+  color: #00C3FF;
+  // color: #4987FF;
   // width: 100%;
   text-align: center;
-  background-color: #00c3ff;
+  margin-bottom: 25px;
+
+  // background-color: #0A52C5;
+  // background-color: #17B5FF;
+
+  // background-color: rgb(57,151,207);
+  // background-color: rgba(63,169,230,1);
+  // background-color: #40A8E6;
+  // background-color: #3FA8E5;
+  // background-color: rgb(115,154,247);
+
+
+  // background-color: #00617f;
+  // background-color: #21517f;
+
+  // background-color: #392c51;
+  // background-color: #00c3ff;
+
+  // border-top: 1px solid #e5e5e5
+
+
+  // border-top: 1px solid #2dbae5;
+  // border-top: 1px solid #32cfff;
+  // border-top: 1px solid #66dbff
 }
 
 .logo-container {
@@ -46,15 +86,29 @@
   margin: 0;
 }
 
+// #bottom-border {
+//   position: relative;
+//   bottom: 100;
+//   height: 20px;
+//   width: 100vw;
+//   background: linear-gradient(to right, rgba(23,181,255,.8),rgba(0,0,255,.7));
+// }
+
+.bottom-border {
+  height: 25px;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgba(23,181,255,.8),rgba(0,0,255,.7));
+}
+
 @media only screen and (min-width: 768px) {
 
-  .footer-container {
-    padding-top: 125px;
-    padding-bottom: 125px;
-  }
+  // .footer-container {
+  //   padding-top: 125px;
+  //   padding-bottom: 125px;
+  // }
 
   .copy {
-    font-size: .85em;
+    font-size: .75em;
   }
 
 }

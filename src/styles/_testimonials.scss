@@ -1,0 +1,95 @@
+.testimonials_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 30px 120px 30px;
+  background-image: url(../images/tokyo.jpg);
+  height: auto;
+  width: auto;
+  z-index: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonials-content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.testimonials_header_container {
+  width: auto;
+  height: auto;
+  padding: 0px 25px 0px 25px;
+  margin-bottom: 40px;
+}
+
+.testimonials_header {
+  font-size: 2.25em;
+  font-family: 'Montserrat Bold', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #fff;
+  // color: #000;
+}
+
+.testimonials_header-sub {
+  text-align: center;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 1.45em;
+  margin-bottom: 20px;
+  color: rgb(223,223,223);
+}
+
+.testimonials-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  font-family: 'Josefin Sans Italic', sans-serif;
+  font-size: 1em;
+  padding: 20px;
+  background-color: #fff;
+  // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.1);
+  // box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: -1px 5px 19px rgba(0, 0, 0, 0.6);
+  margin: 30px;
+}
+
+.testimonial-ce-img {
+  height: auto;
+  width: 60%;
+  margin-bottom: 25px;
+}
+
+.testimonial-dvi-img {
+  height: auto;
+  width: 60%;
+  margin-bottom: 25px;
+  border-radius: 7px;
+}
+
+.testimonials-content p:nth-child(2) {
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+.testimonials-content p:nth-child(3) {
+  font-size: .90em;
+  font-family: 'Josefin Sans', sans-serif;
+  align-self: flex-start;
+}
+.testimonials-content p:nth-child(4) {
+  font-size: .90em;
+  font-family: 'Josefin Sans Bold', sans-serif;
+  align-self: flex-start;
+}

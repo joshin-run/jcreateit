@@ -4,37 +4,39 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  align-self: flex-end;
   display: none;
-  // margin: 20px 20px 0px 0px;
-  // padding: 10px;
 }
 
 .nav-style {
-  font-size: 1em;
-  font-family: 'futura';
-  color: #0c566f;
-  font-weight: bolder
+  // font-size: 1em;
+  // font-family: 'Montserrat Thin', sans-serif;
+  // font-family: 'futura';
+  // color: #14283c;
+  font-weight: bolder;
 }
 
 .nav-menu {
   position: relative;
-  display: block;
+  // display: block;
+  // font-family: 'Julius Sans One', sans-serif;
+  font-size: .75em;
   font-family: 'Montserrat Light', sans-serif;
-  font-size: 1em;
-  padding: 20px 20px;
+  // font-family: 'Montserrat Thin';
+  padding: 20px 15px;
   /*border: 3px solid #fff;*/
   transition: all 0.2s ease 0s;
+  color: #fff;
 }
 
 .nav-menu:hover {
-  background-color: #fff;
-  color: #00c3ff;
+  color: rgba(230,230,230,1);
+  // color: rgba(115,187,247,1);
 }
 
 .mobile-menu-icon {
-  height: 20px;
-  width: 15px;
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 // #hire-josh {
@@ -55,10 +57,45 @@ ul {
   list-style: none;
 }
 
-@media only screen and (min-height: 768px) {
+.more {
+  color: gray;
+}
+
+#resume-link {
+  display: inline-block;
+  padding: 12px 15px;
+  // background: #fff;
+  background: none;
+  // color: #0108B7;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+#resume-link:hover {
+  color: rgba(230,230,230,1);
+  border-color: rgba(230,230,230,1);
+}
+
+@media only screen and (min-width: 769px) {
 
   .mobile-menu-icon {
     display: none;
   }
 
+  .menu {
+    display: inline-block;
+  }
+
+  .nav-menu {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 850px) {
+  .nav-menu {
+    font-size: .85em;
+    padding: 20px 20px;
+  }
 }
