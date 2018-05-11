@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ceLogo from '../images/recent-work/crypto-elevation/crypto-elevation-logo.jpg'
 import bviLogo from '../images/bvi-iconLeft.png'
+// import lowder from '../images/'
 
 class NavMenu extends Component {
   render() {
@@ -26,6 +27,13 @@ class NavMenu extends Component {
               <p>"Josh is a very talented designer and was great to work with.  He was instrumental in adding his own artistic touch to enhance everything I suggested.  I will be sending a lot more design work his way soon! If he has bandwidth you should hire him before someone else does!"</p>
               <p>Jared Ables</p>
               <p>Full Stack Rails Developer</p>
+            </div>
+
+            <div className="testimonials-content">
+              <img className="testimonial-dvi-img" src={bviLogo} alt="Lowder Music Logo" />
+              <p>"I was very impressed with how many ideas and options Josh provided me with. I was able to pull from several different options to come up with one idea that I really liked. His response time is excellent. He takes your ideas and is adept at making them come alive. I couldn't be happier with the logo he designed for me as well as the business card. Graphic design at it's best."</p>
+              <p>Isaac Lowder</p>
+              <p>Owner of Lowder Music</p>
             </div>
           </div>
 

@@ -1538,7 +1538,7 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
   align-items: center;
   width: 300px;
   height: auto;
-  font-family: 'Josefin Sans Italic', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
   padding: 20px;
   background-color: #fff;
@@ -1563,7 +1563,7 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
 
 .testimonials-content p:nth-child(3) {
   font-size: .90em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans Bold', sans-serif;
   align-self: flex-start; }
 
 .testimonials-content p:nth-child(4) {
