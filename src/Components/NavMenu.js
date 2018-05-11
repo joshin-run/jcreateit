@@ -60,7 +60,7 @@ class NavMenu extends Component {
         <li className="nav-menu"><a href="#about">About</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact</a></li>
         <li id="resume-link" className="nav-menu">
-        <a href="https://drive.google.com/open?id=1ALQdU-cblP6JUHfYKqwEjRpTTlR9HDQx" target="_blank">Resume</a></li>
+        <a href="https://drive.google.com/open?id=1vBKVvH1Lz7LWh3XlOVjFm0bcjGxhVRlS" target="_blank">Resume</a></li>
       </ul>
     );
   }
