@@ -398,6 +398,9 @@ body {
   background-color: #ffffff;
   height: auto; }
 
+.all-caps {
+  text-transform: capitalize; }
+
 @font-face {
   font-family: 'Montserrat Thin';
   src: url(../fonts/Montserrat/Montserrat-Thin.otf); }
@@ -416,6 +419,30 @@ body {
 @font-face {
   font-family: 'Montserrat Bold';
   src: url(../fonts/Montserrat/Montserrat-Bold.otf); }
+/*******
+Montserrat Italics - Begin
+********/
+@font-face {
+  font-family: 'Montserrat Thin Italic';
+  src: url(../fonts/Montserrat/Montserrat-ThinItalic.ttf); }
+@font-face {
+  font-family: 'Montserrat Extra Light Italic';
+  src: url(../fonts/Montserrat/Montserrat-ExtraLightItalic.ttf); }
+@font-face {
+  font-family: 'Montserrat Light Italic';
+  src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf); }
+@font-face {
+  font-family: 'Montserrat Italic';
+  src: url(../fonts/Montserrat/Montserrat-Italic.ttf); }
+@font-face {
+  font-family: 'Montserrat Medium Italic';
+  src: url(../fonts/Montserrat/Montserrat-MediumItalic.ttf); }
+@font-face {
+  font-family: 'Montserrat Bold Italic';
+  src: url(../fonts/Montserrat/Montserrat-BoldItalic.ttf); }
+/*******
+Montserrat Italics - Begin
+********/
 @font-face {
   font-family: 'Montserrat Alternates Thin';
   src: url(../fonts/MontserratAlternates/MontserratAlternates-Thin.otf); }
@@ -1494,7 +1521,7 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
   justify-content: center;
   align-items: center;
   padding: 120px 30px 120px 30px;
-  background-image: url(../images/tokyo.jpg);
+  background-image: url(../images/tokyo3.jpg);
   height: auto;
   width: auto;
   z-index: 0;
@@ -1504,14 +1531,14 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
 
 .testimonials-content-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: auto; }
 
 .testimonials_header_container {
-  width: auto;
+  width: 600px;
   height: auto;
   padding: 0px 25px 0px 25px;
   margin-bottom: 40px; }
@@ -1522,29 +1549,28 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  color: #fff; }
+  color: #000; }
 
 .testimonials_header-sub {
   text-align: center;
   font-family: 'Montserrat Light', sans-serif;
   font-size: 1.45em;
   margin-bottom: 20px;
-  color: #dfdfdf; }
+  color: #4b4b4b; }
 
 .testimonials-content {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
-  width: 300px;
+  width: auto;
+  max-width: 600px;
   height: auto;
-  font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
-  padding: 20px;
+  padding: 40px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: -1px 5px 19px rgba(0, 0, 0, 0.6);
-  margin: 30px; }
+  margin: 10px; }
 
 .testimonial-ce-img {
   height: auto;
@@ -1557,19 +1583,24 @@ a .portfolio-button_resume-bar, .resume-button_resume-bar {
   margin-bottom: 25px;
   border-radius: 7px; }
 
-.testimonials-content p:nth-child(2) {
+.testimonials-content p:nth-child(1) {
   margin-bottom: 20px;
-  align-self: flex-start; }
+  font-size: .80em;
+  align-self: flex-start;
+  font-family: 'Montserrat Light', sans-serif;
+  color: #686868; }
 
-.testimonials-content p:nth-child(3) {
-  font-size: .90em;
-  font-family: 'Josefin Sans Bold', sans-serif;
-  align-self: flex-start; }
+.testimonials-content p:nth-child(2) {
+  font-size: .80em;
+  align-self: flex-start;
+  font-family: 'Montserrat Bold', sans-serif;
+  color: #778899; }
 
-.testimonials-content p:nth-child(4) {
+.testimonials-content p:nth-child(2) span {
   font-size: .90em;
-  font-family: 'Josefin Sans Bold', sans-serif;
-  align-self: flex-start; }
+  font-family: 'Montserrat', sans-serif;
+  align-self: flex-start;
+  color: #778899; }
 
 .typed-cursor {
   opacity: 1;
