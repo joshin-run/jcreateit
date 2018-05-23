@@ -12,7 +12,7 @@ class Projects extends Component {
         <div className="recent_work_container">
           <div className="recent_work_header_container">
             <p className="recent_work_header">Featured Work</p>
-            <p className="recent_work_header-sub">Here's some of my best work yet.</p>
+            <p className="recent_work_header-sub">Here's some of our best work yet.</p>
           </div>
 
 
@@ -26,8 +26,8 @@ class Projects extends Component {
             <div className="recent_work_service crypto-content">
               <div className="recent_work_services_content">
                 <p className="content-header align mobile-width">StrongBod</p>
-                <p className="tech-stack all-caps align mobile-width">Logo Design, Photoshop, Illustrator, XD</p>
-                <p className="recent_work_main_content align mobile-width">StrongBod was a project I particularly enjoyed. Their goal was to present their product idea before actually building the app. I created a slide deck that far exceeded their expectations with nine custom mockups of mobile app screens, meaningful image use, and a design flow based consistant with presentational topics.</p>
+
+                <p className="recent_work_main_content align mobile-width">StrongBod's goal was to present their product idea before building the app. We created a slide deck that far exceeded their expectations with nine custom mockups of mobile app screens, meaningful image use, and a design flow consistant with presentational topics.</p>
               </div>
               <a href="https://www.behance.net/gallery/62564293/StrongBod"><button className="button filled">VIEW PROJECT</button></a>
             </div>
@@ -45,8 +45,8 @@ class Projects extends Component {
             <div className="recent_work_service upss-content">
               <div className="recent_work_services_content">
                 <p className="content-header align">Utah Plastic Surgery Society</p>
-                <p className="tech-stack all-caps align">UX/UI & Logo Design, SASS, JavaScript, React, Photoshop, Illustrator, XD</p>
-                <p className="recent_work_main_content align">The Utah Plastic Surgery Society is an organization that encourages the highest possible standards in the field of plastic surgery, provides trustworthy information to prospective patients, and protects the public from irresponsible and unqualified practitioners.</p>
+
+                <p className="recent_work_main_content align">The Utah Plastic Surgery Society is an organization that encourages the highest possible standards in the field of plastic surgery, provides trustworthy information to prospective patients, and protects the public from irresponsible and unqualified practitioners. We created an entirely new site from start to finish including logo design, ui design, and the final development of the site itself.</p>
               </div>
               <a href="https://www.behance.net/gallery/62594949/Utah-Plastic-Surgery-Society"><button className="button filled">VIEW PROJECT</button></a>
             </div>
@@ -62,8 +62,8 @@ class Projects extends Component {
             <div className="recent_work_service">
               <div className="recent_work_services_content">
                 <p className="content-header align mobile-width">LogoDesign - Code Blue</p>
-                <p className="tech-stack all-caps align mobile-width">UI & Logo Design, Photoshop, Illustrator, XD</p>
-                <p className="recent_work_main_content align mobile-width">Web design theme inspired by past work for client. Though fictional, the logo, color scheme, and all components were part of a fluid concept with blue as the color base for the sites unique character.</p>
+
+                <p className="recent_work_main_content align mobile-width">This client was looking for a modern and clean approach. That's what we do best. The logo design, color scheme, and all components were part of a fluid concept with blue as the color base for the sites unique character.</p>
               </div>
               <a href="https://www.behance.net/gallery/62614073/LogoDesign-Code-Blue"><button className="button filled">VIEW PROJECT</button></a>
             </div>

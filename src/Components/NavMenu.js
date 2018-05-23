@@ -53,14 +53,10 @@ class NavMenu extends Component {
     })
     return (
       <ul className="menu nav-style">
-        <li className="nav-menu"><a href="#what-we-do">What I Do</a></li>
+        <li className="nav-menu"><a href="#what-we-do">What We Do</a></li>
         <li className="nav-menu"><a href="#featured_work">Featured Work</a></li>
         <li className="nav-menu"><a href="#projects">Projects</a></li>
-        <li className="nav-menu"><a href="#testimonials">Testimonials</a></li>
-        <li className="nav-menu"><a href="#about">About</a></li>
         <li className="nav-menu"><a href="#contact-us">Contact</a></li>
-        <li id="resume-link" className="nav-menu">
-        <a href="https://drive.google.com/open?id=1vBKVvH1Lz7LWh3XlOVjFm0bcjGxhVRlS" target="_blank">Resume</a></li>
       </ul>
     );
   }

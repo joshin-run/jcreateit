@@ -10,26 +10,26 @@ class WhatWeDo extends Component {
     return (
       <div id="what-we-do" className="wwd_container">
         <div className="wwd_header_container">
-          <p className="wwd_header">What I Do</p>
-          <p className="wwd_header-sub">Front-end Web Design and Development</p>
-        </div>
+          <p className="wwd_header">What We Do</p>
+          <p className="wwd_header-sub">From UX Design to Web Development</p>
+          </div>
         <div className="wwd_services_container">
         <div className="wwd_service">
           <img className="wwd-img"  src={visionImg} alt="jh-logo" />
           <div className="wwd_services_content">
-            <p>Collaborate with clients to define the initial vision and project outcomes and hone in what's most important during the design process.</p>
+            <p>We engage stakeholders in a strategic meeting to define the product's context for existance, the problems it will solve, and determine key performance indicators. Through research and analysis we build user journeys and prepare to create well informed designs.</p>
           </div>
         </div>
           <div className="wwd_service">
             <img className="wwd-img"  src={designImg} alt="jh-logo" />
             <div className="wwd_services_content">
-              <p>Create wireframes and mockups that turn client ideas into solid design plans which empower the brand backed by UX/UI guiding principles.</p>
+              <p>We sketch, wireframe, mockup, and prototype concepts throughout the design process. With tight collaboration along the way, we put the product in user hands as often as possible. The foundation of the UX design groundwork employed earlier guides the design process to a unified outcome.</p>
             </div>
           </div>
           <div className="wwd_service">
             <img className="wwd-img"  src={codeImg} alt="jh-logo" />
             <div className="wwd_services_content">
-              <p>Impliment modern and responsive designs and code a well thought out concept with both web and mobile end users in mind.</p>
+              <p>We impliment modern and responsive designs with both web and mobile end users in mind. Whether we use WordPress or create the application from the ground up, the outcome will be a product that will focus on creating a great user experience with focused results.</p>
             </div>
           </div>
         </div>

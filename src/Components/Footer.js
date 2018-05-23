@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import logo from '../images/tri-j-logo-mid2j.png'
-import Media from './Media'
 import BottomBorder from './BottomBorder'
 
 class Footer extends Component {
@@ -13,21 +12,18 @@ class Footer extends Component {
           </div>
           <div className="media-links">
             <ul>
+
               <li className="media-menu">
-                <p className="copy">Handcrafted with &#10084; in Utah.</p>
+                <p className="copy">J Create It, LLC</p>
               </li>
               <li className="media-menu dot">•</li>
               <li className="media-menu">
-                <p className="copy">J Create It, LLC.</p>
-              </li>
-              <li className="media-menu dot">•</li>
-              <li className="media-menu">
-                <p className="copy">Copyright 2018. All rights reserved.</p>
+                <p className="copy">&copy; 2018. All rights reserved.</p>
               </li>
 
             </ul>
           </div>
-          <Media />
+
         </div>
         <BottomBorder />
       </div>
